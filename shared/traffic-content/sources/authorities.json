@@ -1,0 +1,189 @@
+[
+  {
+    "code": "AUTH-GLOBAL-UN",
+    "name": "United Nations Economic Commission for Europe (UNECE) - Vienna Convention on Road Signs and Signals",
+    "website": "https://unece.org/transport/road-safety",
+    "countryCode": "GLOBAL",
+    "tier": 1,
+    "sources": [
+      {
+        "code": "SRC-VIENNA-CONVENTION",
+        "name": "Vienna Convention on Road Signs and Signals (1968)",
+        "url": "https://unece.org/DAM/trans/conventn/signalse.pdf",
+        "document": "Vienna Convention on Road Signs and Signals",
+        "section": "Annex 1: Road Signs",
+        "page": "15-72"
+      }
+    ]
+  },
+  {
+    "code": "AUTH-USA-FHWA",
+    "name": "Federal Highway Administration (FHWA), U.S. Department of Transportation",
+    "website": "https://mutcd.fhwa.dot.gov",
+    "countryCode": "US",
+    "tier": 1,
+    "sources": [
+      {
+        "code": "SRC-MUTCD-11TH",
+        "name": "Manual on Uniform Traffic Control Devices (MUTCD) 11th Edition",
+        "url": "https://mutcd.fhwa.dot.gov/kno_11th_Edition.htm",
+        "document": "MUTCD 11th Edition (2023)",
+        "section": "Part 2: Signs (Regulatory & Warning)",
+        "page": "Chapter 2B & 2C"
+      }
+    ]
+  },
+  {
+    "code": "AUTH-USA-CADMV",
+    "name": "California Department of Motor Vehicles (DMV)",
+    "website": "https://www.dmv.ca.gov",
+    "countryCode": "US",
+    "jurisdictionCode": "CA",
+    "tier": 1,
+    "sources": [
+      {
+        "code": "SRC-CADMV-HANDBOOK",
+        "name": "California Driver’s Handbook (Official)",
+        "url": "https://www.dmv.ca.gov/portal/handbook/california-driver-handbook/",
+        "document": "California Driver Handbook (2024-2025)",
+        "section": "Section 7: Laws and Rules of the Road",
+        "page": "Pages 28-64"
+      }
+    ]
+  },
+  {
+    "code": "AUTH-PK-NHMP",
+    "name": "National Highways & Motorway Police (NHMP) Pakistan",
+    "website": "https://nhmp.gov.pk",
+    "countryCode": "PK",
+    "tier": 1,
+    "sources": [
+      {
+        "code": "SRC-NHMP-MANUAL",
+        "name": "NHMP Official Road Safety & Traffic Sign Compendium",
+        "url": "https://nhmp.gov.pk/traffic-rules-and-signs/",
+        "document": "National Highway Safety Ordinance & Sign Standards",
+        "section": "Mandatory and Warning Signs Guide",
+        "page": "Pages 1-45"
+      },
+      {
+        "code": "SRC-PUNJAB-TRAFFIC",
+        "name": "Punjab Traffic Police Driver Licensing Manual",
+        "url": "https://trafficpolice.punjab.gov.pk/",
+        "document": "Punjab Motor Vehicle Rules 1969 & Licensing Guide",
+        "section": "Signs & Highway Code",
+        "page": "Sign Schedule 1-3"
+      }
+    ]
+  },
+  {
+    "code": "AUTH-SA-MOROOR",
+    "name": "General Directorate of Traffic (Moroor), Ministry of Interior, Kingdom of Saudi Arabia",
+    "website": "https://www.moi.gov.sa",
+    "countryCode": "SA",
+    "tier": 1,
+    "sources": [
+      {
+        "code": "SRC-SAUDI-MOROOR-SIGNS",
+        "name": "Saudi National Portal — Traffic Signs & Driving Regulations",
+        "url": "https://www.my.gov.sa/wps/portal/snp/servicesDirectory/servicedetails/8261",
+        "document": "Saudi Traffic Law & Sign Categories (Royal Decree M/85)",
+        "section": "Regulatory, Warning and Guidance Signs",
+        "page": "Executive Regulations Articles 40-75"
+      },
+      {
+        "code": "SRC-SAUDI-DALLAH",
+        "name": "Dallah Driving Academy Official Curriculum",
+        "url": "https://dallahauto.com/",
+        "document": "Theoretical Driving Test Manual (Authorized Licensing Manual)",
+        "section": "Traffic Signs & Right-of-Way Rules",
+        "page": "Chapters 2-5"
+      }
+    ]
+  },
+  {
+    "code": "AUTH-AE-RTA",
+    "name": "Roads and Transport Authority (RTA) Dubai / UAE Federal Traffic Council",
+    "website": "https://www.rta.ae",
+    "countryCode": "AE",
+    "jurisdictionCode": "DUBAI",
+    "tier": 1,
+    "sources": [
+      {
+        "code": "SRC-RTA-HANDBOOK",
+        "name": "RTA Light Motor Vehicle Driver Handbook",
+        "url": "https://www.rta.ae/wps/portal/rta/ae/driver-and-car-owner",
+        "document": "Light Motor Vehicle Handbook (8th Edition)",
+        "section": "Chapter 4: Traffic Signs and Road Markings",
+        "page": "Pages 56-112"
+      }
+    ]
+  },
+  {
+    "code": "AUTH-UK-DFT",
+    "name": "Department for Transport (DfT) & Driver and Vehicle Standards Agency (DVSA)",
+    "website": "https://www.gov.uk/government/organisations/department-for-transport",
+    "countryCode": "GB",
+    "tier": 1,
+    "sources": [
+      {
+        "code": "SRC-UK-HIGHWAY-CODE",
+        "name": "The Official Highway Code (GOV.UK)",
+        "url": "https://www.gov.uk/guidance/the-highway-code",
+        "document": "The Official Highway Code (Current Edition)",
+        "section": "Traffic signs and signals (Rules 103-158)",
+        "page": "General Rules & Signs Annex"
+      },
+      {
+        "code": "SRC-UK-TSRGD",
+        "name": "Traffic Signs Regulations and General Directions (TSRGD)",
+        "url": "https://www.legislation.gov.uk/uksi/2016/362/contents/made",
+        "document": "Statutory Instrument 2016 No. 362",
+        "section": "Schedules 2-14",
+        "page": "Regulatory & Warning Schedules"
+      }
+    ]
+  },
+  {
+    "code": "AUTH-CA-TC",
+    "name": "Transport Canada & Ontario Ministry of Transportation (MTO)",
+    "website": "https://tc.canada.ca",
+    "countryCode": "CA",
+    "tier": 1,
+    "sources": [
+      {
+        "code": "SRC-ONTARIO-MTO",
+        "name": "The Official MTO Driver's Handbook",
+        "url": "https://www.ontario.ca/document/official-mto-drivers-handbook",
+        "document": "Official Ministry of Transportation Driver's Handbook",
+        "section": "Signs, Traffic Lights and Pavement Markings",
+        "page": "Chapters 2 & 3"
+      }
+    ]
+  },
+  {
+    "code": "AUTH-AU-AUSTROADS",
+    "name": "Austroads & Transport for NSW (Australia)",
+    "website": "https://austroads.com.au",
+    "countryCode": "AU",
+    "tier": 1,
+    "sources": [
+      {
+        "code": "SRC-AUSTROADS-GUIDE",
+        "name": "Austroads Guide to Traffic Management & Australian Standards AS 1742",
+        "url": "https://austroads.com.au/publications/traffic-management/agtm-part-10",
+        "document": "Australian Standard Manual of Uniform Traffic Control Devices (AS 1742)",
+        "section": "Part 2: Regulatory and Warning Signs",
+        "page": "Section 3-8"
+      },
+      {
+        "code": "SRC-NSW-HANDBOOK",
+        "name": "Road User Handbook — Transport for NSW",
+        "url": "https://www.nsw.gov.au/driving-boating-and-transport/roads-safety-and-rules/safe-driving/road-user-handbook",
+        "document": "NSW Road User Handbook (Official Licensing Guide)",
+        "section": "Section 4: Road Signs and Markings",
+        "page": "Pages 48-92"
+      }
+    ]
+  }
+]

@@ -1,0 +1,4911 @@
+[
+  {
+    "canonicalCode": "REG-STOP",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "PRIORITY",
+    "canonicalName": "Stop Sign",
+    "shortName": "Stop",
+    "meaning": "Mandatory full stop before the stop line, crosswalk, or intersection.",
+    "driverAction": "Come to a complete stop, scan for pedestrians and traffic, yield right-of-way, proceed only when clear.",
+    "shape": "OCTAGON",
+    "primarySymbol": "STOP",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "US",
+        "officialCode": "R1-1",
+        "officialName": "Stop Sign",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "NHMP-REG-01",
+        "officialName": "Stop (Urdu/English)",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-01",
+        "officialName": "Qif (Stop)",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "RTA-REG-01",
+        "officialName": "Stop (Arabic/English)",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "UK-601.1",
+        "officialName": "Stop and Give Way",
+        "sourceCode": "SRC-UK-TSRGD"
+      },
+      {
+        "countryCode": "CA",
+        "officialCode": "CA-RA-1",
+        "officialName": "Arrêt / Stop",
+        "sourceCode": "SRC-ONTARIO-MTO"
+      },
+      {
+        "countryCode": "AU",
+        "officialCode": "AU-R1-1",
+        "officialName": "Stop Sign",
+        "sourceCode": "SRC-AUSTROADS-GUIDE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-STOP-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What does a red octagonal sign bearing the word STOP require a driver to do?",
+        "options": [
+          "Come to a complete stop at the stop line, yield to all conflicting traffic and pedestrians, and proceed only when safe.",
+          "Slow down and proceed through without stopping if no other vehicles are in sight.",
+          "Stop only if cross-traffic is approaching from the right.",
+          "Honk your horn and proceed immediately if turning right."
+        ],
+        "correctIndex": 0,
+        "explanation": "A red octagon is globally standardized under the Vienna Convention and MUTCD to mean a mandatory full stop behind the stop line or crosswalk.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "questionCode": "Q-REG-STOP-02",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When approaching an intersection controlled by a Stop sign with no stop line or crosswalk marked, where must your vehicle stop?",
+        "options": [
+          "Before entering the intersecting roadway at a point where you have a clear view of oncoming traffic.",
+          "At least 20 meters before the sign post regardless of visibility.",
+          "Directly in the center of the intersection.",
+          "Wherever the front wheels touch the asphalt."
+        ],
+        "correctIndex": 0,
+        "explanation": "In the absence of a marked stop line or pedestrian crosswalk, the driver must stop before entering the intersecting road where visibility is clear.",
+        "sourceCode": "SRC-MUTCD-11TH"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-GIVE-WAY",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "PRIORITY",
+    "canonicalName": "Give Way / Yield Sign",
+    "shortName": "Give Way",
+    "meaning": "Yield right of way to all crossing and oncoming traffic before entering the junction.",
+    "driverAction": "Slow down, be prepared to stop, and give priority to traffic on the main road or roundabout.",
+    "shape": "TRIANGLE_INVERTED",
+    "primarySymbol": "YIELD_TEXT_OR_TRIANGLE",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "US",
+        "officialCode": "R1-2",
+        "officialName": "Yield Sign",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "NHMP-REG-02",
+        "officialName": "Rasta Dien (Give Way)",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-02",
+        "officialName": "Afdaliya (Give Way)",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "RTA-REG-02",
+        "officialName": "Give Way",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "UK-602",
+        "officialName": "Give Way",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      },
+      {
+        "countryCode": "CA",
+        "officialCode": "CA-RA-2",
+        "officialName": "Yield Sign",
+        "sourceCode": "SRC-ONTARIO-MTO"
+      },
+      {
+        "countryCode": "AU",
+        "officialCode": "AU-R1-2",
+        "officialName": "Give Way Sign",
+        "sourceCode": "SRC-AUSTROADS-GUIDE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-GIVEWAY-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What is the mandatory legal obligation when facing an inverted triangular Give Way / Yield sign?",
+        "options": [
+          "Slow down and give priority to any vehicle or pedestrian on the major road, stopping if necessary.",
+          "You have the legal right-of-way over all crossing traffic.",
+          "Always come to a mandatory full 3-second stop even if the road is completely deserted.",
+          "Accelerate to merge quickly ahead of approaching vehicles."
+        ],
+        "correctIndex": 0,
+        "explanation": "A Give Way / Yield sign requires drivers to reduce speed and yield priority to all vehicles on the priority road, stopping when traffic requires.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-NO-ENTRY",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "PROHIBITORY",
+    "canonicalName": "No Entry for Vehicular Traffic",
+    "shortName": "No Entry",
+    "meaning": "Vehicular traffic is strictly prohibited from entering this roadway.",
+    "driverAction": "Do not proceed into the road; choose an alternative route.",
+    "shape": "CIRCLE",
+    "primarySymbol": "HORIZONTAL_BAR",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "US",
+        "officialCode": "R5-1",
+        "officialName": "Do Not Enter",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "NHMP-REG-03",
+        "officialName": "Dakhla Mamnoo (No Entry)",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-03",
+        "officialName": "Mamnoo Al-Dukhool",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "RTA-REG-03",
+        "officialName": "No Entry",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "UK-616",
+        "officialName": "No Entry for Vehicular Traffic",
+        "sourceCode": "SRC-UK-TSRGD"
+      },
+      {
+        "countryCode": "CA",
+        "officialCode": "CA-RB-19",
+        "officialName": "Do Not Enter",
+        "sourceCode": "SRC-ONTARIO-MTO"
+      },
+      {
+        "countryCode": "AU",
+        "officialCode": "AU-R2-4",
+        "officialName": "No Entry Sign",
+        "sourceCode": "SRC-AUSTROADS-GUIDE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-NOENTRY-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What does a red circular sign with a white horizontal bar across the center indicate?",
+        "options": [
+          "No Entry: All vehicular traffic is prohibited from entering in this direction.",
+          "One-way street ahead allowing vehicles in both directions.",
+          "Level crossing with manual gates ahead.",
+          "Parking permitted only for emergency vehicles."
+        ],
+        "correctIndex": 0,
+        "explanation": "Under international standards and MUTCD, a red circular disc with a white horizontal bar strictly prohibits vehicle entry, typically at exit ramps and one-way streets.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-NO-U-TURN",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "MOVEMENT_PROHIBITION",
+    "canonicalName": "No U-Turn",
+    "shortName": "No U-Turn",
+    "meaning": "Drivers are strictly prohibited from executing a U-turn maneuver at this location.",
+    "driverAction": "Continue straight or make an authorized turn; do not reverse direction on this carriageway.",
+    "shape": "CIRCLE",
+    "primarySymbol": "U_ARROW_PROHIBITED",
+    "prohibitionType": "MANEUVER",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "US",
+        "officialCode": "R3-4",
+        "officialName": "No U-Turn Sign",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "NHMP-REG-04",
+        "officialName": "U-Turn Mamnoo",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-04",
+        "officialName": "Mamnoo Al-Dawaaran",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "RTA-REG-04",
+        "officialName": "No U-Turn",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "UK-614",
+        "officialName": "No U-turns for Vehicular Traffic",
+        "sourceCode": "SRC-UK-TSRGD"
+      },
+      {
+        "countryCode": "CA",
+        "officialCode": "CA-RB-15",
+        "officialName": "No U-Turn",
+        "sourceCode": "SRC-ONTARIO-MTO"
+      },
+      {
+        "countryCode": "AU",
+        "officialCode": "AU-R2-15",
+        "officialName": "No U-Turn",
+        "sourceCode": "SRC-AUSTROADS-GUIDE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-NOUTURN-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What maneuver is strictly forbidden when encountering a No U-Turn sign?",
+        "options": [
+          "Turning 180 degrees to travel in the opposite direction on the same road.",
+          "Making any left turn into an intersecting road or private driveway.",
+          "Overtaking a slower moving car in the left lane.",
+          "Reversing your vehicle into a parallel parking bay."
+        ],
+        "correctIndex": 0,
+        "explanation": "A No U-Turn sign prohibits turning your vehicle around to proceed in the opposite direction.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "questionCode": "Q-REG-NOUTURN-02",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "You have missed your motorway exit and see a No U-Turn sign at an emergency median crossover. What action should you take?",
+        "options": [
+          "Continue driving forward until the next designated public interchange or exit.",
+          "Quickly cross through the median opening if no police cars are present.",
+          "Stop in the fast lane and back up along the motorway shoulder.",
+          "Perform a 3-point turn using the emergency crossover."
+        ],
+        "correctIndex": 0,
+        "explanation": "Emergency crossovers with No U-Turn restrictions are reserved exclusively for emergency and maintenance vehicles. Missing an exit requires proceeding to the next legal public exit.",
+        "sourceCode": "SRC-MUTCD-11TH"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-NO-OVERTAKING",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "MOVEMENT_PROHIBITION",
+    "canonicalName": "No Overtaking",
+    "shortName": "No Passing",
+    "meaning": "Passing or overtaking other motor vehicles moving in the same direction is prohibited.",
+    "driverAction": "Stay in your lane behind the vehicle ahead; do not pull out to overtake.",
+    "shape": "CIRCLE",
+    "primarySymbol": "TWO_CARS_RED_BLACK",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "US",
+        "officialCode": "R4-1",
+        "officialName": "Do Not Pass Sign",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "NHMP-REG-05",
+        "officialName": "Overtaking Mamnoo",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-05",
+        "officialName": "Mamnoo Al-Tajawuz",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "RTA-REG-05",
+        "officialName": "No Overtaking",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "UK-632",
+        "officialName": "No Overtaking",
+        "sourceCode": "SRC-UK-TSRGD"
+      },
+      {
+        "countryCode": "CA",
+        "officialCode": "CA-RB-31",
+        "officialName": "Do Not Pass",
+        "sourceCode": "SRC-ONTARIO-MTO"
+      },
+      {
+        "countryCode": "AU",
+        "officialCode": "AU-R6-29",
+        "officialName": "No Overtaking",
+        "sourceCode": "SRC-AUSTROADS-GUIDE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-NOOVERTAKE-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What is the meaning of a circular sign displaying a red passenger car beside a black car?",
+        "options": [
+          "No Overtaking: Drivers must not overtake any motor vehicles on this section of road.",
+          "Two lanes merge into one lane ahead.",
+          "Car-pooling lane restricted to multi-occupant vehicles.",
+          "Traffic travels in both directions ahead."
+        ],
+        "correctIndex": 0,
+        "explanation": "Under international conventions, two cars (one red) within a circular border indicates overtaking is strictly prohibited due to limited sight distance or roadway geometry.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-NO-PARKING",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "PARKING_CONTROL",
+    "canonicalName": "Parking Prohibited",
+    "shortName": "No Parking",
+    "meaning": "Parking of vehicles is prohibited during the indicated times or zone.",
+    "driverAction": "Do not leave your vehicle unattended; brief stopping to pick up or set down passengers may be permitted unless stopping is also banned.",
+    "shape": "CIRCLE",
+    "primarySymbol": "P_SLASHED",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "US",
+        "officialCode": "R7-1",
+        "officialName": "No Parking Sign",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "NHMP-REG-06",
+        "officialName": "Parking Mamnoo",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-06",
+        "officialName": "Mamnoo Al-Wuqoof",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "RTA-REG-06",
+        "officialName": "No Parking",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "UK-636",
+        "officialName": "No Waiting (No Parking)",
+        "sourceCode": "SRC-UK-TSRGD"
+      },
+      {
+        "countryCode": "CA",
+        "officialCode": "CA-RB-51",
+        "officialName": "No Parking Sign",
+        "sourceCode": "SRC-ONTARIO-MTO"
+      },
+      {
+        "countryCode": "AU",
+        "officialCode": "AU-R5-40",
+        "officialName": "No Parking Area",
+        "sourceCode": "SRC-AUSTROADS-GUIDE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-NOPARKING-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What does a No Parking sign indicate to a driver?",
+        "options": [
+          "You may not leave your vehicle stationary and unattended, though brief stopping to let passengers in or out may be permitted.",
+          "You must not stop the vehicle under any circumstances, even for a red light.",
+          "Parking is free of charge with no time limit.",
+          "Vehicles may park here only on weekends."
+        ],
+        "correctIndex": 0,
+        "explanation": "No Parking prohibits leaving a vehicle stationary. It differs from No Stopping / Clearway where halting even momentarily is forbidden.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-NO-STOPPING",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "PARKING_CONTROL",
+    "canonicalName": "Stopping Prohibited (Clearway)",
+    "shortName": "No Stopping",
+    "meaning": "Stopping and waiting of vehicles is strictly forbidden for any reason other than traffic flow or emergency.",
+    "driverAction": "Keep moving; do not stop your vehicle along the curb even to drop off passengers.",
+    "shape": "CIRCLE",
+    "primarySymbol": "CROSS_SLASH",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "US",
+        "officialCode": "R7-4",
+        "officialName": "No Stopping Anytime",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "NHMP-REG-07",
+        "officialName": "Thehrna Mamnoo",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-07",
+        "officialName": "Mamnoo Al-Tawaqquf Wal-Wuqoof",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "RTA-REG-07",
+        "officialName": "No Stopping",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "UK-642",
+        "officialName": "Clearway / No Stopping",
+        "sourceCode": "SRC-UK-TSRGD"
+      },
+      {
+        "countryCode": "CA",
+        "officialCode": "CA-RB-55",
+        "officialName": "No Stopping Sign",
+        "sourceCode": "SRC-ONTARIO-MTO"
+      },
+      {
+        "countryCode": "AU",
+        "officialCode": "AU-R5-35",
+        "officialName": "No Stopping Zone",
+        "sourceCode": "SRC-AUSTROADS-GUIDE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-NOSTOPPING-01",
+        "questionType": "DIFFERENCE",
+        "difficulty": "MEDIUM",
+        "text": "What is the difference between a No Parking sign and a No Stopping sign?",
+        "options": [
+          "No Stopping prohibits halting your car for any reason (including dropping off passengers), whereas No Parking allows brief passenger pick-up.",
+          "No Parking applies only at night, while No Stopping applies during daytime.",
+          "No Parking applies only to commercial trucks, while No Stopping applies to all vehicles.",
+          "There is no legal difference; both signs have the identical meaning."
+        ],
+        "correctIndex": 0,
+        "explanation": "No Stopping (red X on blue circle or \"No Stopping Anytime\") prohibits halting even momentarily to load/unload passengers or goods, whereas No Parking permits momentary stopping for boarding.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-SPEED-LIMIT-50",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "SPEED_CONTROL",
+    "canonicalName": "Maximum Speed Limit (50 km/h / 50 mph)",
+    "shortName": "Speed Limit 50",
+    "meaning": "The maximum lawful speed under ideal driving conditions is 50 units (km/h or mph per jurisdiction).",
+    "driverAction": "Do not exceed the posted numeral; drive slower if road, weather, or traffic conditions warrant.",
+    "shape": "CIRCLE",
+    "primarySymbol": "NUMERAL_50",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "US",
+        "officialCode": "R2-1-50",
+        "officialName": "Speed Limit 50 (mph)",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "NHMP-REG-08",
+        "officialName": "Raftar Had 50 (km/h)",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-08",
+        "officialName": "Had Al-Suraa 50",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "RTA-REG-08",
+        "officialName": "Maximum Speed 50 km/h",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "UK-670-50",
+        "officialName": "Maximum Speed Limit 50 mph",
+        "sourceCode": "SRC-UK-TSRGD"
+      },
+      {
+        "countryCode": "CA",
+        "officialCode": "CA-RB-1-50",
+        "officialName": "Maximum 50 km/h",
+        "sourceCode": "SRC-ONTARIO-MTO"
+      },
+      {
+        "countryCode": "AU",
+        "officialCode": "AU-R4-1-50",
+        "officialName": "Speed Limit 50",
+        "sourceCode": "SRC-AUSTROADS-GUIDE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-SPEED-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "A circular sign displays a bold numeral inside a red border. What does this indicate?",
+        "options": [
+          "The maximum legal speed limit under favorable conditions; driving faster is an offence.",
+          "The advisory speed recommended only when turning.",
+          "The minimum required speed below which vehicles are not allowed.",
+          "The road route identification number."
+        ],
+        "correctIndex": 0,
+        "explanation": "A numeral within a red circular border signifies a mandatory upper speed ceiling.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-ROUNDABOUT-MANDATORY",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "MANDATORY_DIRECTION",
+    "canonicalName": "Compulsory Roundabout",
+    "shortName": "Roundabout Mandatory",
+    "meaning": "Drivers must travel in the circular direction indicated by the arrows and yield to circulating traffic.",
+    "driverAction": "Slow down, yield right-of-way to vehicles circulating from the priority direction, and follow lane markings.",
+    "shape": "CIRCLE",
+    "primarySymbol": "THREE_ROTATING_ARROWS",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GB",
+        "officialCode": "UK-611.1",
+        "officialName": "Roundabout Mandatory",
+        "sourceCode": "SRC-UK-TSRGD"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "NHMP-REG-09",
+        "officialName": "Chowk Ka Chakkar",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-09",
+        "officialName": "Duwwar Ilzami",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "RTA-REG-09",
+        "officialName": "Compulsory Roundabout",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "R6-4",
+        "officialName": "Roundabout Directional Arrow",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "AU",
+        "officialCode": "AU-R1-3",
+        "officialName": "Roundabout Sign",
+        "sourceCode": "SRC-AUSTROADS-GUIDE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-ROUNDABOUT-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When entering a modern roundabout controlled by standard yield/give-way signs, who has right-of-way?",
+        "options": [
+          "Traffic already circulating inside the roundabout.",
+          "Vehicles entering from the largest arterial road.",
+          "The faster moving vehicle regardless of position.",
+          "Vehicles entering from the right at all times."
+        ],
+        "correctIndex": 0,
+        "explanation": "In modern roundabouts worldwide, entering traffic must yield to traffic already circulating inside the circular roadway.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-ONE-WAY",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "MANDATORY_DIRECTION",
+    "canonicalName": "One-Way Street",
+    "shortName": "One Way",
+    "meaning": "Traffic on this roadway is permitted to move in one direction only.",
+    "driverAction": "Travel exclusively in the direction of the arrow; do not turn to face oncoming traffic.",
+    "shape": "RECTANGLE",
+    "primarySymbol": "HORIZONTAL_ARROW_ONE_WAY",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "US",
+        "officialCode": "R6-1",
+        "officialName": "One Way Sign",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "NHMP-REG-10",
+        "officialName": "Ek Tarfa Rasta",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-10",
+        "officialName": "Ittijah Wahid",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "RTA-REG-10",
+        "officialName": "One Way Road",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "UK-652",
+        "officialName": "One-way traffic",
+        "sourceCode": "SRC-UK-TSRGD"
+      },
+      {
+        "countryCode": "CA",
+        "officialCode": "CA-RB-21",
+        "officialName": "One Way Sign",
+        "sourceCode": "SRC-ONTARIO-MTO"
+      },
+      {
+        "countryCode": "AU",
+        "officialCode": "AU-R2-2",
+        "officialName": "One Way",
+        "sourceCode": "SRC-AUSTROADS-GUIDE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-ONEWAY-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What does a One-Way sign instruct a driver?",
+        "options": [
+          "Vehicular traffic is allowed to travel only in the direction pointed by the arrow.",
+          "The road will narrow into a single lane ahead.",
+          "Only one vehicle may cross the bridge at a time.",
+          "Pedestrians are prohibited from crossing this street."
+        ],
+        "correctIndex": 0,
+        "explanation": "A One-Way sign establishes a single direction of travel on the roadway. Driving against the arrow is strictly prohibited.",
+        "sourceCode": "SRC-MUTCD-11TH"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-ROAD-CLOSED",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "Road Closed to All Vehicles",
+    "shortName": "Road Closed to All Vehicles",
+    "meaning": "Road Closed to All Vehicles",
+    "driverAction": "Do not enter; detour via alternate route.",
+    "shape": "CIRCLE",
+    "primarySymbol": "WHITE_CIRCLE_RED_BORDER",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-ROAD-CLOSED",
+        "officialName": "Road Closed to All Vehicles",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-ROAD-CLOSED",
+        "officialName": "Road Closed to All Vehicles",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-ROAD-CLOSED",
+        "officialName": "Road Closed to All Vehicles",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-ROAD-CLOSED",
+        "officialName": "Road Closed to All Vehicles",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-ROAD-CLOSED",
+        "officialName": "Road Closed to All Vehicles",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-ROAD-CLOSED",
+        "officialName": "Road Closed to All Vehicles",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-ROAD-CLOSED-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the Road Closed to All Vehicles sign, what action is legally required?",
+        "options": [
+          "Do not enter; detour via alternate route.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Road Closed to All Vehicles mandates: Do not enter; detour via alternate route.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-NO-MOTOR-VEHICLES",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "No Motor Vehicles",
+    "shortName": "No Motor Vehicles",
+    "meaning": "No Motor Vehicles",
+    "driverAction": "Motor vehicles prohibited; cycles/pedestrians permitted.",
+    "shape": "CIRCLE",
+    "primarySymbol": "CAR_AND_MOTORCYCLE",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-NO-MOTOR-VEHICLES",
+        "officialName": "No Motor Vehicles",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-NO-MOTOR-VEHICLES",
+        "officialName": "No Motor Vehicles",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-NO-MOTOR-VEHICLES",
+        "officialName": "No Motor Vehicles",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-NO-MOTOR-VEHICLES",
+        "officialName": "No Motor Vehicles",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-NO-MOTOR-VEHICLES",
+        "officialName": "No Motor Vehicles",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-NO-MOTOR-VEHICLES",
+        "officialName": "No Motor Vehicles",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-NO-MOTOR-VEHICLES-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the No Motor Vehicles sign, what action is legally required?",
+        "options": [
+          "Motor vehicles prohibited; cycles/pedestrians permitted.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The No Motor Vehicles mandates: Motor vehicles prohibited; cycles/pedestrians permitted.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-NO-TRUCKS",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "No Heavy Goods Vehicles (Trucks)",
+    "shortName": "No Heavy Goods Vehicles",
+    "meaning": "No Heavy Goods Vehicles (Trucks)",
+    "driverAction": "Commercial trucks must use alternate truck route.",
+    "shape": "CIRCLE",
+    "primarySymbol": "TRUCK_PROHIBITED",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-NO-TRUCKS",
+        "officialName": "No Heavy Goods Vehicles (Trucks)",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-NO-TRUCKS",
+        "officialName": "No Heavy Goods Vehicles (Trucks)",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-NO-TRUCKS",
+        "officialName": "No Heavy Goods Vehicles (Trucks)",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-NO-TRUCKS",
+        "officialName": "No Heavy Goods Vehicles (Trucks)",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-NO-TRUCKS",
+        "officialName": "No Heavy Goods Vehicles (Trucks)",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-NO-TRUCKS",
+        "officialName": "No Heavy Goods Vehicles (Trucks)",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-NO-TRUCKS-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the No Heavy Goods Vehicles (Trucks) sign, what action is legally required?",
+        "options": [
+          "Commercial trucks must use alternate truck route.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The No Heavy Goods Vehicles (Trucks) mandates: Commercial trucks must use alternate truck route.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-NO-BUSES",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "No Buses",
+    "shortName": "No Buses",
+    "meaning": "No Buses",
+    "driverAction": "Buses not permitted on this street.",
+    "shape": "CIRCLE",
+    "primarySymbol": "BUS_PROHIBITED",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-NO-BUSES",
+        "officialName": "No Buses",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-NO-BUSES",
+        "officialName": "No Buses",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-NO-BUSES",
+        "officialName": "No Buses",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-NO-BUSES",
+        "officialName": "No Buses",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-NO-BUSES",
+        "officialName": "No Buses",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-NO-BUSES",
+        "officialName": "No Buses",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-NO-BUSES-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the No Buses sign, what action is legally required?",
+        "options": [
+          "Buses not permitted on this street.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The No Buses mandates: Buses not permitted on this street.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-NO-MOTORCYCLES",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "No Motorcycles",
+    "shortName": "No Motorcycles",
+    "meaning": "No Motorcycles",
+    "driverAction": "Motorcycles prohibited.",
+    "shape": "CIRCLE",
+    "primarySymbol": "MOTORCYCLE_PROHIBITED",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-NO-MOTORCYCLES",
+        "officialName": "No Motorcycles",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-NO-MOTORCYCLES",
+        "officialName": "No Motorcycles",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-NO-MOTORCYCLES",
+        "officialName": "No Motorcycles",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-NO-MOTORCYCLES",
+        "officialName": "No Motorcycles",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-NO-MOTORCYCLES",
+        "officialName": "No Motorcycles",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-NO-MOTORCYCLES",
+        "officialName": "No Motorcycles",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-NO-MOTORCYCLES-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the No Motorcycles sign, what action is legally required?",
+        "options": [
+          "Motorcycles prohibited.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The No Motorcycles mandates: Motorcycles prohibited.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-NO-BICYCLES",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "No Bicycles",
+    "shortName": "No Bicycles",
+    "meaning": "No Bicycles",
+    "driverAction": "Bicycles must use cycle path or alternate road.",
+    "shape": "CIRCLE",
+    "primarySymbol": "BICYCLE_PROHIBITED",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-NO-BICYCLES",
+        "officialName": "No Bicycles",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-NO-BICYCLES",
+        "officialName": "No Bicycles",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-NO-BICYCLES",
+        "officialName": "No Bicycles",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-NO-BICYCLES",
+        "officialName": "No Bicycles",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-NO-BICYCLES",
+        "officialName": "No Bicycles",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-NO-BICYCLES",
+        "officialName": "No Bicycles",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-NO-BICYCLES-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the No Bicycles sign, what action is legally required?",
+        "options": [
+          "Bicycles must use cycle path or alternate road.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The No Bicycles mandates: Bicycles must use cycle path or alternate road.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-NO-PEDESTRIANS",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "No Pedestrians",
+    "shortName": "No Pedestrians",
+    "meaning": "No Pedestrians",
+    "driverAction": "Pedestrians prohibited; use footbridge or underpass.",
+    "shape": "CIRCLE",
+    "primarySymbol": "PEDESTRIAN_PROHIBITED",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-NO-PEDESTRIANS",
+        "officialName": "No Pedestrians",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-NO-PEDESTRIANS",
+        "officialName": "No Pedestrians",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-NO-PEDESTRIANS",
+        "officialName": "No Pedestrians",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-NO-PEDESTRIANS",
+        "officialName": "No Pedestrians",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-NO-PEDESTRIANS",
+        "officialName": "No Pedestrians",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-NO-PEDESTRIANS",
+        "officialName": "No Pedestrians",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-NO-PEDESTRIANS-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the No Pedestrians sign, what action is legally required?",
+        "options": [
+          "Pedestrians prohibited; use footbridge or underpass.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The No Pedestrians mandates: Pedestrians prohibited; use footbridge or underpass.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-NO-RIGHT-TURN",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "No Right Turn",
+    "shortName": "No Right Turn",
+    "meaning": "No Right Turn",
+    "driverAction": "Do not turn right at this junction.",
+    "shape": "CIRCLE",
+    "primarySymbol": "RIGHT_ARROW_PROHIBITED",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-NO-RIGHT-TURN",
+        "officialName": "No Right Turn",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-NO-RIGHT-TURN",
+        "officialName": "No Right Turn",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-NO-RIGHT-TURN",
+        "officialName": "No Right Turn",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-NO-RIGHT-TURN",
+        "officialName": "No Right Turn",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-NO-RIGHT-TURN",
+        "officialName": "No Right Turn",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-NO-RIGHT-TURN",
+        "officialName": "No Right Turn",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-NO-RIGHT-TURN-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the No Right Turn sign, what action is legally required?",
+        "options": [
+          "Do not turn right at this junction.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The No Right Turn mandates: Do not turn right at this junction.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-NO-LEFT-TURN",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "No Left Turn",
+    "shortName": "No Left Turn",
+    "meaning": "No Left Turn",
+    "driverAction": "Do not turn left at this junction.",
+    "shape": "CIRCLE",
+    "primarySymbol": "LEFT_ARROW_PROHIBITED",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-NO-LEFT-TURN",
+        "officialName": "No Left Turn",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-NO-LEFT-TURN",
+        "officialName": "No Left Turn",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-NO-LEFT-TURN",
+        "officialName": "No Left Turn",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-NO-LEFT-TURN",
+        "officialName": "No Left Turn",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-NO-LEFT-TURN",
+        "officialName": "No Left Turn",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-NO-LEFT-TURN",
+        "officialName": "No Left Turn",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-NO-LEFT-TURN-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the No Left Turn sign, what action is legally required?",
+        "options": [
+          "Do not turn left at this junction.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The No Left Turn mandates: Do not turn left at this junction.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-END-OVERTAKING",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "End of Overtaking Prohibition",
+    "shortName": "End of Overtaking Prohibition",
+    "meaning": "End of Overtaking Prohibition",
+    "driverAction": "Overtaking allowed where road markings and visibility permit.",
+    "shape": "CIRCLE",
+    "primarySymbol": "CARS_GREY_DIAGONAL",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-END-OVERTAKING",
+        "officialName": "End of Overtaking Prohibition",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-END-OVERTAKING",
+        "officialName": "End of Overtaking Prohibition",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-END-OVERTAKING",
+        "officialName": "End of Overtaking Prohibition",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-END-OVERTAKING",
+        "officialName": "End of Overtaking Prohibition",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-END-OVERTAKING",
+        "officialName": "End of Overtaking Prohibition",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-END-OVERTAKING",
+        "officialName": "End of Overtaking Prohibition",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-END-OVERTAKING-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the End of Overtaking Prohibition sign, what action is legally required?",
+        "options": [
+          "Overtaking allowed where road markings and visibility permit.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The End of Overtaking Prohibition mandates: Overtaking allowed where road markings and visibility permit.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-NO-HORN",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "Sounding of Horns Prohibited",
+    "shortName": "Sounding of Horns Prohibited",
+    "meaning": "Sounding of Horns Prohibited",
+    "driverAction": "Do not sound horn unless in imminent safety emergency.",
+    "shape": "CIRCLE",
+    "primarySymbol": "HORN_PROHIBITED",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-NO-HORN",
+        "officialName": "Sounding of Horns Prohibited",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-NO-HORN",
+        "officialName": "Sounding of Horns Prohibited",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-NO-HORN",
+        "officialName": "Sounding of Horns Prohibited",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-NO-HORN",
+        "officialName": "Sounding of Horns Prohibited",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-NO-HORN",
+        "officialName": "Sounding of Horns Prohibited",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-NO-HORN",
+        "officialName": "Sounding of Horns Prohibited",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-NO-HORN-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the Sounding of Horns Prohibited sign, what action is legally required?",
+        "options": [
+          "Do not sound horn unless in imminent safety emergency.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Sounding of Horns Prohibited mandates: Do not sound horn unless in imminent safety emergency.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-END-SPEED-LIMIT",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "End of Speed Limit",
+    "shortName": "End of Speed Limit",
+    "meaning": "End of Speed Limit",
+    "driverAction": "Resume statutory standard speed for this road category.",
+    "shape": "CIRCLE",
+    "primarySymbol": "CIRCLE_DIAGONAL_SLASH",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-END-SPEED-LIMIT",
+        "officialName": "End of Speed Limit",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-END-SPEED-LIMIT",
+        "officialName": "End of Speed Limit",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-END-SPEED-LIMIT",
+        "officialName": "End of Speed Limit",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-END-SPEED-LIMIT",
+        "officialName": "End of Speed Limit",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-END-SPEED-LIMIT",
+        "officialName": "End of Speed Limit",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-END-SPEED-LIMIT",
+        "officialName": "End of Speed Limit",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-END-SPEED-LIMIT-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the End of Speed Limit sign, what action is legally required?",
+        "options": [
+          "Resume statutory standard speed for this road category.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The End of Speed Limit mandates: Resume statutory standard speed for this road category.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-MINIMUM-SPEED",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "Compulsory Minimum Speed",
+    "shortName": "Compulsory Minimum Speed",
+    "meaning": "Compulsory Minimum Speed",
+    "driverAction": "Drive at or above posted minimum speed; leave route if unable.",
+    "shape": "CIRCLE",
+    "primarySymbol": "BLUE_CIRCLE_NUMERAL",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-MINIMUM-SPEED",
+        "officialName": "Compulsory Minimum Speed",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-MINIMUM-SPEED",
+        "officialName": "Compulsory Minimum Speed",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-MINIMUM-SPEED",
+        "officialName": "Compulsory Minimum Speed",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-MINIMUM-SPEED",
+        "officialName": "Compulsory Minimum Speed",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-MINIMUM-SPEED",
+        "officialName": "Compulsory Minimum Speed",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-MINIMUM-SPEED",
+        "officialName": "Compulsory Minimum Speed",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-MINIMUM-SPEED-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the Compulsory Minimum Speed sign, what action is legally required?",
+        "options": [
+          "Drive at or above posted minimum speed; leave route if unable.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Compulsory Minimum Speed mandates: Drive at or above posted minimum speed; leave route if unable.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-WEIGHT-LIMIT",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "Gross Weight Limit",
+    "shortName": "Gross Weight Limit",
+    "meaning": "Gross Weight Limit",
+    "driverAction": "Vehicles exceeding stated tonnage are prohibited.",
+    "shape": "CIRCLE",
+    "primarySymbol": "TONNAGE_CIRCLE",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-WEIGHT-LIMIT",
+        "officialName": "Gross Weight Limit",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-WEIGHT-LIMIT",
+        "officialName": "Gross Weight Limit",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-WEIGHT-LIMIT",
+        "officialName": "Gross Weight Limit",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-WEIGHT-LIMIT",
+        "officialName": "Gross Weight Limit",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-WEIGHT-LIMIT",
+        "officialName": "Gross Weight Limit",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-WEIGHT-LIMIT",
+        "officialName": "Gross Weight Limit",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-WEIGHT-LIMIT-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the Gross Weight Limit sign, what action is legally required?",
+        "options": [
+          "Vehicles exceeding stated tonnage are prohibited.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Gross Weight Limit mandates: Vehicles exceeding stated tonnage are prohibited.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-AXLE-LIMIT",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "Axle Load Limit",
+    "shortName": "Axle Load Limit",
+    "meaning": "Axle Load Limit",
+    "driverAction": "Vehicles exceeding stated axle weight are prohibited.",
+    "shape": "CIRCLE",
+    "primarySymbol": "AXLE_LOAD_CIRCLE",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-AXLE-LIMIT",
+        "officialName": "Axle Load Limit",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-AXLE-LIMIT",
+        "officialName": "Axle Load Limit",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-AXLE-LIMIT",
+        "officialName": "Axle Load Limit",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-AXLE-LIMIT",
+        "officialName": "Axle Load Limit",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-AXLE-LIMIT",
+        "officialName": "Axle Load Limit",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-AXLE-LIMIT",
+        "officialName": "Axle Load Limit",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-AXLE-LIMIT-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the Axle Load Limit sign, what action is legally required?",
+        "options": [
+          "Vehicles exceeding stated axle weight are prohibited.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Axle Load Limit mandates: Vehicles exceeding stated axle weight are prohibited.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-HEIGHT-LIMIT",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "Height Restriction Limit",
+    "shortName": "Height Restriction Limit",
+    "meaning": "Height Restriction Limit",
+    "driverAction": "Vehicles exceeding height must divert before low bridge/tunnel.",
+    "shape": "CIRCLE",
+    "primarySymbol": "HEIGHT_ARROWS_LIMIT",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-HEIGHT-LIMIT",
+        "officialName": "Height Restriction Limit",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-HEIGHT-LIMIT",
+        "officialName": "Height Restriction Limit",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-HEIGHT-LIMIT",
+        "officialName": "Height Restriction Limit",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-HEIGHT-LIMIT",
+        "officialName": "Height Restriction Limit",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-HEIGHT-LIMIT",
+        "officialName": "Height Restriction Limit",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-HEIGHT-LIMIT",
+        "officialName": "Height Restriction Limit",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-HEIGHT-LIMIT-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the Height Restriction Limit sign, what action is legally required?",
+        "options": [
+          "Vehicles exceeding height must divert before low bridge/tunnel.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Height Restriction Limit mandates: Vehicles exceeding height must divert before low bridge/tunnel.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-WIDTH-LIMIT",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "Width Restriction Limit",
+    "shortName": "Width Restriction Limit",
+    "meaning": "Width Restriction Limit",
+    "driverAction": "Vehicles exceeding width must not proceed into narrow section.",
+    "shape": "CIRCLE",
+    "primarySymbol": "WIDTH_ARROWS_LIMIT",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-WIDTH-LIMIT",
+        "officialName": "Width Restriction Limit",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-WIDTH-LIMIT",
+        "officialName": "Width Restriction Limit",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-WIDTH-LIMIT",
+        "officialName": "Width Restriction Limit",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-WIDTH-LIMIT",
+        "officialName": "Width Restriction Limit",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-WIDTH-LIMIT",
+        "officialName": "Width Restriction Limit",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-WIDTH-LIMIT",
+        "officialName": "Width Restriction Limit",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-WIDTH-LIMIT-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the Width Restriction Limit sign, what action is legally required?",
+        "options": [
+          "Vehicles exceeding width must not proceed into narrow section.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Width Restriction Limit mandates: Vehicles exceeding width must not proceed into narrow section.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-LENGTH-LIMIT",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "Vehicle Length Limit",
+    "shortName": "Vehicle Length Limit",
+    "meaning": "Vehicle Length Limit",
+    "driverAction": "Long combination vehicles exceeding length prohibited.",
+    "shape": "CIRCLE",
+    "primarySymbol": "TRUCK_LENGTH_LIMIT",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-LENGTH-LIMIT",
+        "officialName": "Vehicle Length Limit",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-LENGTH-LIMIT",
+        "officialName": "Vehicle Length Limit",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-LENGTH-LIMIT",
+        "officialName": "Vehicle Length Limit",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-LENGTH-LIMIT",
+        "officialName": "Vehicle Length Limit",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-LENGTH-LIMIT",
+        "officialName": "Vehicle Length Limit",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-LENGTH-LIMIT",
+        "officialName": "Vehicle Length Limit",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-LENGTH-LIMIT-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the Vehicle Length Limit sign, what action is legally required?",
+        "options": [
+          "Long combination vehicles exceeding length prohibited.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Vehicle Length Limit mandates: Long combination vehicles exceeding length prohibited.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-KEEP-LEFT",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "Keep Left",
+    "shortName": "Keep Left",
+    "meaning": "Keep Left",
+    "driverAction": "Pass obstruction or traffic island to the left side.",
+    "shape": "CIRCLE",
+    "primarySymbol": "ARROW_DOWN_LEFT",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-KEEP-LEFT",
+        "officialName": "Keep Left",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-KEEP-LEFT",
+        "officialName": "Keep Left",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-KEEP-LEFT",
+        "officialName": "Keep Left",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-KEEP-LEFT",
+        "officialName": "Keep Left",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-KEEP-LEFT",
+        "officialName": "Keep Left",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-KEEP-LEFT",
+        "officialName": "Keep Left",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-KEEP-LEFT-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the Keep Left sign, what action is legally required?",
+        "options": [
+          "Pass obstruction or traffic island to the left side.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Keep Left mandates: Pass obstruction or traffic island to the left side.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-KEEP-RIGHT",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "Keep Right",
+    "shortName": "Keep Right",
+    "meaning": "Keep Right",
+    "driverAction": "Pass obstruction or traffic island to the right side.",
+    "shape": "CIRCLE",
+    "primarySymbol": "ARROW_DOWN_RIGHT",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-KEEP-RIGHT",
+        "officialName": "Keep Right",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-KEEP-RIGHT",
+        "officialName": "Keep Right",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-KEEP-RIGHT",
+        "officialName": "Keep Right",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-KEEP-RIGHT",
+        "officialName": "Keep Right",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-KEEP-RIGHT",
+        "officialName": "Keep Right",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-KEEP-RIGHT",
+        "officialName": "Keep Right",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-KEEP-RIGHT-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the Keep Right sign, what action is legally required?",
+        "options": [
+          "Pass obstruction or traffic island to the right side.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Keep Right mandates: Pass obstruction or traffic island to the right side.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-STRAIGHT-ONLY",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "Ahead Only (Compulsory Straight)",
+    "shortName": "Ahead Only",
+    "meaning": "Ahead Only (Compulsory Straight)",
+    "driverAction": "Proceed straight ahead; no turns allowed.",
+    "shape": "CIRCLE",
+    "primarySymbol": "ARROW_UP_BLUE",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-STRAIGHT-ONLY",
+        "officialName": "Ahead Only (Compulsory Straight)",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-STRAIGHT-ONLY",
+        "officialName": "Ahead Only (Compulsory Straight)",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-STRAIGHT-ONLY",
+        "officialName": "Ahead Only (Compulsory Straight)",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-STRAIGHT-ONLY",
+        "officialName": "Ahead Only (Compulsory Straight)",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-STRAIGHT-ONLY",
+        "officialName": "Ahead Only (Compulsory Straight)",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-STRAIGHT-ONLY",
+        "officialName": "Ahead Only (Compulsory Straight)",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-STRAIGHT-ONLY-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the Ahead Only (Compulsory Straight) sign, what action is legally required?",
+        "options": [
+          "Proceed straight ahead; no turns allowed.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Ahead Only (Compulsory Straight) mandates: Proceed straight ahead; no turns allowed.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-TURN-LEFT-ONLY",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "Turn Left Only",
+    "shortName": "Turn Left Only",
+    "meaning": "Turn Left Only",
+    "driverAction": "Mandatory left turn at intersection.",
+    "shape": "CIRCLE",
+    "primarySymbol": "ARROW_LEFT_BLUE",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-TURN-LEFT-ONLY",
+        "officialName": "Turn Left Only",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-TURN-LEFT-ONLY",
+        "officialName": "Turn Left Only",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-TURN-LEFT-ONLY",
+        "officialName": "Turn Left Only",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-TURN-LEFT-ONLY",
+        "officialName": "Turn Left Only",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-TURN-LEFT-ONLY",
+        "officialName": "Turn Left Only",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-TURN-LEFT-ONLY",
+        "officialName": "Turn Left Only",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-TURN-LEFT-ONLY-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the Turn Left Only sign, what action is legally required?",
+        "options": [
+          "Mandatory left turn at intersection.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Turn Left Only mandates: Mandatory left turn at intersection.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-TURN-RIGHT-ONLY",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "Turn Right Only",
+    "shortName": "Turn Right Only",
+    "meaning": "Turn Right Only",
+    "driverAction": "Mandatory right turn at intersection.",
+    "shape": "CIRCLE",
+    "primarySymbol": "ARROW_RIGHT_BLUE",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-TURN-RIGHT-ONLY",
+        "officialName": "Turn Right Only",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-TURN-RIGHT-ONLY",
+        "officialName": "Turn Right Only",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-TURN-RIGHT-ONLY",
+        "officialName": "Turn Right Only",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-TURN-RIGHT-ONLY",
+        "officialName": "Turn Right Only",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-TURN-RIGHT-ONLY",
+        "officialName": "Turn Right Only",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-TURN-RIGHT-ONLY",
+        "officialName": "Turn Right Only",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-TURN-RIGHT-ONLY-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the Turn Right Only sign, what action is legally required?",
+        "options": [
+          "Mandatory right turn at intersection.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Turn Right Only mandates: Mandatory right turn at intersection.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-STRAIGHT-OR-LEFT",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "Straight or Turn Left Only",
+    "shortName": "Straight or Turn Left Only",
+    "meaning": "Straight or Turn Left Only",
+    "driverAction": "Choose either straight or left lane maneuver.",
+    "shape": "CIRCLE",
+    "primarySymbol": "ARROW_UP_LEFT",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-STRAIGHT-OR-LEFT",
+        "officialName": "Straight or Turn Left Only",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-STRAIGHT-OR-LEFT",
+        "officialName": "Straight or Turn Left Only",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-STRAIGHT-OR-LEFT",
+        "officialName": "Straight or Turn Left Only",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-STRAIGHT-OR-LEFT",
+        "officialName": "Straight or Turn Left Only",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-STRAIGHT-OR-LEFT",
+        "officialName": "Straight or Turn Left Only",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-STRAIGHT-OR-LEFT",
+        "officialName": "Straight or Turn Left Only",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-STRAIGHT-OR-LEFT-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the Straight or Turn Left Only sign, what action is legally required?",
+        "options": [
+          "Choose either straight or left lane maneuver.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Straight or Turn Left Only mandates: Choose either straight or left lane maneuver.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-STRAIGHT-OR-RIGHT",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "Straight or Turn Right Only",
+    "shortName": "Straight or Turn Right Only",
+    "meaning": "Straight or Turn Right Only",
+    "driverAction": "Choose either straight or right lane maneuver.",
+    "shape": "CIRCLE",
+    "primarySymbol": "ARROW_UP_RIGHT",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-STRAIGHT-OR-RIGHT",
+        "officialName": "Straight or Turn Right Only",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-STRAIGHT-OR-RIGHT",
+        "officialName": "Straight or Turn Right Only",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-STRAIGHT-OR-RIGHT",
+        "officialName": "Straight or Turn Right Only",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-STRAIGHT-OR-RIGHT",
+        "officialName": "Straight or Turn Right Only",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-STRAIGHT-OR-RIGHT",
+        "officialName": "Straight or Turn Right Only",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-STRAIGHT-OR-RIGHT",
+        "officialName": "Straight or Turn Right Only",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-STRAIGHT-OR-RIGHT-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the Straight or Turn Right Only sign, what action is legally required?",
+        "options": [
+          "Choose either straight or right lane maneuver.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Straight or Turn Right Only mandates: Choose either straight or right lane maneuver.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-LANE-CONTROL",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "Mandatory Lane Control",
+    "shortName": "Mandatory Lane Control",
+    "meaning": "Mandatory Lane Control",
+    "driverAction": "Obey lane direction arrows assigned to each lane.",
+    "shape": "CIRCLE",
+    "primarySymbol": "LANE_SPLIT_ARROWS",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-LANE-CONTROL",
+        "officialName": "Mandatory Lane Control",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-LANE-CONTROL",
+        "officialName": "Mandatory Lane Control",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-LANE-CONTROL",
+        "officialName": "Mandatory Lane Control",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-LANE-CONTROL",
+        "officialName": "Mandatory Lane Control",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-LANE-CONTROL",
+        "officialName": "Mandatory Lane Control",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-LANE-CONTROL",
+        "officialName": "Mandatory Lane Control",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-LANE-CONTROL-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the Mandatory Lane Control sign, what action is legally required?",
+        "options": [
+          "Obey lane direction arrows assigned to each lane.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Mandatory Lane Control mandates: Obey lane direction arrows assigned to each lane.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-PARKING-PERMITTED",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "Parking Area / Permitted",
+    "shortName": "Parking Area / Permitted",
+    "meaning": "Parking Area / Permitted",
+    "driverAction": "Park vehicle inside marked bays according to time rules.",
+    "shape": "CIRCLE",
+    "primarySymbol": "WHITE_P_BLUE_BACKGROUND",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-PARKING-PERMITTED",
+        "officialName": "Parking Area / Permitted",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-PARKING-PERMITTED",
+        "officialName": "Parking Area / Permitted",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-PARKING-PERMITTED",
+        "officialName": "Parking Area / Permitted",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-PARKING-PERMITTED",
+        "officialName": "Parking Area / Permitted",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-PARKING-PERMITTED",
+        "officialName": "Parking Area / Permitted",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-PARKING-PERMITTED",
+        "officialName": "Parking Area / Permitted",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-PARKING-PERMITTED-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the Parking Area / Permitted sign, what action is legally required?",
+        "options": [
+          "Park vehicle inside marked bays according to time rules.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Parking Area / Permitted mandates: Park vehicle inside marked bays according to time rules.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-COMPULSORY-HORN",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "Compulsory Sound Horn",
+    "shortName": "Compulsory Sound Horn",
+    "meaning": "Compulsory Sound Horn",
+    "driverAction": "Sound horn before proceeding around blind curve or narrow mountain pass.",
+    "shape": "CIRCLE",
+    "primarySymbol": "BLUE_CIRCLE_HORN",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-COMPULSORY-HORN",
+        "officialName": "Compulsory Sound Horn",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-COMPULSORY-HORN",
+        "officialName": "Compulsory Sound Horn",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-COMPULSORY-HORN",
+        "officialName": "Compulsory Sound Horn",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-COMPULSORY-HORN",
+        "officialName": "Compulsory Sound Horn",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-COMPULSORY-HORN",
+        "officialName": "Compulsory Sound Horn",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-COMPULSORY-HORN",
+        "officialName": "Compulsory Sound Horn",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-COMPULSORY-HORN-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the Compulsory Sound Horn sign, what action is legally required?",
+        "options": [
+          "Sound horn before proceeding around blind curve or narrow mountain pass.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Compulsory Sound Horn mandates: Sound horn before proceeding around blind curve or narrow mountain pass.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-POLICE-STOP",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "Police / Security Checkpoint Stop",
+    "shortName": "Police / Security Checkpoint Stop",
+    "meaning": "Police / Security Checkpoint Stop",
+    "driverAction": "Bring vehicle to full stop for official inspection.",
+    "shape": "CIRCLE",
+    "primarySymbol": "POLICE_STOP_BAR",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-POLICE-STOP",
+        "officialName": "Police / Security Checkpoint Stop",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-POLICE-STOP",
+        "officialName": "Police / Security Checkpoint Stop",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-POLICE-STOP",
+        "officialName": "Police / Security Checkpoint Stop",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-POLICE-STOP",
+        "officialName": "Police / Security Checkpoint Stop",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-POLICE-STOP",
+        "officialName": "Police / Security Checkpoint Stop",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-POLICE-STOP",
+        "officialName": "Police / Security Checkpoint Stop",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-POLICE-STOP-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the Police / Security Checkpoint Stop sign, what action is legally required?",
+        "options": [
+          "Bring vehicle to full stop for official inspection.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Police / Security Checkpoint Stop mandates: Bring vehicle to full stop for official inspection.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-CUSTOMS-STOP",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "Customs Control Stop",
+    "shortName": "Customs Control Stop",
+    "meaning": "Customs Control Stop",
+    "driverAction": "Stop for border/customs clearance.",
+    "shape": "CIRCLE",
+    "primarySymbol": "CUSTOMS_DOUANE",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-CUSTOMS-STOP",
+        "officialName": "Customs Control Stop",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-CUSTOMS-STOP",
+        "officialName": "Customs Control Stop",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-CUSTOMS-STOP",
+        "officialName": "Customs Control Stop",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-CUSTOMS-STOP",
+        "officialName": "Customs Control Stop",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-CUSTOMS-STOP",
+        "officialName": "Customs Control Stop",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-CUSTOMS-STOP",
+        "officialName": "Customs Control Stop",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-CUSTOMS-STOP-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the Customs Control Stop sign, what action is legally required?",
+        "options": [
+          "Stop for border/customs clearance.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Customs Control Stop mandates: Stop for border/customs clearance.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-TOLL-STOP",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "Toll Barrier Stop",
+    "shortName": "Toll Barrier Stop",
+    "meaning": "Toll Barrier Stop",
+    "driverAction": "Stop to pay toll or present electronic pass.",
+    "shape": "CIRCLE",
+    "primarySymbol": "TOLL_BARRIER_BAR",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-TOLL-STOP",
+        "officialName": "Toll Barrier Stop",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-TOLL-STOP",
+        "officialName": "Toll Barrier Stop",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-TOLL-STOP",
+        "officialName": "Toll Barrier Stop",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-TOLL-STOP",
+        "officialName": "Toll Barrier Stop",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-TOLL-STOP",
+        "officialName": "Toll Barrier Stop",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-TOLL-STOP",
+        "officialName": "Toll Barrier Stop",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-TOLL-STOP-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the Toll Barrier Stop sign, what action is legally required?",
+        "options": [
+          "Stop to pay toll or present electronic pass.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Toll Barrier Stop mandates: Stop to pay toll or present electronic pass.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-BUS-LANE-ONLY",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "Designated Bus Lane",
+    "shortName": "Designated Bus Lane",
+    "meaning": "Designated Bus Lane",
+    "driverAction": "Exclusive to public transit buses; unauthorized vehicles keep out.",
+    "shape": "CIRCLE",
+    "primarySymbol": "BUS_BLUE_CIRCLE",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-BUS-LANE-ONLY",
+        "officialName": "Designated Bus Lane",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-BUS-LANE-ONLY",
+        "officialName": "Designated Bus Lane",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-BUS-LANE-ONLY",
+        "officialName": "Designated Bus Lane",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-BUS-LANE-ONLY",
+        "officialName": "Designated Bus Lane",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-BUS-LANE-ONLY",
+        "officialName": "Designated Bus Lane",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-BUS-LANE-ONLY",
+        "officialName": "Designated Bus Lane",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-BUS-LANE-ONLY-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the Designated Bus Lane sign, what action is legally required?",
+        "options": [
+          "Exclusive to public transit buses; unauthorized vehicles keep out.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Designated Bus Lane mandates: Exclusive to public transit buses; unauthorized vehicles keep out.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-CYCLE-TRACK-ONLY",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "Mandatory Cycle Track",
+    "shortName": "Mandatory Cycle Track",
+    "meaning": "Mandatory Cycle Track",
+    "driverAction": "Cyclists must use this path; motor vehicles prohibited.",
+    "shape": "CIRCLE",
+    "primarySymbol": "BICYCLE_BLUE_CIRCLE",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-CYCLE-TRACK-ONLY",
+        "officialName": "Mandatory Cycle Track",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-CYCLE-TRACK-ONLY",
+        "officialName": "Mandatory Cycle Track",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-CYCLE-TRACK-ONLY",
+        "officialName": "Mandatory Cycle Track",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-CYCLE-TRACK-ONLY",
+        "officialName": "Mandatory Cycle Track",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-CYCLE-TRACK-ONLY",
+        "officialName": "Mandatory Cycle Track",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-CYCLE-TRACK-ONLY",
+        "officialName": "Mandatory Cycle Track",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-CYCLE-TRACK-ONLY-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the Mandatory Cycle Track sign, what action is legally required?",
+        "options": [
+          "Cyclists must use this path; motor vehicles prohibited.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Mandatory Cycle Track mandates: Cyclists must use this path; motor vehicles prohibited.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-PEDESTRIAN-ZONE-ONLY",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "Pedestrian Only Zone",
+    "shortName": "Pedestrian Only Zone",
+    "meaning": "Pedestrian Only Zone",
+    "driverAction": "Motorized vehicles strictly prohibited from walking street.",
+    "shape": "CIRCLE",
+    "primarySymbol": "WALKING_PEDESTRIAN_BLUE",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-PEDESTRIAN-ZONE-ONLY",
+        "officialName": "Pedestrian Only Zone",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-PEDESTRIAN-ZONE-ONLY",
+        "officialName": "Pedestrian Only Zone",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-PEDESTRIAN-ZONE-ONLY",
+        "officialName": "Pedestrian Only Zone",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-PEDESTRIAN-ZONE-ONLY",
+        "officialName": "Pedestrian Only Zone",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-PEDESTRIAN-ZONE-ONLY",
+        "officialName": "Pedestrian Only Zone",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-PEDESTRIAN-ZONE-ONLY",
+        "officialName": "Pedestrian Only Zone",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-PEDESTRIAN-ZONE-ONLY-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the Pedestrian Only Zone sign, what action is legally required?",
+        "options": [
+          "Motorized vehicles strictly prohibited from walking street.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Pedestrian Only Zone mandates: Motorized vehicles strictly prohibited from walking street.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-SNOW-CHAINS-MANDATORY",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "Snow Chains Mandatory",
+    "shortName": "Snow Chains Mandatory",
+    "meaning": "Snow Chains Mandatory",
+    "driverAction": "Drive only with certified snow chains fitted to drive wheels.",
+    "shape": "CIRCLE",
+    "primarySymbol": "TIRE_CHAINS_BLUE",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-SNOW-CHAINS-MANDATORY",
+        "officialName": "Snow Chains Mandatory",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-SNOW-CHAINS-MANDATORY",
+        "officialName": "Snow Chains Mandatory",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-SNOW-CHAINS-MANDATORY",
+        "officialName": "Snow Chains Mandatory",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-SNOW-CHAINS-MANDATORY",
+        "officialName": "Snow Chains Mandatory",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-SNOW-CHAINS-MANDATORY",
+        "officialName": "Snow Chains Mandatory",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-SNOW-CHAINS-MANDATORY",
+        "officialName": "Snow Chains Mandatory",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-SNOW-CHAINS-MANDATORY-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the Snow Chains Mandatory sign, what action is legally required?",
+        "options": [
+          "Drive only with certified snow chains fitted to drive wheels.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Snow Chains Mandatory mandates: Drive only with certified snow chains fitted to drive wheels.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-HAZMAT-PROHIBITED",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "Dangerous Goods (Hazmat) Prohibited",
+    "shortName": "Dangerous Goods",
+    "meaning": "Dangerous Goods (Hazmat) Prohibited",
+    "driverAction": "Vehicles carrying flammable/toxic loads must divert.",
+    "shape": "CIRCLE",
+    "primarySymbol": "ORANGE_EXPLOSION_CIRCLE",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-HAZMAT-PROHIBITED",
+        "officialName": "Dangerous Goods (Hazmat) Prohibited",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-HAZMAT-PROHIBITED",
+        "officialName": "Dangerous Goods (Hazmat) Prohibited",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-HAZMAT-PROHIBITED",
+        "officialName": "Dangerous Goods (Hazmat) Prohibited",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-HAZMAT-PROHIBITED",
+        "officialName": "Dangerous Goods (Hazmat) Prohibited",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-HAZMAT-PROHIBITED",
+        "officialName": "Dangerous Goods (Hazmat) Prohibited",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-HAZMAT-PROHIBITED",
+        "officialName": "Dangerous Goods (Hazmat) Prohibited",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-HAZMAT-PROHIBITED-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the Dangerous Goods (Hazmat) Prohibited sign, what action is legally required?",
+        "options": [
+          "Vehicles carrying flammable/toxic loads must divert.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Dangerous Goods (Hazmat) Prohibited mandates: Vehicles carrying flammable/toxic loads must divert.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-WATER-POLLUTANTS-PROHIBITED",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "Water Polluting Cargo Prohibited",
+    "shortName": "Water Polluting Cargo Prohibited",
+    "meaning": "Water Polluting Cargo Prohibited",
+    "driverAction": "Vehicles carrying water hazards prohibited near catchment areas.",
+    "shape": "CIRCLE",
+    "primarySymbol": "WATER_CARGO_PROHIBITED",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-WATER-POLLUTANTS-PROHIBITED",
+        "officialName": "Water Polluting Cargo Prohibited",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-WATER-POLLUTANTS-PROHIBITED",
+        "officialName": "Water Polluting Cargo Prohibited",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-WATER-POLLUTANTS-PROHIBITED",
+        "officialName": "Water Polluting Cargo Prohibited",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-WATER-POLLUTANTS-PROHIBITED",
+        "officialName": "Water Polluting Cargo Prohibited",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-WATER-POLLUTANTS-PROHIBITED",
+        "officialName": "Water Polluting Cargo Prohibited",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-WATER-POLLUTANTS-PROHIBITED",
+        "officialName": "Water Polluting Cargo Prohibited",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-WATER-POLLUTANTS-PROHIBITED-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the Water Polluting Cargo Prohibited sign, what action is legally required?",
+        "options": [
+          "Vehicles carrying water hazards prohibited near catchment areas.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Water Polluting Cargo Prohibited mandates: Vehicles carrying water hazards prohibited near catchment areas.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-ANIMAL-DRAWN-PROHIBITED",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "No Animal-Drawn Carts",
+    "shortName": "No Animal-Drawn Carts",
+    "meaning": "No Animal-Drawn Carts",
+    "driverAction": "Horse/animal carts prohibited on fast carriage roads.",
+    "shape": "CIRCLE",
+    "primarySymbol": "CART_PROHIBITED",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-ANIMAL-DRAWN-PROHIBITED",
+        "officialName": "No Animal-Drawn Carts",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-ANIMAL-DRAWN-PROHIBITED",
+        "officialName": "No Animal-Drawn Carts",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-ANIMAL-DRAWN-PROHIBITED",
+        "officialName": "No Animal-Drawn Carts",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-ANIMAL-DRAWN-PROHIBITED",
+        "officialName": "No Animal-Drawn Carts",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-ANIMAL-DRAWN-PROHIBITED",
+        "officialName": "No Animal-Drawn Carts",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-ANIMAL-DRAWN-PROHIBITED",
+        "officialName": "No Animal-Drawn Carts",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-ANIMAL-DRAWN-PROHIBITED-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the No Animal-Drawn Carts sign, what action is legally required?",
+        "options": [
+          "Horse/animal carts prohibited on fast carriage roads.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The No Animal-Drawn Carts mandates: Horse/animal carts prohibited on fast carriage roads.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-TRACTOR-PROHIBITED",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "Agricultural Tractors Prohibited",
+    "shortName": "Agricultural Tractors Prohibited",
+    "meaning": "Agricultural Tractors Prohibited",
+    "driverAction": "Slow agricultural tractors must not enter expressway.",
+    "shape": "CIRCLE",
+    "primarySymbol": "TRACTOR_PROHIBITED",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-TRACTOR-PROHIBITED",
+        "officialName": "Agricultural Tractors Prohibited",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-TRACTOR-PROHIBITED",
+        "officialName": "Agricultural Tractors Prohibited",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-TRACTOR-PROHIBITED",
+        "officialName": "Agricultural Tractors Prohibited",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-TRACTOR-PROHIBITED",
+        "officialName": "Agricultural Tractors Prohibited",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-TRACTOR-PROHIBITED",
+        "officialName": "Agricultural Tractors Prohibited",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-TRACTOR-PROHIBITED",
+        "officialName": "Agricultural Tractors Prohibited",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-TRACTOR-PROHIBITED-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the Agricultural Tractors Prohibited sign, what action is legally required?",
+        "options": [
+          "Slow agricultural tractors must not enter expressway.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Agricultural Tractors Prohibited mandates: Slow agricultural tractors must not enter expressway.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-HANDCART-PROHIBITED",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "Handcarts Prohibited",
+    "shortName": "Handcarts Prohibited",
+    "meaning": "Handcarts Prohibited",
+    "driverAction": "Pushcarts prohibited from roadway.",
+    "shape": "CIRCLE",
+    "primarySymbol": "HANDCART_PROHIBITED",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-HANDCART-PROHIBITED",
+        "officialName": "Handcarts Prohibited",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-HANDCART-PROHIBITED",
+        "officialName": "Handcarts Prohibited",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-HANDCART-PROHIBITED",
+        "officialName": "Handcarts Prohibited",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-HANDCART-PROHIBITED",
+        "officialName": "Handcarts Prohibited",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-HANDCART-PROHIBITED",
+        "officialName": "Handcarts Prohibited",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-HANDCART-PROHIBITED",
+        "officialName": "Handcarts Prohibited",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-HANDCART-PROHIBITED-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the Handcarts Prohibited sign, what action is legally required?",
+        "options": [
+          "Pushcarts prohibited from roadway.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Handcarts Prohibited mandates: Pushcarts prohibited from roadway.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-MIN-FOLLOWING-DISTANCE",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "Mandatory Minimum Following Distance",
+    "shortName": "Mandatory Minimum Following Distance",
+    "meaning": "Mandatory Minimum Following Distance",
+    "driverAction": "Maintain at least the posted distance between vehicles.",
+    "shape": "CIRCLE",
+    "primarySymbol": "TWO_CARS_DISTANCE_NUMERAL",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-MIN-FOLLOWING-DISTANCE",
+        "officialName": "Mandatory Minimum Following Distance",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-MIN-FOLLOWING-DISTANCE",
+        "officialName": "Mandatory Minimum Following Distance",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-MIN-FOLLOWING-DISTANCE",
+        "officialName": "Mandatory Minimum Following Distance",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-MIN-FOLLOWING-DISTANCE",
+        "officialName": "Mandatory Minimum Following Distance",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-MIN-FOLLOWING-DISTANCE",
+        "officialName": "Mandatory Minimum Following Distance",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-MIN-FOLLOWING-DISTANCE",
+        "officialName": "Mandatory Minimum Following Distance",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-MIN-FOLLOWING-DISTANCE-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the Mandatory Minimum Following Distance sign, what action is legally required?",
+        "options": [
+          "Maintain at least the posted distance between vehicles.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Mandatory Minimum Following Distance mandates: Maintain at least the posted distance between vehicles.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-PASS-EITHER-SIDE",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "Vehicles May Pass Either Side",
+    "shortName": "Vehicles May Pass Either Side",
+    "meaning": "Vehicles May Pass Either Side",
+    "driverAction": "Traffic may proceed to either the left or right of obstruction.",
+    "shape": "CIRCLE",
+    "primarySymbol": "DOWN_V_ARROWS_BLUE",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-PASS-EITHER-SIDE",
+        "officialName": "Vehicles May Pass Either Side",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-PASS-EITHER-SIDE",
+        "officialName": "Vehicles May Pass Either Side",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-PASS-EITHER-SIDE",
+        "officialName": "Vehicles May Pass Either Side",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-PASS-EITHER-SIDE",
+        "officialName": "Vehicles May Pass Either Side",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-PASS-EITHER-SIDE",
+        "officialName": "Vehicles May Pass Either Side",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-PASS-EITHER-SIDE",
+        "officialName": "Vehicles May Pass Either Side",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-PASS-EITHER-SIDE-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the Vehicles May Pass Either Side sign, what action is legally required?",
+        "options": [
+          "Traffic may proceed to either the left or right of obstruction.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Vehicles May Pass Either Side mandates: Traffic may proceed to either the left or right of obstruction.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-END-RESTRICTIONS",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "End of All Local Prohibitions",
+    "shortName": "End of All Local Prohibitions",
+    "meaning": "End of All Local Prohibitions",
+    "driverAction": "Previous temporary speed or overtaking restrictions end here.",
+    "shape": "CIRCLE",
+    "primarySymbol": "GREY_CIRCLE_FIVE_LINES",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-END-RESTRICTIONS",
+        "officialName": "End of All Local Prohibitions",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-END-RESTRICTIONS",
+        "officialName": "End of All Local Prohibitions",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-END-RESTRICTIONS",
+        "officialName": "End of All Local Prohibitions",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-END-RESTRICTIONS",
+        "officialName": "End of All Local Prohibitions",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-END-RESTRICTIONS",
+        "officialName": "End of All Local Prohibitions",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-END-RESTRICTIONS",
+        "officialName": "End of All Local Prohibitions",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-END-RESTRICTIONS-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the End of All Local Prohibitions sign, what action is legally required?",
+        "options": [
+          "Previous temporary speed or overtaking restrictions end here.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The End of All Local Prohibitions mandates: Previous temporary speed or overtaking restrictions end here.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-RESTRICTED-HOURS-PARKING",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "Restricted Hours Waiting",
+    "shortName": "Restricted Hours Waiting",
+    "meaning": "Restricted Hours Waiting",
+    "driverAction": "Parking prohibited during specified peak hours.",
+    "shape": "CIRCLE",
+    "primarySymbol": "NO_PARKING_HOURS_PLATE",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-RESTRICTED-HOURS-PARKING",
+        "officialName": "Restricted Hours Waiting",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-RESTRICTED-HOURS-PARKING",
+        "officialName": "Restricted Hours Waiting",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-RESTRICTED-HOURS-PARKING",
+        "officialName": "Restricted Hours Waiting",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-RESTRICTED-HOURS-PARKING",
+        "officialName": "Restricted Hours Waiting",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-RESTRICTED-HOURS-PARKING",
+        "officialName": "Restricted Hours Waiting",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-RESTRICTED-HOURS-PARKING",
+        "officialName": "Restricted Hours Waiting",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-RESTRICTED-HOURS-PARKING-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the Restricted Hours Waiting sign, what action is legally required?",
+        "options": [
+          "Parking prohibited during specified peak hours.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Restricted Hours Waiting mandates: Parking prohibited during specified peak hours.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-LOADING-ZONE",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "Loading / Unloading Only",
+    "shortName": "Loading / Unloading Only",
+    "meaning": "Loading / Unloading Only",
+    "driverAction": "Reserved strictly for active commercial freight loading.",
+    "shape": "CIRCLE",
+    "primarySymbol": "LOADING_ZONE_WHITE",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-LOADING-ZONE",
+        "officialName": "Loading / Unloading Only",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-LOADING-ZONE",
+        "officialName": "Loading / Unloading Only",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-LOADING-ZONE",
+        "officialName": "Loading / Unloading Only",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-LOADING-ZONE",
+        "officialName": "Loading / Unloading Only",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-LOADING-ZONE",
+        "officialName": "Loading / Unloading Only",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-LOADING-ZONE",
+        "officialName": "Loading / Unloading Only",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-LOADING-ZONE-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the Loading / Unloading Only sign, what action is legally required?",
+        "options": [
+          "Reserved strictly for active commercial freight loading.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Loading / Unloading Only mandates: Reserved strictly for active commercial freight loading.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-DISABLED-PARKING-ONLY",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "Disabled Persons Parking Bay",
+    "shortName": "Disabled Persons Parking Bay",
+    "meaning": "Disabled Persons Parking Bay",
+    "driverAction": "Reserved exclusively for vehicles displaying valid disability permit.",
+    "shape": "CIRCLE",
+    "primarySymbol": "WHEELCHAIR_BLUE",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-DISABLED-PARKING-ONLY",
+        "officialName": "Disabled Persons Parking Bay",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-DISABLED-PARKING-ONLY",
+        "officialName": "Disabled Persons Parking Bay",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-DISABLED-PARKING-ONLY",
+        "officialName": "Disabled Persons Parking Bay",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-DISABLED-PARKING-ONLY",
+        "officialName": "Disabled Persons Parking Bay",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-DISABLED-PARKING-ONLY",
+        "officialName": "Disabled Persons Parking Bay",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-DISABLED-PARKING-ONLY",
+        "officialName": "Disabled Persons Parking Bay",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-DISABLED-PARKING-ONLY-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the Disabled Persons Parking Bay sign, what action is legally required?",
+        "options": [
+          "Reserved exclusively for vehicles displaying valid disability permit.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Disabled Persons Parking Bay mandates: Reserved exclusively for vehicles displaying valid disability permit.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-RESIDENTIAL-ZONE",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "Living / Residential Zone",
+    "shortName": "Living / Residential Zone",
+    "meaning": "Living / Residential Zone",
+    "driverAction": "Drive at walking speed; pedestrians have absolute priority.",
+    "shape": "CIRCLE",
+    "primarySymbol": "HOUSE_PLAYING_CHILDREN",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-RESIDENTIAL-ZONE",
+        "officialName": "Living / Residential Zone",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-RESIDENTIAL-ZONE",
+        "officialName": "Living / Residential Zone",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-RESIDENTIAL-ZONE",
+        "officialName": "Living / Residential Zone",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-RESIDENTIAL-ZONE",
+        "officialName": "Living / Residential Zone",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-RESIDENTIAL-ZONE",
+        "officialName": "Living / Residential Zone",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-RESIDENTIAL-ZONE",
+        "officialName": "Living / Residential Zone",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-RESIDENTIAL-ZONE-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the Living / Residential Zone sign, what action is legally required?",
+        "options": [
+          "Drive at walking speed; pedestrians have absolute priority.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Living / Residential Zone mandates: Drive at walking speed; pedestrians have absolute priority.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-END-RESIDENTIAL-ZONE",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "End of Residential Zone",
+    "shortName": "End of Residential Zone",
+    "meaning": "End of Residential Zone",
+    "driverAction": "Standard town speed limit and right-of-way rules apply.",
+    "shape": "CIRCLE",
+    "primarySymbol": "HOUSE_SLASHED",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-END-RESIDENTIAL-ZONE",
+        "officialName": "End of Residential Zone",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-END-RESIDENTIAL-ZONE",
+        "officialName": "End of Residential Zone",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-END-RESIDENTIAL-ZONE",
+        "officialName": "End of Residential Zone",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-END-RESIDENTIAL-ZONE",
+        "officialName": "End of Residential Zone",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-END-RESIDENTIAL-ZONE",
+        "officialName": "End of Residential Zone",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-END-RESIDENTIAL-ZONE",
+        "officialName": "End of Residential Zone",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-END-RESIDENTIAL-ZONE-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the End of Residential Zone sign, what action is legally required?",
+        "options": [
+          "Standard town speed limit and right-of-way rules apply.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The End of Residential Zone mandates: Standard town speed limit and right-of-way rules apply.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-MOTORWAY-ENTRY",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "Motorway / Highway Regulations Apply",
+    "shortName": "Motorway / Highway Regulations Apply",
+    "meaning": "Motorway / Highway Regulations Apply",
+    "driverAction": "Special motorway rules apply: no stopping, minimum speed, no U-turns.",
+    "shape": "CIRCLE",
+    "primarySymbol": "GREEN_BLUE_MOTORWAY_SIGN",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-MOTORWAY-ENTRY",
+        "officialName": "Motorway / Highway Regulations Apply",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-MOTORWAY-ENTRY",
+        "officialName": "Motorway / Highway Regulations Apply",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-MOTORWAY-ENTRY",
+        "officialName": "Motorway / Highway Regulations Apply",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-MOTORWAY-ENTRY",
+        "officialName": "Motorway / Highway Regulations Apply",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-MOTORWAY-ENTRY",
+        "officialName": "Motorway / Highway Regulations Apply",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-MOTORWAY-ENTRY",
+        "officialName": "Motorway / Highway Regulations Apply",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-MOTORWAY-ENTRY-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the Motorway / Highway Regulations Apply sign, what action is legally required?",
+        "options": [
+          "Special motorway rules apply: no stopping, minimum speed, no U-turns.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Motorway / Highway Regulations Apply mandates: Special motorway rules apply: no stopping, minimum speed, no U-turns.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-MOTORWAY-EXIT",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "End of Motorway",
+    "shortName": "End of Motorway",
+    "meaning": "End of Motorway",
+    "driverAction": "Prepare for at-grade intersections, pedestrian crossings, and reduced speed.",
+    "shape": "CIRCLE",
+    "primarySymbol": "MOTORWAY_SLASHED",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-MOTORWAY-EXIT",
+        "officialName": "End of Motorway",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-MOTORWAY-EXIT",
+        "officialName": "End of Motorway",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-MOTORWAY-EXIT",
+        "officialName": "End of Motorway",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-MOTORWAY-EXIT",
+        "officialName": "End of Motorway",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-MOTORWAY-EXIT",
+        "officialName": "End of Motorway",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-MOTORWAY-EXIT",
+        "officialName": "End of Motorway",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-MOTORWAY-EXIT-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the End of Motorway sign, what action is legally required?",
+        "options": [
+          "Prepare for at-grade intersections, pedestrian crossings, and reduced speed.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The End of Motorway mandates: Prepare for at-grade intersections, pedestrian crossings, and reduced speed.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-EMERGENCY-STOPPING-ONLY",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "Emergency Stopping Only (Hard Shoulder)",
+    "shortName": "Emergency Stopping Only",
+    "meaning": "Emergency Stopping Only (Hard Shoulder)",
+    "driverAction": "Do not pull over onto shoulder except for genuine breakdown or medical emergency.",
+    "shape": "CIRCLE",
+    "primarySymbol": "SOS_SHOULDER",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-EMERGENCY-STOPPING-ONLY",
+        "officialName": "Emergency Stopping Only (Hard Shoulder)",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-EMERGENCY-STOPPING-ONLY",
+        "officialName": "Emergency Stopping Only (Hard Shoulder)",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-EMERGENCY-STOPPING-ONLY",
+        "officialName": "Emergency Stopping Only (Hard Shoulder)",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-EMERGENCY-STOPPING-ONLY",
+        "officialName": "Emergency Stopping Only (Hard Shoulder)",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-EMERGENCY-STOPPING-ONLY",
+        "officialName": "Emergency Stopping Only (Hard Shoulder)",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-EMERGENCY-STOPPING-ONLY",
+        "officialName": "Emergency Stopping Only (Hard Shoulder)",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-EMERGENCY-STOPPING-ONLY-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the Emergency Stopping Only (Hard Shoulder) sign, what action is legally required?",
+        "options": [
+          "Do not pull over onto shoulder except for genuine breakdown or medical emergency.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Emergency Stopping Only (Hard Shoulder) mandates: Do not pull over onto shoulder except for genuine breakdown or medical emergency.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-OVERTAKING-BY-TRUCKS-PROHIBITED",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "Overtaking by Trucks Prohibited",
+    "shortName": "Overtaking by Trucks Prohibited",
+    "meaning": "Overtaking by Trucks Prohibited",
+    "driverAction": "Vehicles over 3.5 tonnes must stay in slow lane; no passing.",
+    "shape": "CIRCLE",
+    "primarySymbol": "TRUCK_RED_CAR_BLACK",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-OVERTAKING-BY-TRUCKS-PROHIBITED",
+        "officialName": "Overtaking by Trucks Prohibited",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-OVERTAKING-BY-TRUCKS-PROHIBITED",
+        "officialName": "Overtaking by Trucks Prohibited",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-OVERTAKING-BY-TRUCKS-PROHIBITED",
+        "officialName": "Overtaking by Trucks Prohibited",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-OVERTAKING-BY-TRUCKS-PROHIBITED",
+        "officialName": "Overtaking by Trucks Prohibited",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-OVERTAKING-BY-TRUCKS-PROHIBITED",
+        "officialName": "Overtaking by Trucks Prohibited",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-OVERTAKING-BY-TRUCKS-PROHIBITED",
+        "officialName": "Overtaking by Trucks Prohibited",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-OVERTAKING-BY-TRUCKS-PROHIBITED-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the Overtaking by Trucks Prohibited sign, what action is legally required?",
+        "options": [
+          "Vehicles over 3.5 tonnes must stay in slow lane; no passing.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Overtaking by Trucks Prohibited mandates: Vehicles over 3.5 tonnes must stay in slow lane; no passing.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-COMPULSORY-LIGHTS-ON",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "Turn On Headlights Mandatorily",
+    "shortName": "Turn On Headlights Mandatorily",
+    "meaning": "Turn On Headlights Mandatorily",
+    "driverAction": "Switch on low-beam headlights before entering tunnel.",
+    "shape": "CIRCLE",
+    "primarySymbol": "HEADLIGHT_BLUE_CIRCLE",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-COMPULSORY-LIGHTS-ON",
+        "officialName": "Turn On Headlights Mandatorily",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-COMPULSORY-LIGHTS-ON",
+        "officialName": "Turn On Headlights Mandatorily",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-COMPULSORY-LIGHTS-ON",
+        "officialName": "Turn On Headlights Mandatorily",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-COMPULSORY-LIGHTS-ON",
+        "officialName": "Turn On Headlights Mandatorily",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-COMPULSORY-LIGHTS-ON",
+        "officialName": "Turn On Headlights Mandatorily",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-COMPULSORY-LIGHTS-ON",
+        "officialName": "Turn On Headlights Mandatorily",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-COMPULSORY-LIGHTS-ON-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the Turn On Headlights Mandatorily sign, what action is legally required?",
+        "options": [
+          "Switch on low-beam headlights before entering tunnel.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Turn On Headlights Mandatorily mandates: Switch on low-beam headlights before entering tunnel.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-REVERSIBLE-LANE-OVERHEAD",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "Reversible Lane Direction",
+    "shortName": "Reversible Lane Direction",
+    "meaning": "Reversible Lane Direction",
+    "driverAction": "Obey overhead lane signal (Green Arrow or Red X).",
+    "shape": "CIRCLE",
+    "primarySymbol": "OVERHEAD_LANE_SIGN",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-REVERSIBLE-LANE-OVERHEAD",
+        "officialName": "Reversible Lane Direction",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-REVERSIBLE-LANE-OVERHEAD",
+        "officialName": "Reversible Lane Direction",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-REVERSIBLE-LANE-OVERHEAD",
+        "officialName": "Reversible Lane Direction",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-REVERSIBLE-LANE-OVERHEAD",
+        "officialName": "Reversible Lane Direction",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-REVERSIBLE-LANE-OVERHEAD",
+        "officialName": "Reversible Lane Direction",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-REVERSIBLE-LANE-OVERHEAD",
+        "officialName": "Reversible Lane Direction",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-REVERSIBLE-LANE-OVERHEAD-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the Reversible Lane Direction sign, what action is legally required?",
+        "options": [
+          "Obey overhead lane signal (Green Arrow or Red X).",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Reversible Lane Direction mandates: Obey overhead lane signal (Green Arrow or Red X).",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-PRIORITY-OVER-ONCOMING",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "Priority Over Oncoming Vehicles",
+    "shortName": "Priority Over Oncoming Vehicles",
+    "meaning": "Priority Over Oncoming Vehicles",
+    "driverAction": "You have right-of-way through narrow bridge/gap; oncoming yields.",
+    "shape": "CIRCLE",
+    "primarySymbol": "WHITE_ARROW_RED_ARROW_BLUE",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-PRIORITY-OVER-ONCOMING",
+        "officialName": "Priority Over Oncoming Vehicles",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-PRIORITY-OVER-ONCOMING",
+        "officialName": "Priority Over Oncoming Vehicles",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-PRIORITY-OVER-ONCOMING",
+        "officialName": "Priority Over Oncoming Vehicles",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-PRIORITY-OVER-ONCOMING",
+        "officialName": "Priority Over Oncoming Vehicles",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-PRIORITY-OVER-ONCOMING",
+        "officialName": "Priority Over Oncoming Vehicles",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-PRIORITY-OVER-ONCOMING",
+        "officialName": "Priority Over Oncoming Vehicles",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-PRIORITY-OVER-ONCOMING-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the Priority Over Oncoming Vehicles sign, what action is legally required?",
+        "options": [
+          "You have right-of-way through narrow bridge/gap; oncoming yields.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Priority Over Oncoming Vehicles mandates: You have right-of-way through narrow bridge/gap; oncoming yields.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-GIVE-WAY-TO-ONCOMING",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "Give Way to Oncoming Traffic",
+    "shortName": "Give Way to Oncoming Traffic",
+    "meaning": "Give Way to Oncoming Traffic",
+    "driverAction": "Oncoming vehicles have right-of-way; wait at narrow section.",
+    "shape": "CIRCLE",
+    "primarySymbol": "RED_ARROW_BLACK_ARROW_CIRCLE",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-GIVE-WAY-TO-ONCOMING",
+        "officialName": "Give Way to Oncoming Traffic",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-GIVE-WAY-TO-ONCOMING",
+        "officialName": "Give Way to Oncoming Traffic",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-GIVE-WAY-TO-ONCOMING",
+        "officialName": "Give Way to Oncoming Traffic",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-GIVE-WAY-TO-ONCOMING",
+        "officialName": "Give Way to Oncoming Traffic",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-GIVE-WAY-TO-ONCOMING",
+        "officialName": "Give Way to Oncoming Traffic",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-GIVE-WAY-TO-ONCOMING",
+        "officialName": "Give Way to Oncoming Traffic",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-GIVE-WAY-TO-ONCOMING-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the Give Way to Oncoming Traffic sign, what action is legally required?",
+        "options": [
+          "Oncoming vehicles have right-of-way; wait at narrow section.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Give Way to Oncoming Traffic mandates: Oncoming vehicles have right-of-way; wait at narrow section.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-TAXI-STAND",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "Authorized Taxi Stand Only",
+    "shortName": "Authorized Taxi Stand Only",
+    "meaning": "Authorized Taxi Stand Only",
+    "driverAction": "Private vehicles may not wait or park in designated taxi queue.",
+    "shape": "CIRCLE",
+    "primarySymbol": "TAXI_BAY_PLATE",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-TAXI-STAND",
+        "officialName": "Authorized Taxi Stand Only",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-TAXI-STAND",
+        "officialName": "Authorized Taxi Stand Only",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-TAXI-STAND",
+        "officialName": "Authorized Taxi Stand Only",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-TAXI-STAND",
+        "officialName": "Authorized Taxi Stand Only",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-TAXI-STAND",
+        "officialName": "Authorized Taxi Stand Only",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-TAXI-STAND",
+        "officialName": "Authorized Taxi Stand Only",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-TAXI-STAND-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the Authorized Taxi Stand Only sign, what action is legally required?",
+        "options": [
+          "Private vehicles may not wait or park in designated taxi queue.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Authorized Taxi Stand Only mandates: Private vehicles may not wait or park in designated taxi queue.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-STAND-CLEAR-CROSS-HATCH",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "Do Not Block Box Junction (Yellow Box)",
+    "shortName": "Do Not Block Box Junction",
+    "meaning": "Do Not Block Box Junction (Yellow Box)",
+    "driverAction": "Do not enter the yellow criss-cross box unless your exit is clear.",
+    "shape": "CIRCLE",
+    "primarySymbol": "YELLOW_GRID_MARKING",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-STAND-CLEAR-CROSS-HATCH",
+        "officialName": "Do Not Block Box Junction (Yellow Box)",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-STAND-CLEAR-CROSS-HATCH",
+        "officialName": "Do Not Block Box Junction (Yellow Box)",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-STAND-CLEAR-CROSS-HATCH",
+        "officialName": "Do Not Block Box Junction (Yellow Box)",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-STAND-CLEAR-CROSS-HATCH",
+        "officialName": "Do Not Block Box Junction (Yellow Box)",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-STAND-CLEAR-CROSS-HATCH",
+        "officialName": "Do Not Block Box Junction (Yellow Box)",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-STAND-CLEAR-CROSS-HATCH",
+        "officialName": "Do Not Block Box Junction (Yellow Box)",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-STAND-CLEAR-CROSS-HATCH-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the Do Not Block Box Junction (Yellow Box) sign, what action is legally required?",
+        "options": [
+          "Do not enter the yellow criss-cross box unless your exit is clear.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Do Not Block Box Junction (Yellow Box) mandates: Do not enter the yellow criss-cross box unless your exit is clear.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-SPEED-LIMIT-30",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "Maximum Speed Limit 30 (School/Neighborhood)",
+    "shortName": "Maximum Speed Limit 30",
+    "meaning": "Maximum Speed Limit 30 (School/Neighborhood)",
+    "driverAction": "Slow to maximum 30 units; watch for children and cyclists.",
+    "shape": "CIRCLE",
+    "primarySymbol": "NUMERAL_30",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-SPEED-LIMIT-30",
+        "officialName": "Maximum Speed Limit 30 (School/Neighborhood)",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-SPEED-LIMIT-30",
+        "officialName": "Maximum Speed Limit 30 (School/Neighborhood)",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-SPEED-LIMIT-30",
+        "officialName": "Maximum Speed Limit 30 (School/Neighborhood)",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-SPEED-LIMIT-30",
+        "officialName": "Maximum Speed Limit 30 (School/Neighborhood)",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-SPEED-LIMIT-30",
+        "officialName": "Maximum Speed Limit 30 (School/Neighborhood)",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-SPEED-LIMIT-30",
+        "officialName": "Maximum Speed Limit 30 (School/Neighborhood)",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-SPEED-LIMIT-30-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the Maximum Speed Limit 30 (School/Neighborhood) sign, what action is legally required?",
+        "options": [
+          "Slow to maximum 30 units; watch for children and cyclists.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Maximum Speed Limit 30 (School/Neighborhood) mandates: Slow to maximum 30 units; watch for children and cyclists.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-SPEED-LIMIT-80",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "Maximum Speed Limit 80 (Rural/Expressway)",
+    "shortName": "Maximum Speed Limit 80",
+    "meaning": "Maximum Speed Limit 80 (Rural/Expressway)",
+    "driverAction": "Travel at maximum 80 units.",
+    "shape": "CIRCLE",
+    "primarySymbol": "NUMERAL_80",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-SPEED-LIMIT-80",
+        "officialName": "Maximum Speed Limit 80 (Rural/Expressway)",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-SPEED-LIMIT-80",
+        "officialName": "Maximum Speed Limit 80 (Rural/Expressway)",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-SPEED-LIMIT-80",
+        "officialName": "Maximum Speed Limit 80 (Rural/Expressway)",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-SPEED-LIMIT-80",
+        "officialName": "Maximum Speed Limit 80 (Rural/Expressway)",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-SPEED-LIMIT-80",
+        "officialName": "Maximum Speed Limit 80 (Rural/Expressway)",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-SPEED-LIMIT-80",
+        "officialName": "Maximum Speed Limit 80 (Rural/Expressway)",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-SPEED-LIMIT-80-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the Maximum Speed Limit 80 (Rural/Expressway) sign, what action is legally required?",
+        "options": [
+          "Travel at maximum 80 units.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Maximum Speed Limit 80 (Rural/Expressway) mandates: Travel at maximum 80 units.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-SPEED-LIMIT-100",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "Maximum Speed Limit 100 (High Speed Arterial)",
+    "shortName": "Maximum Speed Limit 100",
+    "meaning": "Maximum Speed Limit 100 (High Speed Arterial)",
+    "driverAction": "Maintain high speed lane discipline; max 100 units.",
+    "shape": "CIRCLE",
+    "primarySymbol": "NUMERAL_100",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-SPEED-LIMIT-100",
+        "officialName": "Maximum Speed Limit 100 (High Speed Arterial)",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-SPEED-LIMIT-100",
+        "officialName": "Maximum Speed Limit 100 (High Speed Arterial)",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-SPEED-LIMIT-100",
+        "officialName": "Maximum Speed Limit 100 (High Speed Arterial)",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-SPEED-LIMIT-100",
+        "officialName": "Maximum Speed Limit 100 (High Speed Arterial)",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-SPEED-LIMIT-100",
+        "officialName": "Maximum Speed Limit 100 (High Speed Arterial)",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-SPEED-LIMIT-100",
+        "officialName": "Maximum Speed Limit 100 (High Speed Arterial)",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-SPEED-LIMIT-100-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the Maximum Speed Limit 100 (High Speed Arterial) sign, what action is legally required?",
+        "options": [
+          "Maintain high speed lane discipline; max 100 units.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Maximum Speed Limit 100 (High Speed Arterial) mandates: Maintain high speed lane discipline; max 100 units.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "REG-SPEED-LIMIT-120",
+    "category": "TRAFFIC_REGULATORY",
+    "subCategory": "STANDARD_RESTRICTION",
+    "canonicalName": "Maximum Speed Limit 120 (Motorway/Interstate)",
+    "shortName": "Maximum Speed Limit 120",
+    "meaning": "Maximum Speed Limit 120 (Motorway/Interstate)",
+    "driverAction": "Maximum legal motorway speed limit.",
+    "shape": "CIRCLE",
+    "primarySymbol": "NUMERAL_120",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-REG-SPEED-LIMIT-120",
+        "officialName": "Maximum Speed Limit 120 (Motorway/Interstate)",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-REG-SPEED-LIMIT-120",
+        "officialName": "Maximum Speed Limit 120 (Motorway/Interstate)",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-REG-SPEED-LIMIT-120",
+        "officialName": "Maximum Speed Limit 120 (Motorway/Interstate)",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-REG-SPEED-LIMIT-120",
+        "officialName": "Maximum Speed Limit 120 (Motorway/Interstate)",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-REG-SPEED-LIMIT-120",
+        "officialName": "Maximum Speed Limit 120 (Motorway/Interstate)",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-REG-SPEED-LIMIT-120",
+        "officialName": "Maximum Speed Limit 120 (Motorway/Interstate)",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-REG-SPEED-LIMIT-120-01",
+        "questionType": "DRIVER_ACTION",
+        "difficulty": "MEDIUM",
+        "text": "When you see the Maximum Speed Limit 120 (Motorway/Interstate) sign, what action is legally required?",
+        "options": [
+          "Maximum legal motorway speed limit.",
+          "Speed up to clear the section before oncoming traffic appears.",
+          "Disregard the sign if no enforcement cameras are visible.",
+          "Sound your horn and proceed without reducing speed."
+        ],
+        "correctIndex": 0,
+        "explanation": "The Maximum Speed Limit 120 (Motorway/Interstate) mandates: Maximum legal motorway speed limit.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  }
+]

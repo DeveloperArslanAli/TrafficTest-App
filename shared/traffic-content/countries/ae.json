@@ -1,0 +1,53 @@
+{
+  "code": "AE",
+  "name": "United Arab Emirates",
+  "flagEmoji": "🇦🇪",
+  "authorities": [
+    "AUTH-AE-RTA"
+  ],
+  "jurisdictions": [
+    {
+      "code": "DUBAI",
+      "name": "Dubai (RTA)",
+      "type": "EMIRATE"
+    },
+    {
+      "code": "ABU_DHABI",
+      "name": "Abu Dhabi (ITC)",
+      "type": "EMIRATE"
+    },
+    {
+      "code": "SHARJAH",
+      "name": "Sharjah",
+      "type": "EMIRATE"
+    }
+  ],
+  "rules": [
+    {
+      "questionCode": "Q-AE-RULE-01",
+      "text": "In Dubai under RTA rules, what must a driver do when approaching an intersection crossed by the Dubai Tramway?",
+      "options": [
+        "Always give absolute priority to the tram; jumping a red light at a tram intersection is a major offense with heavy fines.",
+        "Trams must yield right-of-way to private motor vehicles.",
+        "Vehicles may enter and stop on tram tracks while waiting for traffic.",
+        "Sound your horn to alert tram operators to stop."
+      ],
+      "correctIndex": 0,
+      "explanation": "In Dubai, trams have unconditional priority at all intersections. Infringing tram signals carries severe penalties under RTA and Dubai Police laws.",
+      "sourceCode": "SRC-RTA-HANDBOOK"
+    },
+    {
+      "questionCode": "Q-AE-RULE-02",
+      "text": "Under UAE Federal Traffic Law, what is the buffer speed rule in Dubai compared to Abu Dhabi?",
+      "options": [
+        "Dubai enforces a 20 km/h grace buffer over posted speed signs, whereas Abu Dhabi enforces the exact posted sign speed with zero buffer.",
+        "Both emirates have identical 30 km/h buffers.",
+        "Abu Dhabi allows 20 km/h buffer while Dubai has zero buffer.",
+        "Speed cameras only operate above 160 km/h."
+      ],
+      "correctIndex": 0,
+      "explanation": "In Abu Dhabi, the posted speed limit is the exact camera trigger speed (zero buffer). Dubai maintains a standard 20 km/h radar grace margin above the sign limit.",
+      "sourceCode": "SRC-RTA-HANDBOOK"
+    }
+  ]
+}

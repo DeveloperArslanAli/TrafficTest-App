@@ -1,0 +1,43 @@
+{
+  "code": "GB",
+  "name": "United Kingdom",
+  "flagEmoji": "🇬🇧",
+  "authorities": [
+    "AUTH-UK-DFT"
+  ],
+  "jurisdictions": [
+    {
+      "code": "NATIONAL",
+      "name": "Great Britain (England, Scotland, Wales)",
+      "type": "NATIONAL"
+    }
+  ],
+  "rules": [
+    {
+      "questionCode": "Q-GB-RULE-01",
+      "text": "Under the UK Highway Code, what is the national speed limit on a single carriageway road for cars and motorcycles unless posted otherwise?",
+      "options": [
+        "60 mph",
+        "70 mph",
+        "50 mph",
+        "40 mph"
+      ],
+      "correctIndex": 0,
+      "explanation": "The UK national speed limit on single carriageways for cars is 60 mph (approx 96 km/h). On dual carriageways and motorways it is 70 mph.",
+      "sourceCode": "SRC-UK-HIGHWAY-CODE"
+    },
+    {
+      "questionCode": "Q-GB-RULE-02",
+      "text": "In the UK Highway Code, what does a pedestrian crossing marked with black and white stripes and flashing amber globes (Belisha beacons) indicate?",
+      "options": [
+        "Zebra Crossing: Drivers must give way to pedestrians who have stepped onto the crossing.",
+        "Pelican Crossing: Controlled by push-button traffic lights.",
+        "Toucan Crossing: Intended exclusively for horse riders.",
+        "Puffin Crossing: Infrared sensors maintain red light."
+      ],
+      "correctIndex": 0,
+      "explanation": "Rule 195 of the UK Highway Code states that drivers must give way to pedestrians waiting to cross or on a Zebra crossing.",
+      "sourceCode": "SRC-UK-HIGHWAY-CODE"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "code": "AU",
+  "name": "Australia",
+  "flagEmoji": "🇦🇺",
+  "authorities": [
+    "AUTH-AU-AUSTROADS"
+  ],
+  "jurisdictions": [
+    {
+      "code": "NSW",
+      "name": "New South Wales (Transport for NSW)",
+      "type": "STATE"
+    },
+    {
+      "code": "VIC",
+      "name": "Victoria (VicRoads)",
+      "type": "STATE"
+    },
+    {
+      "code": "QLD",
+      "name": "Queensland (TMR)",
+      "type": "STATE"
+    }
+  ],
+  "rules": [
+    {
+      "questionCode": "Q-AU-RULE-01",
+      "text": "Under Australian Road Rules, what is the default speed limit in built-up urban areas unless signs show otherwise?",
+      "options": [
+        "50 km/h",
+        "60 km/h",
+        "40 km/h",
+        "70 km/h"
+      ],
+      "correctIndex": 0,
+      "explanation": "Under the Australian Road Rules (ARR), the default speed limit in any built-up urban area across all states is 50 km/h.",
+      "sourceCode": "SRC-AUSTROADS-GUIDE"
+    }
+  ]
+}

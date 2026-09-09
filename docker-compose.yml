@@ -1,0 +1,72 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: roadwise_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: roadwise
+      POSTGRES_PASSWORD: secret
+      POSTGRES_DB: roadwise
+    ports:
+      - '5432:5432'
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U roadwise']
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:7-alpine
+    container_name: roadwise_redis
+    restart: unless-stopped
+    ports:
+      - '6379:6379'
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ['CMD', 'redis-cli', 'ping']
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: roadwise_backend
+    restart: unless-stopped
+    ports:
+      - '3000:3000'
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    env_file:
+      - ./backend/.env
+    environment:
+      DATABASE_URL: postgresql://roadwise:secret@postgres:5432/roadwise
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
+    volumes:
+      - ./backend:/app
+      - /app/node_modules
+
+  admin:
+    build:
+      context: ./admin
+      dockerfile: Dockerfile
+    container_name: roadwise_admin
+    restart: unless-stopped
+    ports:
+      - '8080:80'
+    depends_on:
+      - backend
+
+volumes:
+  postgres_data:
+  redis_data:

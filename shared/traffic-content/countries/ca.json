@@ -1,0 +1,40 @@
+{
+  "code": "CA",
+  "name": "Canada",
+  "flagEmoji": "🇨🇦",
+  "authorities": [
+    "AUTH-CA-TC"
+  ],
+  "jurisdictions": [
+    {
+      "code": "ONTARIO",
+      "name": "Ontario (MTO)",
+      "type": "PROVINCE"
+    },
+    {
+      "code": "QUEBEC",
+      "name": "Quebec (SAAQ)",
+      "type": "PROVINCE"
+    },
+    {
+      "code": "BC",
+      "name": "British Columbia (ICBC)",
+      "type": "PROVINCE"
+    }
+  ],
+  "rules": [
+    {
+      "questionCode": "Q-CA-ON-RULE-01",
+      "text": "Under the Ontario Official Driver's Handbook, what does a flashing green traffic light indicate?",
+      "options": [
+        "You may turn left, go straight, or turn right while oncoming traffic faces a red light (advanced green).",
+        "The traffic light is out of order and must be treated as a 4-way stop.",
+        "Pedestrians have right-of-way to cross before vehicles move.",
+        "The intersection will change to flashing red within 3 seconds."
+      ],
+      "correctIndex": 0,
+      "explanation": "In Ontario, a flashing green light or green arrow is an advanced green signal giving priority to proceed or turn while opposing traffic is stopped.",
+      "sourceCode": "SRC-ONTARIO-MTO"
+    }
+  ]
+}

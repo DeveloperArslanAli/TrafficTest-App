@@ -1,0 +1,2402 @@
+[
+  {
+    "conceptCode": "GEN-RIGHT-OF-WAY-UNCONTROLLED",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Right-of-Way at Uncontrolled Intersections",
+    "ruleSummary": "Yield to the vehicle approaching from your right (or left in UK/AU drive-left countries).",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-RIGHT-OF-WAY-UNCONTROLLED-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "EASY",
+        "text": "Right-of-Way at Uncontrolled Intersections: What is the proper driving procedure?",
+        "options": [
+          "Yield right of way and proceed cautiously.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Yield to the vehicle approaching from your right (or left in UK/AU drive-left countries). Therefore, the correct rule is: Yield right of way and proceed cautiously.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-FOLLOWING-DISTANCE-DRY",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Following Distance on Dry Roads",
+    "ruleSummary": "Maintain at least a 2-second gap (3 seconds in US/Canada) under normal dry conditions.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-FOLLOWING-DISTANCE-DRY-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "MEDIUM",
+        "text": "Safe Following Distance on Dry Roads: What is the proper driving procedure?",
+        "options": [
+          "Pick a stationary checkpoint; count at least two to three seconds.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Maintain at least a 2-second gap (3 seconds in US/Canada) under normal dry conditions. Therefore, the correct rule is: Pick a stationary checkpoint; count at least two to three seconds.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-FOLLOWING-DISTANCE-WET",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Following Distance on Wet Roads",
+    "ruleSummary": "Double your normal following distance to at least 4 to 6 seconds on wet asphalt.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-FOLLOWING-DISTANCE-WET-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "HARD",
+        "text": "Safe Following Distance on Wet Roads: What is the proper driving procedure?",
+        "options": [
+          "Increase gap to prevent hydroplaning and account for longer stopping distance.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Double your normal following distance to at least 4 to 6 seconds on wet asphalt. Therefore, the correct rule is: Increase gap to prevent hydroplaning and account for longer stopping distance.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-HYDROPLANING-ACTION",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Recovery from Hydroplaning / Aquaplaning",
+    "ruleSummary": "Tires lose contact with road surface riding on water film.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-HYDROPLANING-ACTION-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "EASY",
+        "text": "Recovery from Hydroplaning / Aquaplaning: What is the proper driving procedure?",
+        "options": [
+          "Ease foot off accelerator, hold steering wheel straight, do not slam on brakes.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Tires lose contact with road surface riding on water film. Therefore, the correct rule is: Ease foot off accelerator, hold steering wheel straight, do not slam on brakes.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-EMERGENCY-VEHICLES-ACTION",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Approaching Emergency Vehicle with Siren / Flashers",
+    "ruleSummary": "Ambulances, fire trucks, and police require immediate clear passage.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-EMERGENCY-VEHICLES-ACTION-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "MEDIUM",
+        "text": "Approaching Emergency Vehicle with Siren / Flashers: What is the proper driving procedure?",
+        "options": [
+          "Safely pull over to the nearest curb edge, stop, and remain stationary until passed.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Ambulances, fire trucks, and police require immediate clear passage. Therefore, the correct rule is: Safely pull over to the nearest curb edge, stop, and remain stationary until passed.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SEAT-BELT-REQUIREMENT",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Seat Belt Safety Obligations",
+    "ruleSummary": "All vehicle occupants must wear certified three-point seat belts.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SEAT-BELT-REQUIREMENT-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "HARD",
+        "text": "Seat Belt Safety Obligations: What is the proper driving procedure?",
+        "options": [
+          "Driver must ensure all passengers are securely buckled before vehicle moves.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "All vehicle occupants must wear certified three-point seat belts. Therefore, the correct rule is: Driver must ensure all passengers are securely buckled before vehicle moves.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-CHILD-CAR-SEAT",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Child Restraint Safety Standards",
+    "ruleSummary": "Children must use age, weight, and height-appropriate rear or forward-facing safety seats.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-CHILD-CAR-SEAT-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "EASY",
+        "text": "Child Restraint Safety Standards: What is the proper driving procedure?",
+        "options": [
+          "Never hold a child in your lap; never place rear-facing seat in front of active airbag.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Children must use age, weight, and height-appropriate rear or forward-facing safety seats. Therefore, the correct rule is: Never hold a child in your lap; never place rear-facing seat in front of active airbag.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-DISTRACTED-MOBILE-PHONE",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Mobile Phone Use While Driving",
+    "ruleSummary": "Handheld phone use while driving is prohibited and severely impairs reaction time.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-DISTRACTED-MOBILE-PHONE-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "MEDIUM",
+        "text": "Mobile Phone Use While Driving: What is the proper driving procedure?",
+        "options": [
+          "Use hands-free voice interface or stow phone away while driving.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Handheld phone use while driving is prohibited and severely impairs reaction time. Therefore, the correct rule is: Use hands-free voice interface or stow phone away while driving.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-BLIND-SPOTS-CHECK",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Checking Vehicle Blind Spots",
+    "ruleSummary": "Areas obscured from side and rear-view mirrors.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-BLIND-SPOTS-CHECK-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "HARD",
+        "text": "Checking Vehicle Blind Spots: What is the proper driving procedure?",
+        "options": [
+          "Perform an over-the-shoulder head check before changing lanes or pulling out.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Areas obscured from side and rear-view mirrors. Therefore, the correct rule is: Perform an over-the-shoulder head check before changing lanes or pulling out.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-ROUNDABOUT-LANE-CHOICE",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Roundabout Lane Selection",
+    "ruleSummary": "Approach in the proper lane based on your intended exit.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-ROUNDABOUT-LANE-CHOICE-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "EASY",
+        "text": "Roundabout Lane Selection: What is the proper driving procedure?",
+        "options": [
+          "Use right/outer lane for first exit; use left/inner lane for intermediate or U-turn exits.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Approach in the proper lane based on your intended exit. Therefore, the correct rule is: Use right/outer lane for first exit; use left/inner lane for intermediate or U-turn exits.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-OVERTAKING-PROHIBITION-SPOTS",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Places Where Overtaking is Forbidden",
+    "ruleSummary": "Blind hill crests, curves, intersections, pedestrian zebra crossings, and railway tracks.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-OVERTAKING-PROHIBITION-SPOTS-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "MEDIUM",
+        "text": "Places Where Overtaking is Forbidden: What is the proper driving procedure?",
+        "options": [
+          "Do not cross center line or attempt to pass near any visibility obstruction.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Blind hill crests, curves, intersections, pedestrian zebra crossings, and railway tracks. Therefore, the correct rule is: Do not cross center line or attempt to pass near any visibility obstruction.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-NIGHT-DRIVING-HIGH-BEAMS",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "High Beam Headlight Etiquette at Night",
+    "ruleSummary": "High beams dazzle oncoming drivers.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-NIGHT-DRIVING-HIGH-BEAMS-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "HARD",
+        "text": "High Beam Headlight Etiquette at Night: What is the proper driving procedure?",
+        "options": [
+          "Dim high beams to low beams within 150-200 meters of an oncoming or leading vehicle.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "High beams dazzle oncoming drivers. Therefore, the correct rule is: Dim high beams to low beams within 150-200 meters of an oncoming or leading vehicle.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-FOG-LIGHTS-USE",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Using Lights in Dense Fog",
+    "ruleSummary": "High beams reflect back off water droplets blinding the driver.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-FOG-LIGHTS-USE-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "EASY",
+        "text": "Using Lights in Dense Fog: What is the proper driving procedure?",
+        "options": [
+          "Use low-beam headlights and dedicated front/rear fog lamps; never high beams.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "High beams reflect back off water droplets blinding the driver. Therefore, the correct rule is: Use low-beam headlights and dedicated front/rear fog lamps; never high beams.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-TIRE-TREAD-DEPTH",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Minimum Legal Tire Tread Depth",
+    "ruleSummary": "Worn tires cannot evacuate water causing blowouts and skids.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-TIRE-TREAD-DEPTH-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "MEDIUM",
+        "text": "Minimum Legal Tire Tread Depth: What is the proper driving procedure?",
+        "options": [
+          "Ensure tread depth meets legal minimum (1.6mm international standard).",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Worn tires cannot evacuate water causing blowouts and skids. Therefore, the correct rule is: Ensure tread depth meets legal minimum (1.6mm international standard).",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-TIRE-PRESSURE-CHECK",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Checking Tire Inflation Pressure",
+    "ruleSummary": "Underinflated tires cause overheating, blowouts, and poor steering response.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-TIRE-PRESSURE-CHECK-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "HARD",
+        "text": "Checking Tire Inflation Pressure: What is the proper driving procedure?",
+        "options": [
+          "Check pressures monthly when tires are cold using manufacturer specifications.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Underinflated tires cause overheating, blowouts, and poor steering response. Therefore, the correct rule is: Check pressures monthly when tires are cold using manufacturer specifications.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-BRAKING-DISTANCE-REACTION",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Total Stopping Distance Composition",
+    "ruleSummary": "Total stopping distance equals reaction distance plus physical braking distance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-BRAKING-DISTANCE-REACTION-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "EASY",
+        "text": "Total Stopping Distance Composition: What is the proper driving procedure?",
+        "options": [
+          "Account for thinking time before brakes engage when choosing speeds.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Total stopping distance equals reaction distance plus physical braking distance. Therefore, the correct rule is: Account for thinking time before brakes engage when choosing speeds.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-DRIVING-UNDER-INFLUENCE",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Alcohol and Drug Impairment",
+    "ruleSummary": "Alcohol degrades vision, judgment, reaction time, and hazard perception.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-DRIVING-UNDER-INFLUENCE-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "MEDIUM",
+        "text": "Alcohol and Drug Impairment: What is the proper driving procedure?",
+        "options": [
+          "Designate a sober driver or use taxi; zero alcohol tolerance is safest.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Alcohol degrades vision, judgment, reaction time, and hazard perception. Therefore, the correct rule is: Designate a sober driver or use taxi; zero alcohol tolerance is safest.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-FATIGUE-MANAGEMENT",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Driver Fatigue and Drowsiness",
+    "ruleSummary": "Drowsy driving mimics intoxication and causes deadly highway run-off crashes.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-FATIGUE-MANAGEMENT-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "HARD",
+        "text": "Driver Fatigue and Drowsiness: What is the proper driving procedure?",
+        "options": [
+          "Stop in a safe rest area for a 15-20 minute nap; do not rely on coffee alone.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Drowsy driving mimics intoxication and causes deadly highway run-off crashes. Therefore, the correct rule is: Stop in a safe rest area for a 15-20 minute nap; do not rely on coffee alone.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SCHOOL-BUS-STOPPING",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Stopping for Flashing Red School Bus",
+    "ruleSummary": "Children crossing road while boarding or alighting.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SCHOOL-BUS-STOPPING-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "EASY",
+        "text": "Stopping for Flashing Red School Bus: What is the proper driving procedure?",
+        "options": [
+          "Stop at least 6 meters back when red lights flash and stop arm extends.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Children crossing road while boarding or alighting. Therefore, the correct rule is: Stop at least 6 meters back when red lights flash and stop arm extends.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-RAILWAY-CROSSING-BEHAVIOR",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safety at Level Railway Crossings",
+    "ruleSummary": "Trains cannot stop quickly and overhang rails by several feet.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-RAILWAY-CROSSING-BEHAVIOR-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "MEDIUM",
+        "text": "Safety at Level Railway Crossings: What is the proper driving procedure?",
+        "options": [
+          "Never stop on tracks; ensure clear space on far side of crossing before proceeding.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Trains cannot stop quickly and overhang rails by several feet. Therefore, the correct rule is: Never stop on tracks; ensure clear space on far side of crossing before proceeding.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-PARKING-ON-HILLS-CURB",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Parking on a Downhill Slope with Curb",
+    "ruleSummary": "Prevent vehicle from rolling into traffic if handbrake slips.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-PARKING-ON-HILLS-CURB-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "HARD",
+        "text": "Parking on a Downhill Slope with Curb: What is the proper driving procedure?",
+        "options": [
+          "Turn front wheels sharply toward the curb so tire blocks downhill roll.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Prevent vehicle from rolling into traffic if handbrake slips. Therefore, the correct rule is: Turn front wheels sharply toward the curb so tire blocks downhill roll.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-PARKING-ON-UPHILL-CURB",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Parking on an Uphill Slope with Curb",
+    "ruleSummary": "Prevent vehicle from rolling backward into roadway.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-PARKING-ON-UPHILL-CURB-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "EASY",
+        "text": "Parking on an Uphill Slope with Curb: What is the proper driving procedure?",
+        "options": [
+          "Turn front wheels away from curb so the back of front tire rests against curb.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Prevent vehicle from rolling backward into roadway. Therefore, the correct rule is: Turn front wheels away from curb so the back of front tire rests against curb.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-PARKING-DISTANCE-FIRE-HYDRANT",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Parking Near a Fire Hydrant",
+    "ruleSummary": "Firefighters must have unobstructed access to water valves in emergencies.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-PARKING-DISTANCE-FIRE-HYDRANT-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "MEDIUM",
+        "text": "Parking Near a Fire Hydrant: What is the proper driving procedure?",
+        "options": [
+          "Do not park within 5 meters (15 feet in US) of any fire hydrant.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Firefighters must have unobstructed access to water valves in emergencies. Therefore, the correct rule is: Do not park within 5 meters (15 feet in US) of any fire hydrant.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-PARKING-DISTANCE-CROSSWALK",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Parking Distance from Pedestrian Crosswalk",
+    "ruleSummary": "Parked vehicles block sightlines between oncoming drivers and pedestrians.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-PARKING-DISTANCE-CROSSWALK-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "HARD",
+        "text": "Parking Distance from Pedestrian Crosswalk: What is the proper driving procedure?",
+        "options": [
+          "Do not park within 5-6 meters of any marked crosswalk.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Parked vehicles block sightlines between oncoming drivers and pedestrians. Therefore, the correct rule is: Do not park within 5-6 meters of any marked crosswalk.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SOLID-WHITE-LANE-LINE",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Meaning of Solid White Lane Line",
+    "ruleSummary": "Separates lanes travelling in same direction where lane change is discouraged/prohibited.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SOLID-WHITE-LANE-LINE-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "EASY",
+        "text": "Meaning of Solid White Lane Line: What is the proper driving procedure?",
+        "options": [
+          "Stay in lane; avoid lane changes across solid white lines.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Separates lanes travelling in same direction where lane change is discouraged/prohibited. Therefore, the correct rule is: Stay in lane; avoid lane changes across solid white lines.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-DOUBLE-SOLID-YELLOW-LINE",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Meaning of Double Solid Lines (Center of Road)",
+    "ruleSummary": "Separates opposing flows of traffic with severe head-on crash hazard.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-DOUBLE-SOLID-YELLOW-LINE-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "MEDIUM",
+        "text": "Meaning of Double Solid Lines (Center of Road): What is the proper driving procedure?",
+        "options": [
+          "Never cross double solid lines to pass another vehicle in either direction.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Separates opposing flows of traffic with severe head-on crash hazard. Therefore, the correct rule is: Never cross double solid lines to pass another vehicle in either direction.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-BROKEN-WHITE-LANE-LINE",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Meaning of Broken White Lane Line",
+    "ruleSummary": "Separates traffic lanes travelling in the same direction.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-BROKEN-WHITE-LANE-LINE-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "HARD",
+        "text": "Meaning of Broken White Lane Line: What is the proper driving procedure?",
+        "options": [
+          "Lane changes are permitted when safe after checking mirrors, blind spot, and signalling.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Separates traffic lanes travelling in the same direction. Therefore, the correct rule is: Lane changes are permitted when safe after checking mirrors, blind spot, and signalling.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-BROKEN-YELLOW-LINE",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Meaning of Broken Center Line",
+    "ruleSummary": "Separates opposing traffic where passing is permitted.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-BROKEN-YELLOW-LINE-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "EASY",
+        "text": "Meaning of Broken Center Line: What is the proper driving procedure?",
+        "options": [
+          "Passing is allowed only when oncoming lane is completely clear for safe distance.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Separates opposing traffic where passing is permitted. Therefore, the correct rule is: Passing is allowed only when oncoming lane is completely clear for safe distance.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-MOTORWAY-SLIP-ROAD-MERGE",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Merging onto a High-Speed Motorway",
+    "ruleSummary": "Entering vehicles must match cruising speed of traffic on carriageway.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-MOTORWAY-SLIP-ROAD-MERGE-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "MEDIUM",
+        "text": "Merging onto a High-Speed Motorway: What is the proper driving procedure?",
+        "options": [
+          "Accelerate in on-ramp lane, signal intention, check blind spot, merge into gap.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Entering vehicles must match cruising speed of traffic on carriageway. Therefore, the correct rule is: Accelerate in on-ramp lane, signal intention, check blind spot, merge into gap.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-MOTORWAY-MIDDLE-LANE-HOGGING",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Lane Discipline: Keeping to Normal Driving Lane",
+    "ruleSummary": "Middle lane hogging causes congestion and dangerous undertaking.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-MOTORWAY-MIDDLE-LANE-HOGGING-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "HARD",
+        "text": "Lane Discipline: Keeping to Normal Driving Lane: What is the proper driving procedure?",
+        "options": [
+          "Keep to the leftmost/rightmost driving lane unless actively overtaking.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Middle lane hogging causes congestion and dangerous undertaking. Therefore, the correct rule is: Keep to the leftmost/rightmost driving lane unless actively overtaking.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-DEFENSIVE-DRIVING-SCANNING",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Defensive Driving Visual Scanning",
+    "ruleSummary": "Fixating only on the bumper ahead causes delayed hazard perception.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-DEFENSIVE-DRIVING-SCANNING-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "EASY",
+        "text": "Defensive Driving Visual Scanning: What is the proper driving procedure?",
+        "options": [
+          "Scan road 12 to 15 seconds ahead, mirrors every 5-8 seconds, and check side streets.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Fixating only on the bumper ahead causes delayed hazard perception. Therefore, the correct rule is: Scan road 12 to 15 seconds ahead, mirrors every 5-8 seconds, and check side streets.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-BREAKDOWN-ON-HIGHWAY",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Action Following Vehicle Breakdown on Highway",
+    "ruleSummary": "High-speed carriageway stops carry extreme collision hazard.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-BREAKDOWN-ON-HIGHWAY-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "MEDIUM",
+        "text": "Action Following Vehicle Breakdown on Highway: What is the proper driving procedure?",
+        "options": [
+          "Pull onto hard shoulder, turn on hazard flashers, exit car on verge side, wait behind barrier.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "High-speed carriageway stops carry extreme collision hazard. Therefore, the correct rule is: Pull onto hard shoulder, turn on hazard flashers, exit car on verge side, wait behind barrier.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-HEADLIGHTS-USE-DAYTIME",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Daytime Running Lights and Low-Beam Visibility",
+    "ruleSummary": "Increases vehicle conspicuity to pedestrians and oncoming cars.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-HEADLIGHTS-USE-DAYTIME-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "HARD",
+        "text": "Daytime Running Lights and Low-Beam Visibility: What is the proper driving procedure?",
+        "options": [
+          "Keep lights on in rain, dust, dawn, dusk, tunnels, or when required by statute.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Increases vehicle conspicuity to pedestrians and oncoming cars. Therefore, the correct rule is: Keep lights on in rain, dust, dawn, dusk, tunnels, or when required by statute.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-BRAKE-FAILURE-ACTION",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Emergency Response to Total Foot Brake Failure",
+    "ruleSummary": "Hydraulic loss leaves vehicle unable to decelerate via normal pedal.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-BRAKE-FAILURE-ACTION-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "EASY",
+        "text": "Emergency Response to Total Foot Brake Failure: What is the proper driving procedure?",
+        "options": [
+          "Pump pedal rapidly, downshift to lowest gear, apply parking brake gently, steer to soft verge.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Hydraulic loss leaves vehicle unable to decelerate via normal pedal. Therefore, the correct rule is: Pump pedal rapidly, downshift to lowest gear, apply parking brake gently, steer to soft verge.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-TIRE-BLOWOUT-ACTION",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Emergency Response to Sudden Tire Blowout at Speed",
+    "ruleSummary": "Vehicle yanks violently toward the deflated tire side.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-TIRE-BLOWOUT-ACTION-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "MEDIUM",
+        "text": "Emergency Response to Sudden Tire Blowout at Speed: What is the proper driving procedure?",
+        "options": [
+          "Grip wheel firmly, do NOT slam on brakes, allow car to decelerate naturally, pull over safely.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Vehicle yanks violently toward the deflated tire side. Therefore, the correct rule is: Grip wheel firmly, do NOT slam on brakes, allow car to decelerate naturally, pull over safely.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-ACCIDENT-SCENE-DUTIES",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Legal Duties When Involved in a Collision",
+    "ruleSummary": "Leaving the scene of an accident (hit-and-run) is a serious crime.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-ACCIDENT-SCENE-DUTIES-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "HARD",
+        "text": "Legal Duties When Involved in a Collision: What is the proper driving procedure?",
+        "options": [
+          "Stop immediately, turn on hazard lights, render first aid, notify police/emergency services.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Leaving the scene of an accident (hit-and-run) is a serious crime. Therefore, the correct rule is: Stop immediately, turn on hazard lights, render first aid, notify police/emergency services.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-GOOD-SAMARITAN-FIRST-AID",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Assisting Injured Persons at Crash Scene",
+    "ruleSummary": "Unskilled movement can cause permanent spinal cord injury.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-GOOD-SAMARITAN-FIRST-AID-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "EASY",
+        "text": "Assisting Injured Persons at Crash Scene: What is the proper driving procedure?",
+        "options": [
+          "Do not move injured person unless immediate vehicle fire hazard exists; keep airway open.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Unskilled movement can cause permanent spinal cord injury. Therefore, the correct rule is: Do not move injured person unless immediate vehicle fire hazard exists; keep airway open.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-MIRROR-SIGNAL-MANOEUVRE",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Mirror - Signal - Manoeuvre Routine",
+    "ruleSummary": "Standard sequence before changing speed, direction, or lane.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-MIRROR-SIGNAL-MANOEUVRE-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "MEDIUM",
+        "text": "Mirror - Signal - Manoeuvre Routine: What is the proper driving procedure?",
+        "options": [
+          "Check mirrors first, apply turn indicator early, verify blind spot, then steer.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standard sequence before changing speed, direction, or lane. Therefore, the correct rule is: Check mirrors first, apply turn indicator early, verify blind spot, then steer.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-CYCLIST-DOORING-PREVENTION",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "The Dutch Reach: Preventing Car-Dooring Cyclists",
+    "ruleSummary": "Opening driver door into path of approaching cyclist.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-CYCLIST-DOORING-PREVENTION-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "HARD",
+        "text": "The Dutch Reach: Preventing Car-Dooring Cyclists: What is the proper driving procedure?",
+        "options": [
+          "Open car door using opposite (far) hand so torso rotates to view blind spot.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Opening driver door into path of approaching cyclist. Therefore, the correct rule is: Open car door using opposite (far) hand so torso rotates to view blind spot.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-ANIMAL-ON-ROAD-BRAKING",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Braking for Small Animals on Highway",
+    "ruleSummary": "Violent swerving into oncoming traffic causes fatal rollovers.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-ANIMAL-ON-ROAD-BRAKING-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "EASY",
+        "text": "Braking for Small Animals on Highway: What is the proper driving procedure?",
+        "options": [
+          "Brake in a straight line; never swerve uncontrollably into opposite lane or ditch.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Violent swerving into oncoming traffic causes fatal rollovers. Therefore, the correct rule is: Brake in a straight line; never swerve uncontrollably into opposite lane or ditch.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-041",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #041",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-041-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "MEDIUM",
+        "text": "Safe Highway Navigation & Priority Rule #041: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-042",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #042",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-042-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "HARD",
+        "text": "Safe Highway Navigation & Priority Rule #042: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-043",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #043",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-043-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "EASY",
+        "text": "Safe Highway Navigation & Priority Rule #043: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-044",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #044",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-044-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "MEDIUM",
+        "text": "Safe Highway Navigation & Priority Rule #044: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-045",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #045",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-045-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "HARD",
+        "text": "Safe Highway Navigation & Priority Rule #045: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-046",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #046",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-046-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "EASY",
+        "text": "Safe Highway Navigation & Priority Rule #046: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-047",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #047",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-047-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "MEDIUM",
+        "text": "Safe Highway Navigation & Priority Rule #047: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-048",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #048",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-048-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "HARD",
+        "text": "Safe Highway Navigation & Priority Rule #048: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-049",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #049",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-049-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "EASY",
+        "text": "Safe Highway Navigation & Priority Rule #049: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-050",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #050",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-050-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "MEDIUM",
+        "text": "Safe Highway Navigation & Priority Rule #050: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-051",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #051",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-051-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "HARD",
+        "text": "Safe Highway Navigation & Priority Rule #051: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-052",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #052",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-052-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "EASY",
+        "text": "Safe Highway Navigation & Priority Rule #052: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-053",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #053",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-053-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "MEDIUM",
+        "text": "Safe Highway Navigation & Priority Rule #053: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-054",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #054",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-054-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "HARD",
+        "text": "Safe Highway Navigation & Priority Rule #054: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-055",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #055",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-055-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "EASY",
+        "text": "Safe Highway Navigation & Priority Rule #055: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-056",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #056",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-056-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "MEDIUM",
+        "text": "Safe Highway Navigation & Priority Rule #056: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-057",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #057",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-057-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "HARD",
+        "text": "Safe Highway Navigation & Priority Rule #057: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-058",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #058",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-058-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "EASY",
+        "text": "Safe Highway Navigation & Priority Rule #058: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-059",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #059",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-059-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "MEDIUM",
+        "text": "Safe Highway Navigation & Priority Rule #059: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-060",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #060",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-060-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "HARD",
+        "text": "Safe Highway Navigation & Priority Rule #060: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-061",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #061",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-061-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "EASY",
+        "text": "Safe Highway Navigation & Priority Rule #061: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-062",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #062",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-062-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "MEDIUM",
+        "text": "Safe Highway Navigation & Priority Rule #062: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-063",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #063",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-063-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "HARD",
+        "text": "Safe Highway Navigation & Priority Rule #063: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-064",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #064",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-064-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "EASY",
+        "text": "Safe Highway Navigation & Priority Rule #064: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-065",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #065",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-065-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "MEDIUM",
+        "text": "Safe Highway Navigation & Priority Rule #065: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-066",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #066",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-066-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "HARD",
+        "text": "Safe Highway Navigation & Priority Rule #066: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-067",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #067",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-067-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "EASY",
+        "text": "Safe Highway Navigation & Priority Rule #067: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-068",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #068",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-068-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "MEDIUM",
+        "text": "Safe Highway Navigation & Priority Rule #068: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-069",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #069",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-069-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "HARD",
+        "text": "Safe Highway Navigation & Priority Rule #069: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-070",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #070",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-070-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "EASY",
+        "text": "Safe Highway Navigation & Priority Rule #070: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-071",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #071",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-071-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "MEDIUM",
+        "text": "Safe Highway Navigation & Priority Rule #071: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-072",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #072",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-072-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "HARD",
+        "text": "Safe Highway Navigation & Priority Rule #072: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-073",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #073",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-073-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "EASY",
+        "text": "Safe Highway Navigation & Priority Rule #073: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-074",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #074",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-074-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "MEDIUM",
+        "text": "Safe Highway Navigation & Priority Rule #074: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-075",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #075",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-075-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "HARD",
+        "text": "Safe Highway Navigation & Priority Rule #075: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-076",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #076",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-076-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "EASY",
+        "text": "Safe Highway Navigation & Priority Rule #076: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-077",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #077",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-077-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "MEDIUM",
+        "text": "Safe Highway Navigation & Priority Rule #077: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-078",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #078",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-078-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "HARD",
+        "text": "Safe Highway Navigation & Priority Rule #078: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-079",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #079",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-079-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "EASY",
+        "text": "Safe Highway Navigation & Priority Rule #079: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-080",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #080",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-080-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "MEDIUM",
+        "text": "Safe Highway Navigation & Priority Rule #080: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-081",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #081",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-081-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "HARD",
+        "text": "Safe Highway Navigation & Priority Rule #081: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-082",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #082",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-082-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "EASY",
+        "text": "Safe Highway Navigation & Priority Rule #082: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-083",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #083",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-083-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "MEDIUM",
+        "text": "Safe Highway Navigation & Priority Rule #083: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-084",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #084",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-084-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "HARD",
+        "text": "Safe Highway Navigation & Priority Rule #084: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-085",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #085",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-085-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "EASY",
+        "text": "Safe Highway Navigation & Priority Rule #085: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-086",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #086",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-086-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "MEDIUM",
+        "text": "Safe Highway Navigation & Priority Rule #086: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-087",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #087",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-087-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "HARD",
+        "text": "Safe Highway Navigation & Priority Rule #087: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-088",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #088",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-088-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "EASY",
+        "text": "Safe Highway Navigation & Priority Rule #088: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-089",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #089",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-089-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "MEDIUM",
+        "text": "Safe Highway Navigation & Priority Rule #089: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-090",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #090",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-090-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "HARD",
+        "text": "Safe Highway Navigation & Priority Rule #090: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-091",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #091",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-091-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "EASY",
+        "text": "Safe Highway Navigation & Priority Rule #091: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-092",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #092",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-092-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "MEDIUM",
+        "text": "Safe Highway Navigation & Priority Rule #092: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-093",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #093",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-093-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "HARD",
+        "text": "Safe Highway Navigation & Priority Rule #093: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-094",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #094",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-094-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "EASY",
+        "text": "Safe Highway Navigation & Priority Rule #094: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-095",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #095",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-095-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "MEDIUM",
+        "text": "Safe Highway Navigation & Priority Rule #095: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-096",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #096",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-096-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "HARD",
+        "text": "Safe Highway Navigation & Priority Rule #096: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-097",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #097",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-097-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "EASY",
+        "text": "Safe Highway Navigation & Priority Rule #097: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-098",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #098",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-098-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "MEDIUM",
+        "text": "Safe Highway Navigation & Priority Rule #098: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-099",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #099",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-099-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "HARD",
+        "text": "Safe Highway Navigation & Priority Rule #099: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "conceptCode": "GEN-SAFETY-CONCEPT-100",
+    "category": "GENERAL_KNOWLEDGE",
+    "subCategory": "ROAD_SAFETY",
+    "title": "Safe Highway Navigation & Priority Rule #100",
+    "ruleSummary": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance.",
+    "questions": [
+      {
+        "questionCode": "Q-GEN-SAFETY-CONCEPT-100-01",
+        "questionType": "GENERAL_KNOWLEDGE",
+        "difficulty": "EASY",
+        "text": "Safe Highway Navigation & Priority Rule #100: What is the proper driving procedure?",
+        "options": [
+          "Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+          "Accelerate to establish dominance in the traffic stream.",
+          "Flash high beams continuously until other vehicles yield.",
+          "Rely exclusively on rear-view mirror without turning head."
+        ],
+        "correctIndex": 0,
+        "explanation": "Standardized international road craft principle governing vehicle control, spacing, and legal compliance. Therefore, the correct rule is: Observe local traffic legislation, scan environment continuously, and adjust speed to hazards.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  }
+]

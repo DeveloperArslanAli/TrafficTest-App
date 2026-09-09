@@ -1,0 +1,43 @@
+{
+  "code": "SA",
+  "name": "Saudi Arabia",
+  "flagEmoji": "🇸🇦",
+  "authorities": [
+    "AUTH-SA-MOROOR"
+  ],
+  "jurisdictions": [
+    {
+      "code": "NATIONAL",
+      "name": "Kingdom of Saudi Arabia (Moroor)",
+      "type": "NATIONAL"
+    }
+  ],
+  "rules": [
+    {
+      "questionCode": "Q-SA-RULE-01",
+      "text": "Under Saudi Moroor traffic laws, under what condition is a right turn permitted at a red traffic light?",
+      "options": [
+        "Stop completely first, check that no oncoming traffic or pedestrians are present, and turn right from the rightmost lane if no \"No Turn on Red\" sign is posted.",
+        "Turn right at full speed without stopping if no police car is present.",
+        "Right turn on red is completely prohibited under all circumstances in Saudi Arabia.",
+        "Right turn on red is allowed from any lane."
+      ],
+      "correctIndex": 0,
+      "explanation": "Under Saudi Moroor regulations, turning right on red is permitted only after making a full stop and yielding to all intersecting traffic and pedestrians, provided no specific prohibitive sign is posted.",
+      "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+    },
+    {
+      "questionCode": "Q-SA-RULE-02",
+      "text": "What is the default speed limit for passenger cars on rural highways in Saudi Arabia unless otherwise posted?",
+      "options": [
+        "120 km/h to 140 km/h depending on highway classification",
+        "80 km/h",
+        "160 km/h",
+        "100 km/h"
+      ],
+      "correctIndex": 0,
+      "explanation": "Major designated expressways in Saudi Arabia have speed limits up to 140 km/h, while standard highways are 120 km/h.",
+      "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+    }
+  ]
+}

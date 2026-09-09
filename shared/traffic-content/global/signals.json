@@ -1,0 +1,2012 @@
+[
+  {
+    "canonicalCode": "SIG-SOLID-RED",
+    "category": "TRAFFIC_SIGNALS",
+    "subCategory": "SIGNAL_ASPECT",
+    "canonicalName": "Solid Red Light",
+    "shortName": "Solid Red Light",
+    "meaning": "Solid Red Light",
+    "driverAction": "Come to a complete stop before stop line; do not proceed through intersection.",
+    "shape": "SIGNAL_HEAD",
+    "primarySymbol": "SOLID-RED",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-SIG-SOLID-RED",
+        "officialName": "Solid Red Light",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-SIG-SOLID-RED",
+        "officialName": "Solid Red Light",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-SIG-SOLID-RED",
+        "officialName": "Solid Red Light",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-SIG-SOLID-RED",
+        "officialName": "Solid Red Light",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-SIG-SOLID-RED",
+        "officialName": "Solid Red Light",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-SIG-SOLID-RED",
+        "officialName": "Solid Red Light",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-SIG-SOLID-RED-01",
+        "questionType": "SIGNAL_SCENARIO",
+        "difficulty": "MEDIUM",
+        "text": "When approaching an intersection displaying a Solid Red Light, what is the mandatory requirement?",
+        "options": [
+          "Come to a complete stop before stop line; do not proceed through intersection.",
+          "Accelerate rapidly to clear the junction before other vehicles start moving.",
+          "Ignore the light if turning right in any jurisdiction.",
+          "Sound your horn three times and proceed without stopping."
+        ],
+        "correctIndex": 0,
+        "explanation": "For Solid Red Light: Come to a complete stop before stop line; do not proceed through intersection.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "SIG-SOLID-YELLOW",
+    "category": "TRAFFIC_SIGNALS",
+    "subCategory": "SIGNAL_ASPECT",
+    "canonicalName": "Solid Yellow / Amber Light",
+    "shortName": "Solid Yellow / Amber Light",
+    "meaning": "Solid Yellow / Amber Light",
+    "driverAction": "Stop safely before stop line; if too close to stop safely, proceed through with caution.",
+    "shape": "SIGNAL_HEAD",
+    "primarySymbol": "SOLID-YELLOW",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-SIG-SOLID-YELLOW",
+        "officialName": "Solid Yellow / Amber Light",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-SIG-SOLID-YELLOW",
+        "officialName": "Solid Yellow / Amber Light",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-SIG-SOLID-YELLOW",
+        "officialName": "Solid Yellow / Amber Light",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-SIG-SOLID-YELLOW",
+        "officialName": "Solid Yellow / Amber Light",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-SIG-SOLID-YELLOW",
+        "officialName": "Solid Yellow / Amber Light",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-SIG-SOLID-YELLOW",
+        "officialName": "Solid Yellow / Amber Light",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-SIG-SOLID-YELLOW-01",
+        "questionType": "SIGNAL_SCENARIO",
+        "difficulty": "MEDIUM",
+        "text": "When approaching an intersection displaying a Solid Yellow / Amber Light, what is the mandatory requirement?",
+        "options": [
+          "Stop safely before stop line; if too close to stop safely, proceed through with caution.",
+          "Accelerate rapidly to clear the junction before other vehicles start moving.",
+          "Ignore the light if turning right in any jurisdiction.",
+          "Sound your horn three times and proceed without stopping."
+        ],
+        "correctIndex": 0,
+        "explanation": "For Solid Yellow / Amber Light: Stop safely before stop line; if too close to stop safely, proceed through with caution.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "SIG-SOLID-GREEN",
+    "category": "TRAFFIC_SIGNALS",
+    "subCategory": "SIGNAL_ASPECT",
+    "canonicalName": "Solid Green Light",
+    "shortName": "Solid Green Light",
+    "meaning": "Solid Green Light",
+    "driverAction": "Proceed straight or turn if intersection is clear, yielding to pedestrians and oncoming traffic when turning.",
+    "shape": "SIGNAL_HEAD",
+    "primarySymbol": "SOLID-GREEN",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-SIG-SOLID-GREEN",
+        "officialName": "Solid Green Light",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-SIG-SOLID-GREEN",
+        "officialName": "Solid Green Light",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-SIG-SOLID-GREEN",
+        "officialName": "Solid Green Light",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-SIG-SOLID-GREEN",
+        "officialName": "Solid Green Light",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-SIG-SOLID-GREEN",
+        "officialName": "Solid Green Light",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-SIG-SOLID-GREEN",
+        "officialName": "Solid Green Light",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-SIG-SOLID-GREEN-01",
+        "questionType": "SIGNAL_SCENARIO",
+        "difficulty": "MEDIUM",
+        "text": "When approaching an intersection displaying a Solid Green Light, what is the mandatory requirement?",
+        "options": [
+          "Proceed straight or turn if intersection is clear, yielding to pedestrians and oncoming traffic when turning.",
+          "Accelerate rapidly to clear the junction before other vehicles start moving.",
+          "Ignore the light if turning right in any jurisdiction.",
+          "Sound your horn three times and proceed without stopping."
+        ],
+        "correctIndex": 0,
+        "explanation": "For Solid Green Light: Proceed straight or turn if intersection is clear, yielding to pedestrians and oncoming traffic when turning.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "SIG-RED-ARROW",
+    "category": "TRAFFIC_SIGNALS",
+    "subCategory": "SIGNAL_ASPECT",
+    "canonicalName": "Red Turning Arrow",
+    "shortName": "Red Turning Arrow",
+    "meaning": "Red Turning Arrow",
+    "driverAction": "Come to a complete stop; turns in arrow direction are strictly prohibited.",
+    "shape": "SIGNAL_HEAD",
+    "primarySymbol": "RED-ARROW",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-SIG-RED-ARROW",
+        "officialName": "Red Turning Arrow",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-SIG-RED-ARROW",
+        "officialName": "Red Turning Arrow",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-SIG-RED-ARROW",
+        "officialName": "Red Turning Arrow",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-SIG-RED-ARROW",
+        "officialName": "Red Turning Arrow",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-SIG-RED-ARROW",
+        "officialName": "Red Turning Arrow",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-SIG-RED-ARROW",
+        "officialName": "Red Turning Arrow",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-SIG-RED-ARROW-01",
+        "questionType": "SIGNAL_SCENARIO",
+        "difficulty": "MEDIUM",
+        "text": "When approaching an intersection displaying a Red Turning Arrow, what is the mandatory requirement?",
+        "options": [
+          "Come to a complete stop; turns in arrow direction are strictly prohibited.",
+          "Accelerate rapidly to clear the junction before other vehicles start moving.",
+          "Ignore the light if turning right in any jurisdiction.",
+          "Sound your horn three times and proceed without stopping."
+        ],
+        "correctIndex": 0,
+        "explanation": "For Red Turning Arrow: Come to a complete stop; turns in arrow direction are strictly prohibited.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "SIG-YELLOW-ARROW",
+    "category": "TRAFFIC_SIGNALS",
+    "subCategory": "SIGNAL_ASPECT",
+    "canonicalName": "Yellow Turning Arrow",
+    "shortName": "Yellow Turning Arrow",
+    "meaning": "Yellow Turning Arrow",
+    "driverAction": "Protected turning phase is ending; prepare to stop if safe to do so.",
+    "shape": "SIGNAL_HEAD",
+    "primarySymbol": "YELLOW-ARROW",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-SIG-YELLOW-ARROW",
+        "officialName": "Yellow Turning Arrow",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-SIG-YELLOW-ARROW",
+        "officialName": "Yellow Turning Arrow",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-SIG-YELLOW-ARROW",
+        "officialName": "Yellow Turning Arrow",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-SIG-YELLOW-ARROW",
+        "officialName": "Yellow Turning Arrow",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-SIG-YELLOW-ARROW",
+        "officialName": "Yellow Turning Arrow",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-SIG-YELLOW-ARROW",
+        "officialName": "Yellow Turning Arrow",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-SIG-YELLOW-ARROW-01",
+        "questionType": "SIGNAL_SCENARIO",
+        "difficulty": "MEDIUM",
+        "text": "When approaching an intersection displaying a Yellow Turning Arrow, what is the mandatory requirement?",
+        "options": [
+          "Protected turning phase is ending; prepare to stop if safe to do so.",
+          "Accelerate rapidly to clear the junction before other vehicles start moving.",
+          "Ignore the light if turning right in any jurisdiction.",
+          "Sound your horn three times and proceed without stopping."
+        ],
+        "correctIndex": 0,
+        "explanation": "For Yellow Turning Arrow: Protected turning phase is ending; prepare to stop if safe to do so.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "SIG-GREEN-ARROW",
+    "category": "TRAFFIC_SIGNALS",
+    "subCategory": "SIGNAL_ASPECT",
+    "canonicalName": "Green Protected Turning Arrow",
+    "shortName": "Green Protected Turning Arrow",
+    "meaning": "Green Protected Turning Arrow",
+    "driverAction": "Proceed in arrow direction; conflicting traffic and pedestrians are held by red signal.",
+    "shape": "SIGNAL_HEAD",
+    "primarySymbol": "GREEN-ARROW",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-SIG-GREEN-ARROW",
+        "officialName": "Green Protected Turning Arrow",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-SIG-GREEN-ARROW",
+        "officialName": "Green Protected Turning Arrow",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-SIG-GREEN-ARROW",
+        "officialName": "Green Protected Turning Arrow",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-SIG-GREEN-ARROW",
+        "officialName": "Green Protected Turning Arrow",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-SIG-GREEN-ARROW",
+        "officialName": "Green Protected Turning Arrow",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-SIG-GREEN-ARROW",
+        "officialName": "Green Protected Turning Arrow",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-SIG-GREEN-ARROW-01",
+        "questionType": "SIGNAL_SCENARIO",
+        "difficulty": "MEDIUM",
+        "text": "When approaching an intersection displaying a Green Protected Turning Arrow, what is the mandatory requirement?",
+        "options": [
+          "Proceed in arrow direction; conflicting traffic and pedestrians are held by red signal.",
+          "Accelerate rapidly to clear the junction before other vehicles start moving.",
+          "Ignore the light if turning right in any jurisdiction.",
+          "Sound your horn three times and proceed without stopping."
+        ],
+        "correctIndex": 0,
+        "explanation": "For Green Protected Turning Arrow: Proceed in arrow direction; conflicting traffic and pedestrians are held by red signal.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "SIG-FLASHING-RED",
+    "category": "TRAFFIC_SIGNALS",
+    "subCategory": "SIGNAL_ASPECT",
+    "canonicalName": "Flashing Red Signal",
+    "shortName": "Flashing Red Signal",
+    "meaning": "Flashing Red Signal",
+    "driverAction": "Treat as a Stop Sign: come to full stop, yield to all traffic, proceed when clear.",
+    "shape": "SIGNAL_HEAD",
+    "primarySymbol": "FLASHING-RED",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-SIG-FLASHING-RED",
+        "officialName": "Flashing Red Signal",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-SIG-FLASHING-RED",
+        "officialName": "Flashing Red Signal",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-SIG-FLASHING-RED",
+        "officialName": "Flashing Red Signal",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-SIG-FLASHING-RED",
+        "officialName": "Flashing Red Signal",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-SIG-FLASHING-RED",
+        "officialName": "Flashing Red Signal",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-SIG-FLASHING-RED",
+        "officialName": "Flashing Red Signal",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-SIG-FLASHING-RED-01",
+        "questionType": "SIGNAL_SCENARIO",
+        "difficulty": "MEDIUM",
+        "text": "When approaching an intersection displaying a Flashing Red Signal, what is the mandatory requirement?",
+        "options": [
+          "Treat as a Stop Sign: come to full stop, yield to all traffic, proceed when clear.",
+          "Accelerate rapidly to clear the junction before other vehicles start moving.",
+          "Ignore the light if turning right in any jurisdiction.",
+          "Sound your horn three times and proceed without stopping."
+        ],
+        "correctIndex": 0,
+        "explanation": "For Flashing Red Signal: Treat as a Stop Sign: come to full stop, yield to all traffic, proceed when clear.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "SIG-FLASHING-YELLOW",
+    "category": "TRAFFIC_SIGNALS",
+    "subCategory": "SIGNAL_ASPECT",
+    "canonicalName": "Flashing Yellow Signal",
+    "shortName": "Flashing Yellow Signal",
+    "meaning": "Flashing Yellow Signal",
+    "driverAction": "Slow down and proceed through intersection with extra caution; be prepared to yield.",
+    "shape": "SIGNAL_HEAD",
+    "primarySymbol": "FLASHING-YELLOW",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-SIG-FLASHING-YELLOW",
+        "officialName": "Flashing Yellow Signal",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-SIG-FLASHING-YELLOW",
+        "officialName": "Flashing Yellow Signal",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-SIG-FLASHING-YELLOW",
+        "officialName": "Flashing Yellow Signal",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-SIG-FLASHING-YELLOW",
+        "officialName": "Flashing Yellow Signal",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-SIG-FLASHING-YELLOW",
+        "officialName": "Flashing Yellow Signal",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-SIG-FLASHING-YELLOW",
+        "officialName": "Flashing Yellow Signal",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-SIG-FLASHING-YELLOW-01",
+        "questionType": "SIGNAL_SCENARIO",
+        "difficulty": "MEDIUM",
+        "text": "When approaching an intersection displaying a Flashing Yellow Signal, what is the mandatory requirement?",
+        "options": [
+          "Slow down and proceed through intersection with extra caution; be prepared to yield.",
+          "Accelerate rapidly to clear the junction before other vehicles start moving.",
+          "Ignore the light if turning right in any jurisdiction.",
+          "Sound your horn three times and proceed without stopping."
+        ],
+        "correctIndex": 0,
+        "explanation": "For Flashing Yellow Signal: Slow down and proceed through intersection with extra caution; be prepared to yield.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "SIG-FLASHING-GREEN",
+    "category": "TRAFFIC_SIGNALS",
+    "subCategory": "SIGNAL_ASPECT",
+    "canonicalName": "Flashing Green Signal (Pedestrian Priority / Advanced Turn)",
+    "shortName": "Flashing Green Signal",
+    "meaning": "Flashing Green Signal (Pedestrian Priority / Advanced Turn)",
+    "driverAction": "Proceed with caution; advanced protected phase in jurisdictions where officially used.",
+    "shape": "SIGNAL_HEAD",
+    "primarySymbol": "FLASHING-GREEN",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-SIG-FLASHING-GREEN",
+        "officialName": "Flashing Green Signal (Pedestrian Priority / Advanced Turn)",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-SIG-FLASHING-GREEN",
+        "officialName": "Flashing Green Signal (Pedestrian Priority / Advanced Turn)",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-SIG-FLASHING-GREEN",
+        "officialName": "Flashing Green Signal (Pedestrian Priority / Advanced Turn)",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-SIG-FLASHING-GREEN",
+        "officialName": "Flashing Green Signal (Pedestrian Priority / Advanced Turn)",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-SIG-FLASHING-GREEN",
+        "officialName": "Flashing Green Signal (Pedestrian Priority / Advanced Turn)",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-SIG-FLASHING-GREEN",
+        "officialName": "Flashing Green Signal (Pedestrian Priority / Advanced Turn)",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-SIG-FLASHING-GREEN-01",
+        "questionType": "SIGNAL_SCENARIO",
+        "difficulty": "MEDIUM",
+        "text": "When approaching an intersection displaying a Flashing Green Signal (Pedestrian Priority / Advanced Turn), what is the mandatory requirement?",
+        "options": [
+          "Proceed with caution; advanced protected phase in jurisdictions where officially used.",
+          "Accelerate rapidly to clear the junction before other vehicles start moving.",
+          "Ignore the light if turning right in any jurisdiction.",
+          "Sound your horn three times and proceed without stopping."
+        ],
+        "correctIndex": 0,
+        "explanation": "For Flashing Green Signal (Pedestrian Priority / Advanced Turn): Proceed with caution; advanced protected phase in jurisdictions where officially used.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "SIG-PEDESTRIAN-WALK",
+    "category": "TRAFFIC_SIGNALS",
+    "subCategory": "SIGNAL_ASPECT",
+    "canonicalName": "Pedestrian Walk Signal (White Walking Person)",
+    "shortName": "Pedestrian Walk Signal",
+    "meaning": "Pedestrian Walk Signal (White Walking Person)",
+    "driverAction": "Pedestrians may cross inside crosswalk; turning drivers must yield to walkers.",
+    "shape": "SIGNAL_HEAD",
+    "primarySymbol": "PEDESTRIAN-WALK",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-SIG-PEDESTRIAN-WALK",
+        "officialName": "Pedestrian Walk Signal (White Walking Person)",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-SIG-PEDESTRIAN-WALK",
+        "officialName": "Pedestrian Walk Signal (White Walking Person)",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-SIG-PEDESTRIAN-WALK",
+        "officialName": "Pedestrian Walk Signal (White Walking Person)",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-SIG-PEDESTRIAN-WALK",
+        "officialName": "Pedestrian Walk Signal (White Walking Person)",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-SIG-PEDESTRIAN-WALK",
+        "officialName": "Pedestrian Walk Signal (White Walking Person)",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-SIG-PEDESTRIAN-WALK",
+        "officialName": "Pedestrian Walk Signal (White Walking Person)",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-SIG-PEDESTRIAN-WALK-01",
+        "questionType": "SIGNAL_SCENARIO",
+        "difficulty": "MEDIUM",
+        "text": "When approaching an intersection displaying a Pedestrian Walk Signal (White Walking Person), what is the mandatory requirement?",
+        "options": [
+          "Pedestrians may cross inside crosswalk; turning drivers must yield to walkers.",
+          "Accelerate rapidly to clear the junction before other vehicles start moving.",
+          "Ignore the light if turning right in any jurisdiction.",
+          "Sound your horn three times and proceed without stopping."
+        ],
+        "correctIndex": 0,
+        "explanation": "For Pedestrian Walk Signal (White Walking Person): Pedestrians may cross inside crosswalk; turning drivers must yield to walkers.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "SIG-PEDESTRIAN-DONT-WALK",
+    "category": "TRAFFIC_SIGNALS",
+    "subCategory": "SIGNAL_ASPECT",
+    "canonicalName": "Pedestrian Don't Walk Signal (Steady Red Hand / Person)",
+    "shortName": "Pedestrian Don't Walk Signal",
+    "meaning": "Pedestrian Don't Walk Signal (Steady Red Hand / Person)",
+    "driverAction": "Pedestrians must not step onto roadway; pedestrians already in crossing must finish crossing.",
+    "shape": "SIGNAL_HEAD",
+    "primarySymbol": "PEDESTRIAN-DONT-WALK",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-SIG-PEDESTRIAN-DONT-WALK",
+        "officialName": "Pedestrian Don't Walk Signal (Steady Red Hand / Person)",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-SIG-PEDESTRIAN-DONT-WALK",
+        "officialName": "Pedestrian Don't Walk Signal (Steady Red Hand / Person)",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-SIG-PEDESTRIAN-DONT-WALK",
+        "officialName": "Pedestrian Don't Walk Signal (Steady Red Hand / Person)",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-SIG-PEDESTRIAN-DONT-WALK",
+        "officialName": "Pedestrian Don't Walk Signal (Steady Red Hand / Person)",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-SIG-PEDESTRIAN-DONT-WALK",
+        "officialName": "Pedestrian Don't Walk Signal (Steady Red Hand / Person)",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-SIG-PEDESTRIAN-DONT-WALK",
+        "officialName": "Pedestrian Don't Walk Signal (Steady Red Hand / Person)",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-SIG-PEDESTRIAN-DONT-WALK-01",
+        "questionType": "SIGNAL_SCENARIO",
+        "difficulty": "MEDIUM",
+        "text": "When approaching an intersection displaying a Pedestrian Don't Walk Signal (Steady Red Hand / Person), what is the mandatory requirement?",
+        "options": [
+          "Pedestrians must not step onto roadway; pedestrians already in crossing must finish crossing.",
+          "Accelerate rapidly to clear the junction before other vehicles start moving.",
+          "Ignore the light if turning right in any jurisdiction.",
+          "Sound your horn three times and proceed without stopping."
+        ],
+        "correctIndex": 0,
+        "explanation": "For Pedestrian Don't Walk Signal (Steady Red Hand / Person): Pedestrians must not step onto roadway; pedestrians already in crossing must finish crossing.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "SIG-PEDESTRIAN-COUNTDOWN",
+    "category": "TRAFFIC_SIGNALS",
+    "subCategory": "SIGNAL_ASPECT",
+    "canonicalName": "Pedestrian Countdown Signal",
+    "shortName": "Pedestrian Countdown Signal",
+    "meaning": "Pedestrian Countdown Signal",
+    "driverAction": "Shows seconds remaining to complete crossing; do not start crossing if countdown is low.",
+    "shape": "SIGNAL_HEAD",
+    "primarySymbol": "PEDESTRIAN-COUNTDOWN",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-SIG-PEDESTRIAN-COUNTDOWN",
+        "officialName": "Pedestrian Countdown Signal",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-SIG-PEDESTRIAN-COUNTDOWN",
+        "officialName": "Pedestrian Countdown Signal",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-SIG-PEDESTRIAN-COUNTDOWN",
+        "officialName": "Pedestrian Countdown Signal",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-SIG-PEDESTRIAN-COUNTDOWN",
+        "officialName": "Pedestrian Countdown Signal",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-SIG-PEDESTRIAN-COUNTDOWN",
+        "officialName": "Pedestrian Countdown Signal",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-SIG-PEDESTRIAN-COUNTDOWN",
+        "officialName": "Pedestrian Countdown Signal",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-SIG-PEDESTRIAN-COUNTDOWN-01",
+        "questionType": "SIGNAL_SCENARIO",
+        "difficulty": "MEDIUM",
+        "text": "When approaching an intersection displaying a Pedestrian Countdown Signal, what is the mandatory requirement?",
+        "options": [
+          "Shows seconds remaining to complete crossing; do not start crossing if countdown is low.",
+          "Accelerate rapidly to clear the junction before other vehicles start moving.",
+          "Ignore the light if turning right in any jurisdiction.",
+          "Sound your horn three times and proceed without stopping."
+        ],
+        "correctIndex": 0,
+        "explanation": "For Pedestrian Countdown Signal: Shows seconds remaining to complete crossing; do not start crossing if countdown is low.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "SIG-LANE-GREEN-ARROW",
+    "category": "TRAFFIC_SIGNALS",
+    "subCategory": "SIGNAL_ASPECT",
+    "canonicalName": "Overhead Lane Green Arrow",
+    "shortName": "Overhead Lane Green Arrow",
+    "meaning": "Overhead Lane Green Arrow",
+    "driverAction": "Driving is permitted in this specific lane.",
+    "shape": "SIGNAL_HEAD",
+    "primarySymbol": "LANE-GREEN-ARROW",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-SIG-LANE-GREEN-ARROW",
+        "officialName": "Overhead Lane Green Arrow",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-SIG-LANE-GREEN-ARROW",
+        "officialName": "Overhead Lane Green Arrow",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-SIG-LANE-GREEN-ARROW",
+        "officialName": "Overhead Lane Green Arrow",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-SIG-LANE-GREEN-ARROW",
+        "officialName": "Overhead Lane Green Arrow",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-SIG-LANE-GREEN-ARROW",
+        "officialName": "Overhead Lane Green Arrow",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-SIG-LANE-GREEN-ARROW",
+        "officialName": "Overhead Lane Green Arrow",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-SIG-LANE-GREEN-ARROW-01",
+        "questionType": "SIGNAL_SCENARIO",
+        "difficulty": "MEDIUM",
+        "text": "When approaching an intersection displaying a Overhead Lane Green Arrow, what is the mandatory requirement?",
+        "options": [
+          "Driving is permitted in this specific lane.",
+          "Accelerate rapidly to clear the junction before other vehicles start moving.",
+          "Ignore the light if turning right in any jurisdiction.",
+          "Sound your horn three times and proceed without stopping."
+        ],
+        "correctIndex": 0,
+        "explanation": "For Overhead Lane Green Arrow: Driving is permitted in this specific lane.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "SIG-LANE-RED-X",
+    "category": "TRAFFIC_SIGNALS",
+    "subCategory": "SIGNAL_ASPECT",
+    "canonicalName": "Overhead Lane Red X",
+    "shortName": "Overhead Lane Red X",
+    "meaning": "Overhead Lane Red X",
+    "driverAction": "Lane is closed to traffic; do not drive in or enter this lane.",
+    "shape": "SIGNAL_HEAD",
+    "primarySymbol": "LANE-RED-X",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-SIG-LANE-RED-X",
+        "officialName": "Overhead Lane Red X",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-SIG-LANE-RED-X",
+        "officialName": "Overhead Lane Red X",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-SIG-LANE-RED-X",
+        "officialName": "Overhead Lane Red X",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-SIG-LANE-RED-X",
+        "officialName": "Overhead Lane Red X",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-SIG-LANE-RED-X",
+        "officialName": "Overhead Lane Red X",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-SIG-LANE-RED-X",
+        "officialName": "Overhead Lane Red X",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-SIG-LANE-RED-X-01",
+        "questionType": "SIGNAL_SCENARIO",
+        "difficulty": "MEDIUM",
+        "text": "When approaching an intersection displaying a Overhead Lane Red X, what is the mandatory requirement?",
+        "options": [
+          "Lane is closed to traffic; do not drive in or enter this lane.",
+          "Accelerate rapidly to clear the junction before other vehicles start moving.",
+          "Ignore the light if turning right in any jurisdiction.",
+          "Sound your horn three times and proceed without stopping."
+        ],
+        "correctIndex": 0,
+        "explanation": "For Overhead Lane Red X: Lane is closed to traffic; do not drive in or enter this lane.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "SIG-LANE-YELLOW-X",
+    "category": "TRAFFIC_SIGNALS",
+    "subCategory": "SIGNAL_ASPECT",
+    "canonicalName": "Overhead Lane Yellow X",
+    "shortName": "Overhead Lane Yellow X",
+    "meaning": "Overhead Lane Yellow X",
+    "driverAction": "Lane closure imminent; vacate this lane safely as soon as possible.",
+    "shape": "SIGNAL_HEAD",
+    "primarySymbol": "LANE-YELLOW-X",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-SIG-LANE-YELLOW-X",
+        "officialName": "Overhead Lane Yellow X",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-SIG-LANE-YELLOW-X",
+        "officialName": "Overhead Lane Yellow X",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-SIG-LANE-YELLOW-X",
+        "officialName": "Overhead Lane Yellow X",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-SIG-LANE-YELLOW-X",
+        "officialName": "Overhead Lane Yellow X",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-SIG-LANE-YELLOW-X",
+        "officialName": "Overhead Lane Yellow X",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-SIG-LANE-YELLOW-X",
+        "officialName": "Overhead Lane Yellow X",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-SIG-LANE-YELLOW-X-01",
+        "questionType": "SIGNAL_SCENARIO",
+        "difficulty": "MEDIUM",
+        "text": "When approaching an intersection displaying a Overhead Lane Yellow X, what is the mandatory requirement?",
+        "options": [
+          "Lane closure imminent; vacate this lane safely as soon as possible.",
+          "Accelerate rapidly to clear the junction before other vehicles start moving.",
+          "Ignore the light if turning right in any jurisdiction.",
+          "Sound your horn three times and proceed without stopping."
+        ],
+        "correctIndex": 0,
+        "explanation": "For Overhead Lane Yellow X: Lane closure imminent; vacate this lane safely as soon as possible.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "SIG-REVERSIBLE-LANE",
+    "category": "TRAFFIC_SIGNALS",
+    "subCategory": "SIGNAL_ASPECT",
+    "canonicalName": "Reversible Flow Lane Signal",
+    "shortName": "Reversible Flow Lane Signal",
+    "meaning": "Reversible Flow Lane Signal",
+    "driverAction": "Drive only in lanes indicating green downward arrows.",
+    "shape": "SIGNAL_HEAD",
+    "primarySymbol": "REVERSIBLE-LANE",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-SIG-REVERSIBLE-LANE",
+        "officialName": "Reversible Flow Lane Signal",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-SIG-REVERSIBLE-LANE",
+        "officialName": "Reversible Flow Lane Signal",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-SIG-REVERSIBLE-LANE",
+        "officialName": "Reversible Flow Lane Signal",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-SIG-REVERSIBLE-LANE",
+        "officialName": "Reversible Flow Lane Signal",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-SIG-REVERSIBLE-LANE",
+        "officialName": "Reversible Flow Lane Signal",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-SIG-REVERSIBLE-LANE",
+        "officialName": "Reversible Flow Lane Signal",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-SIG-REVERSIBLE-LANE-01",
+        "questionType": "SIGNAL_SCENARIO",
+        "difficulty": "MEDIUM",
+        "text": "When approaching an intersection displaying a Reversible Flow Lane Signal, what is the mandatory requirement?",
+        "options": [
+          "Drive only in lanes indicating green downward arrows.",
+          "Accelerate rapidly to clear the junction before other vehicles start moving.",
+          "Ignore the light if turning right in any jurisdiction.",
+          "Sound your horn three times and proceed without stopping."
+        ],
+        "correctIndex": 0,
+        "explanation": "For Reversible Flow Lane Signal: Drive only in lanes indicating green downward arrows.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "SIG-RAILWAY-FLASHING-RED",
+    "category": "TRAFFIC_SIGNALS",
+    "subCategory": "SIGNAL_ASPECT",
+    "canonicalName": "Level Crossing Alternating Flashing Red Lights",
+    "shortName": "Level Crossing Alternating Flashing Red Lights",
+    "meaning": "Level Crossing Alternating Flashing Red Lights",
+    "driverAction": "Mandatory stop; a train is approaching the crossing.",
+    "shape": "SIGNAL_HEAD",
+    "primarySymbol": "RAILWAY-FLASHING-RED",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-SIG-RAILWAY-FLASHING-RED",
+        "officialName": "Level Crossing Alternating Flashing Red Lights",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-SIG-RAILWAY-FLASHING-RED",
+        "officialName": "Level Crossing Alternating Flashing Red Lights",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-SIG-RAILWAY-FLASHING-RED",
+        "officialName": "Level Crossing Alternating Flashing Red Lights",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-SIG-RAILWAY-FLASHING-RED",
+        "officialName": "Level Crossing Alternating Flashing Red Lights",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-SIG-RAILWAY-FLASHING-RED",
+        "officialName": "Level Crossing Alternating Flashing Red Lights",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-SIG-RAILWAY-FLASHING-RED",
+        "officialName": "Level Crossing Alternating Flashing Red Lights",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-SIG-RAILWAY-FLASHING-RED-01",
+        "questionType": "SIGNAL_SCENARIO",
+        "difficulty": "MEDIUM",
+        "text": "When approaching an intersection displaying a Level Crossing Alternating Flashing Red Lights, what is the mandatory requirement?",
+        "options": [
+          "Mandatory stop; a train is approaching the crossing.",
+          "Accelerate rapidly to clear the junction before other vehicles start moving.",
+          "Ignore the light if turning right in any jurisdiction.",
+          "Sound your horn three times and proceed without stopping."
+        ],
+        "correctIndex": 0,
+        "explanation": "For Level Crossing Alternating Flashing Red Lights: Mandatory stop; a train is approaching the crossing.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "SIG-SCHOOL-CROSSING-BEACON",
+    "category": "TRAFFIC_SIGNALS",
+    "subCategory": "SIGNAL_ASPECT",
+    "canonicalName": "Flashing Yellow School Beacon",
+    "shortName": "Flashing Yellow School Beacon",
+    "meaning": "Flashing Yellow School Beacon",
+    "driverAction": "School speed limit in effect; watch for children and crossing guard.",
+    "shape": "SIGNAL_HEAD",
+    "primarySymbol": "SCHOOL-CROSSING-BEACON",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-SIG-SCHOOL-CROSSING-BEACON",
+        "officialName": "Flashing Yellow School Beacon",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-SIG-SCHOOL-CROSSING-BEACON",
+        "officialName": "Flashing Yellow School Beacon",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-SIG-SCHOOL-CROSSING-BEACON",
+        "officialName": "Flashing Yellow School Beacon",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-SIG-SCHOOL-CROSSING-BEACON",
+        "officialName": "Flashing Yellow School Beacon",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-SIG-SCHOOL-CROSSING-BEACON",
+        "officialName": "Flashing Yellow School Beacon",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-SIG-SCHOOL-CROSSING-BEACON",
+        "officialName": "Flashing Yellow School Beacon",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-SIG-SCHOOL-CROSSING-BEACON-01",
+        "questionType": "SIGNAL_SCENARIO",
+        "difficulty": "MEDIUM",
+        "text": "When approaching an intersection displaying a Flashing Yellow School Beacon, what is the mandatory requirement?",
+        "options": [
+          "School speed limit in effect; watch for children and crossing guard.",
+          "Accelerate rapidly to clear the junction before other vehicles start moving.",
+          "Ignore the light if turning right in any jurisdiction.",
+          "Sound your horn three times and proceed without stopping."
+        ],
+        "correctIndex": 0,
+        "explanation": "For Flashing Yellow School Beacon: School speed limit in effect; watch for children and crossing guard.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "SIG-FIRE-STATION-SIGNAL",
+    "category": "TRAFFIC_SIGNALS",
+    "subCategory": "SIGNAL_ASPECT",
+    "canonicalName": "Emergency Vehicle Fire Station Beacon",
+    "shortName": "Emergency Vehicle Fire Station Beacon",
+    "meaning": "Emergency Vehicle Fire Station Beacon",
+    "driverAction": "Stop when red signals illuminate to allow fire engines to exit bay.",
+    "shape": "SIGNAL_HEAD",
+    "primarySymbol": "FIRE-STATION-SIGNAL",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-SIG-FIRE-STATION-SIGNAL",
+        "officialName": "Emergency Vehicle Fire Station Beacon",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-SIG-FIRE-STATION-SIGNAL",
+        "officialName": "Emergency Vehicle Fire Station Beacon",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-SIG-FIRE-STATION-SIGNAL",
+        "officialName": "Emergency Vehicle Fire Station Beacon",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-SIG-FIRE-STATION-SIGNAL",
+        "officialName": "Emergency Vehicle Fire Station Beacon",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-SIG-FIRE-STATION-SIGNAL",
+        "officialName": "Emergency Vehicle Fire Station Beacon",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-SIG-FIRE-STATION-SIGNAL",
+        "officialName": "Emergency Vehicle Fire Station Beacon",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-SIG-FIRE-STATION-SIGNAL-01",
+        "questionType": "SIGNAL_SCENARIO",
+        "difficulty": "MEDIUM",
+        "text": "When approaching an intersection displaying a Emergency Vehicle Fire Station Beacon, what is the mandatory requirement?",
+        "options": [
+          "Stop when red signals illuminate to allow fire engines to exit bay.",
+          "Accelerate rapidly to clear the junction before other vehicles start moving.",
+          "Ignore the light if turning right in any jurisdiction.",
+          "Sound your horn three times and proceed without stopping."
+        ],
+        "correctIndex": 0,
+        "explanation": "For Emergency Vehicle Fire Station Beacon: Stop when red signals illuminate to allow fire engines to exit bay.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "SIG-POLICE-MANUAL-STOP",
+    "category": "TRAFFIC_SIGNALS",
+    "subCategory": "SIGNAL_ASPECT",
+    "canonicalName": "Police Officer Hand Signal: Hand Raised Palm Facing",
+    "shortName": "Police Officer Hand Signal: Hand Raised Palm Facing",
+    "meaning": "Police Officer Hand Signal: Hand Raised Palm Facing",
+    "driverAction": "Stop vehicle immediately; police manual direction supersedes all electric traffic lights.",
+    "shape": "SIGNAL_HEAD",
+    "primarySymbol": "POLICE-MANUAL-STOP",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-SIG-POLICE-MANUAL-STOP",
+        "officialName": "Police Officer Hand Signal: Hand Raised Palm Facing",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-SIG-POLICE-MANUAL-STOP",
+        "officialName": "Police Officer Hand Signal: Hand Raised Palm Facing",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-SIG-POLICE-MANUAL-STOP",
+        "officialName": "Police Officer Hand Signal: Hand Raised Palm Facing",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-SIG-POLICE-MANUAL-STOP",
+        "officialName": "Police Officer Hand Signal: Hand Raised Palm Facing",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-SIG-POLICE-MANUAL-STOP",
+        "officialName": "Police Officer Hand Signal: Hand Raised Palm Facing",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-SIG-POLICE-MANUAL-STOP",
+        "officialName": "Police Officer Hand Signal: Hand Raised Palm Facing",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-SIG-POLICE-MANUAL-STOP-01",
+        "questionType": "SIGNAL_SCENARIO",
+        "difficulty": "MEDIUM",
+        "text": "When approaching an intersection displaying a Police Officer Hand Signal: Hand Raised Palm Facing, what is the mandatory requirement?",
+        "options": [
+          "Stop vehicle immediately; police manual direction supersedes all electric traffic lights.",
+          "Accelerate rapidly to clear the junction before other vehicles start moving.",
+          "Ignore the light if turning right in any jurisdiction.",
+          "Sound your horn three times and proceed without stopping."
+        ],
+        "correctIndex": 0,
+        "explanation": "For Police Officer Hand Signal: Hand Raised Palm Facing: Stop vehicle immediately; police manual direction supersedes all electric traffic lights.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "SIG-POLICE-MANUAL-PROCEED",
+    "category": "TRAFFIC_SIGNALS",
+    "subCategory": "SIGNAL_ASPECT",
+    "canonicalName": "Police Officer Hand Signal: Motioning Forward with Arm",
+    "shortName": "Police Officer Hand Signal: Motioning Forward with Arm",
+    "meaning": "Police Officer Hand Signal: Motioning Forward with Arm",
+    "driverAction": "Proceed in indicated direction as directed by the traffic officer.",
+    "shape": "SIGNAL_HEAD",
+    "primarySymbol": "POLICE-MANUAL-PROCEED",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-SIG-POLICE-MANUAL-PROCEED",
+        "officialName": "Police Officer Hand Signal: Motioning Forward with Arm",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-SIG-POLICE-MANUAL-PROCEED",
+        "officialName": "Police Officer Hand Signal: Motioning Forward with Arm",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-SIG-POLICE-MANUAL-PROCEED",
+        "officialName": "Police Officer Hand Signal: Motioning Forward with Arm",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-SIG-POLICE-MANUAL-PROCEED",
+        "officialName": "Police Officer Hand Signal: Motioning Forward with Arm",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-SIG-POLICE-MANUAL-PROCEED",
+        "officialName": "Police Officer Hand Signal: Motioning Forward with Arm",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-SIG-POLICE-MANUAL-PROCEED",
+        "officialName": "Police Officer Hand Signal: Motioning Forward with Arm",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-SIG-POLICE-MANUAL-PROCEED-01",
+        "questionType": "SIGNAL_SCENARIO",
+        "difficulty": "MEDIUM",
+        "text": "When approaching an intersection displaying a Police Officer Hand Signal: Motioning Forward with Arm, what is the mandatory requirement?",
+        "options": [
+          "Proceed in indicated direction as directed by the traffic officer.",
+          "Accelerate rapidly to clear the junction before other vehicles start moving.",
+          "Ignore the light if turning right in any jurisdiction.",
+          "Sound your horn three times and proceed without stopping."
+        ],
+        "correctIndex": 0,
+        "explanation": "For Police Officer Hand Signal: Motioning Forward with Arm: Proceed in indicated direction as directed by the traffic officer.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "SIG-TRAFFIC-CONTROLLER-STOP-PADDLE",
+    "category": "TRAFFIC_SIGNALS",
+    "subCategory": "SIGNAL_ASPECT",
+    "canonicalName": "Roadworks Traffic Control STOP Paddle",
+    "shortName": "Roadworks Traffic Control STOP Paddle",
+    "meaning": "Roadworks Traffic Control STOP Paddle",
+    "driverAction": "Stop and wait until traffic controller turns paddle to SLOW.",
+    "shape": "SIGNAL_HEAD",
+    "primarySymbol": "TRAFFIC-CONTROLLER-STOP-PADDLE",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-SIG-TRAFFIC-CONTROLLER-STOP-PADDLE",
+        "officialName": "Roadworks Traffic Control STOP Paddle",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-SIG-TRAFFIC-CONTROLLER-STOP-PADDLE",
+        "officialName": "Roadworks Traffic Control STOP Paddle",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-SIG-TRAFFIC-CONTROLLER-STOP-PADDLE",
+        "officialName": "Roadworks Traffic Control STOP Paddle",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-SIG-TRAFFIC-CONTROLLER-STOP-PADDLE",
+        "officialName": "Roadworks Traffic Control STOP Paddle",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-SIG-TRAFFIC-CONTROLLER-STOP-PADDLE",
+        "officialName": "Roadworks Traffic Control STOP Paddle",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-SIG-TRAFFIC-CONTROLLER-STOP-PADDLE",
+        "officialName": "Roadworks Traffic Control STOP Paddle",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-SIG-TRAFFIC-CONTROLLER-STOP-PADDLE-01",
+        "questionType": "SIGNAL_SCENARIO",
+        "difficulty": "MEDIUM",
+        "text": "When approaching an intersection displaying a Roadworks Traffic Control STOP Paddle, what is the mandatory requirement?",
+        "options": [
+          "Stop and wait until traffic controller turns paddle to SLOW.",
+          "Accelerate rapidly to clear the junction before other vehicles start moving.",
+          "Ignore the light if turning right in any jurisdiction.",
+          "Sound your horn three times and proceed without stopping."
+        ],
+        "correctIndex": 0,
+        "explanation": "For Roadworks Traffic Control STOP Paddle: Stop and wait until traffic controller turns paddle to SLOW.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "SIG-TRAFFIC-CONTROLLER-SLOW-PADDLE",
+    "category": "TRAFFIC_SIGNALS",
+    "subCategory": "SIGNAL_ASPECT",
+    "canonicalName": "Roadworks Traffic Control SLOW Paddle",
+    "shortName": "Roadworks Traffic Control SLOW Paddle",
+    "meaning": "Roadworks Traffic Control SLOW Paddle",
+    "driverAction": "Proceed cautiously at reduced speed past work zone.",
+    "shape": "SIGNAL_HEAD",
+    "primarySymbol": "TRAFFIC-CONTROLLER-SLOW-PADDLE",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-SIG-TRAFFIC-CONTROLLER-SLOW-PADDLE",
+        "officialName": "Roadworks Traffic Control SLOW Paddle",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-SIG-TRAFFIC-CONTROLLER-SLOW-PADDLE",
+        "officialName": "Roadworks Traffic Control SLOW Paddle",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-SIG-TRAFFIC-CONTROLLER-SLOW-PADDLE",
+        "officialName": "Roadworks Traffic Control SLOW Paddle",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-SIG-TRAFFIC-CONTROLLER-SLOW-PADDLE",
+        "officialName": "Roadworks Traffic Control SLOW Paddle",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-SIG-TRAFFIC-CONTROLLER-SLOW-PADDLE",
+        "officialName": "Roadworks Traffic Control SLOW Paddle",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-SIG-TRAFFIC-CONTROLLER-SLOW-PADDLE",
+        "officialName": "Roadworks Traffic Control SLOW Paddle",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-SIG-TRAFFIC-CONTROLLER-SLOW-PADDLE-01",
+        "questionType": "SIGNAL_SCENARIO",
+        "difficulty": "MEDIUM",
+        "text": "When approaching an intersection displaying a Roadworks Traffic Control SLOW Paddle, what is the mandatory requirement?",
+        "options": [
+          "Proceed cautiously at reduced speed past work zone.",
+          "Accelerate rapidly to clear the junction before other vehicles start moving.",
+          "Ignore the light if turning right in any jurisdiction.",
+          "Sound your horn three times and proceed without stopping."
+        ],
+        "correctIndex": 0,
+        "explanation": "For Roadworks Traffic Control SLOW Paddle: Proceed cautiously at reduced speed past work zone.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "SIG-RAMP-METER-RED-GREEN",
+    "category": "TRAFFIC_SIGNALS",
+    "subCategory": "SIGNAL_ASPECT",
+    "canonicalName": "Motorway Freeway Ramp Metering Signal",
+    "shortName": "Motorway Freeway Ramp Metering Signal",
+    "meaning": "Motorway Freeway Ramp Metering Signal",
+    "driverAction": "One vehicle per green light onto the freeway acceleration lane.",
+    "shape": "SIGNAL_HEAD",
+    "primarySymbol": "RAMP-METER-RED-GREEN",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-SIG-RAMP-METER-RED-GREEN",
+        "officialName": "Motorway Freeway Ramp Metering Signal",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-SIG-RAMP-METER-RED-GREEN",
+        "officialName": "Motorway Freeway Ramp Metering Signal",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-SIG-RAMP-METER-RED-GREEN",
+        "officialName": "Motorway Freeway Ramp Metering Signal",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-SIG-RAMP-METER-RED-GREEN",
+        "officialName": "Motorway Freeway Ramp Metering Signal",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-SIG-RAMP-METER-RED-GREEN",
+        "officialName": "Motorway Freeway Ramp Metering Signal",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-SIG-RAMP-METER-RED-GREEN",
+        "officialName": "Motorway Freeway Ramp Metering Signal",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-SIG-RAMP-METER-RED-GREEN-01",
+        "questionType": "SIGNAL_SCENARIO",
+        "difficulty": "MEDIUM",
+        "text": "When approaching an intersection displaying a Motorway Freeway Ramp Metering Signal, what is the mandatory requirement?",
+        "options": [
+          "One vehicle per green light onto the freeway acceleration lane.",
+          "Accelerate rapidly to clear the junction before other vehicles start moving.",
+          "Ignore the light if turning right in any jurisdiction.",
+          "Sound your horn three times and proceed without stopping."
+        ],
+        "correctIndex": 0,
+        "explanation": "For Motorway Freeway Ramp Metering Signal: One vehicle per green light onto the freeway acceleration lane.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "SIG-BLACKOUT-FAILURE",
+    "category": "TRAFFIC_SIGNALS",
+    "subCategory": "SIGNAL_ASPECT",
+    "canonicalName": "Dark / Failed Signal (Power Outage)",
+    "shortName": "Dark / Failed Signal",
+    "meaning": "Dark / Failed Signal (Power Outage)",
+    "driverAction": "Treat the intersection as an all-way Stop sign; vehicle on right or first to stop has priority.",
+    "shape": "SIGNAL_HEAD",
+    "primarySymbol": "BLACKOUT-FAILURE",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-SIG-BLACKOUT-FAILURE",
+        "officialName": "Dark / Failed Signal (Power Outage)",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-SIG-BLACKOUT-FAILURE",
+        "officialName": "Dark / Failed Signal (Power Outage)",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-SIG-BLACKOUT-FAILURE",
+        "officialName": "Dark / Failed Signal (Power Outage)",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-SIG-BLACKOUT-FAILURE",
+        "officialName": "Dark / Failed Signal (Power Outage)",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-SIG-BLACKOUT-FAILURE",
+        "officialName": "Dark / Failed Signal (Power Outage)",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-SIG-BLACKOUT-FAILURE",
+        "officialName": "Dark / Failed Signal (Power Outage)",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-SIG-BLACKOUT-FAILURE-01",
+        "questionType": "SIGNAL_SCENARIO",
+        "difficulty": "MEDIUM",
+        "text": "When approaching an intersection displaying a Dark / Failed Signal (Power Outage), what is the mandatory requirement?",
+        "options": [
+          "Treat the intersection as an all-way Stop sign; vehicle on right or first to stop has priority.",
+          "Accelerate rapidly to clear the junction before other vehicles start moving.",
+          "Ignore the light if turning right in any jurisdiction.",
+          "Sound your horn three times and proceed without stopping."
+        ],
+        "correctIndex": 0,
+        "explanation": "For Dark / Failed Signal (Power Outage): Treat the intersection as an all-way Stop sign; vehicle on right or first to stop has priority.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "SIG-BUS-PRIORITY-WHITE-BAR",
+    "category": "TRAFFIC_SIGNALS",
+    "subCategory": "SIGNAL_ASPECT",
+    "canonicalName": "Transit Bus White Vertical Bar Signal",
+    "shortName": "Transit Bus White Vertical Bar Signal",
+    "meaning": "Transit Bus White Vertical Bar Signal",
+    "driverAction": "Transit buses only may proceed; passenger cars must remain stopped.",
+    "shape": "SIGNAL_HEAD",
+    "primarySymbol": "BUS-PRIORITY-WHITE-BAR",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-SIG-BUS-PRIORITY-WHITE-BAR",
+        "officialName": "Transit Bus White Vertical Bar Signal",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-SIG-BUS-PRIORITY-WHITE-BAR",
+        "officialName": "Transit Bus White Vertical Bar Signal",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-SIG-BUS-PRIORITY-WHITE-BAR",
+        "officialName": "Transit Bus White Vertical Bar Signal",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-SIG-BUS-PRIORITY-WHITE-BAR",
+        "officialName": "Transit Bus White Vertical Bar Signal",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-SIG-BUS-PRIORITY-WHITE-BAR",
+        "officialName": "Transit Bus White Vertical Bar Signal",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-SIG-BUS-PRIORITY-WHITE-BAR",
+        "officialName": "Transit Bus White Vertical Bar Signal",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-SIG-BUS-PRIORITY-WHITE-BAR-01",
+        "questionType": "SIGNAL_SCENARIO",
+        "difficulty": "MEDIUM",
+        "text": "When approaching an intersection displaying a Transit Bus White Vertical Bar Signal, what is the mandatory requirement?",
+        "options": [
+          "Transit buses only may proceed; passenger cars must remain stopped.",
+          "Accelerate rapidly to clear the junction before other vehicles start moving.",
+          "Ignore the light if turning right in any jurisdiction.",
+          "Sound your horn three times and proceed without stopping."
+        ],
+        "correctIndex": 0,
+        "explanation": "For Transit Bus White Vertical Bar Signal: Transit buses only may proceed; passenger cars must remain stopped.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "SIG-BICYCLE-SIGNAL-GREEN",
+    "category": "TRAFFIC_SIGNALS",
+    "subCategory": "SIGNAL_ASPECT",
+    "canonicalName": "Bicycle Traffic Signal Green",
+    "shortName": "Bicycle Traffic Signal Green",
+    "meaning": "Bicycle Traffic Signal Green",
+    "driverAction": "Cyclists using cycleway may proceed across intersection.",
+    "shape": "SIGNAL_HEAD",
+    "primarySymbol": "BICYCLE-SIGNAL-GREEN",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-SIG-BICYCLE-SIGNAL-GREEN",
+        "officialName": "Bicycle Traffic Signal Green",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-SIG-BICYCLE-SIGNAL-GREEN",
+        "officialName": "Bicycle Traffic Signal Green",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-SIG-BICYCLE-SIGNAL-GREEN",
+        "officialName": "Bicycle Traffic Signal Green",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-SIG-BICYCLE-SIGNAL-GREEN",
+        "officialName": "Bicycle Traffic Signal Green",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-SIG-BICYCLE-SIGNAL-GREEN",
+        "officialName": "Bicycle Traffic Signal Green",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-SIG-BICYCLE-SIGNAL-GREEN",
+        "officialName": "Bicycle Traffic Signal Green",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-SIG-BICYCLE-SIGNAL-GREEN-01",
+        "questionType": "SIGNAL_SCENARIO",
+        "difficulty": "MEDIUM",
+        "text": "When approaching an intersection displaying a Bicycle Traffic Signal Green, what is the mandatory requirement?",
+        "options": [
+          "Cyclists using cycleway may proceed across intersection.",
+          "Accelerate rapidly to clear the junction before other vehicles start moving.",
+          "Ignore the light if turning right in any jurisdiction.",
+          "Sound your horn three times and proceed without stopping."
+        ],
+        "correctIndex": 0,
+        "explanation": "For Bicycle Traffic Signal Green: Cyclists using cycleway may proceed across intersection.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "SIG-VARIABLE-SPEED-OVERHEAD",
+    "category": "TRAFFIC_SIGNALS",
+    "subCategory": "SIGNAL_ASPECT",
+    "canonicalName": "Variable Speed Electronic Overhead Display",
+    "shortName": "Variable Speed Electronic Overhead Display",
+    "meaning": "Variable Speed Electronic Overhead Display",
+    "driverAction": "Mandatory speed limit currently modified for congestion or weather.",
+    "shape": "SIGNAL_HEAD",
+    "primarySymbol": "VARIABLE-SPEED-OVERHEAD",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-SIG-VARIABLE-SPEED-OVERHEAD",
+        "officialName": "Variable Speed Electronic Overhead Display",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-SIG-VARIABLE-SPEED-OVERHEAD",
+        "officialName": "Variable Speed Electronic Overhead Display",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-SIG-VARIABLE-SPEED-OVERHEAD",
+        "officialName": "Variable Speed Electronic Overhead Display",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-SIG-VARIABLE-SPEED-OVERHEAD",
+        "officialName": "Variable Speed Electronic Overhead Display",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-SIG-VARIABLE-SPEED-OVERHEAD",
+        "officialName": "Variable Speed Electronic Overhead Display",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-SIG-VARIABLE-SPEED-OVERHEAD",
+        "officialName": "Variable Speed Electronic Overhead Display",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-SIG-VARIABLE-SPEED-OVERHEAD-01",
+        "questionType": "SIGNAL_SCENARIO",
+        "difficulty": "MEDIUM",
+        "text": "When approaching an intersection displaying a Variable Speed Electronic Overhead Display, what is the mandatory requirement?",
+        "options": [
+          "Mandatory speed limit currently modified for congestion or weather.",
+          "Accelerate rapidly to clear the junction before other vehicles start moving.",
+          "Ignore the light if turning right in any jurisdiction.",
+          "Sound your horn three times and proceed without stopping."
+        ],
+        "correctIndex": 0,
+        "explanation": "For Variable Speed Electronic Overhead Display: Mandatory speed limit currently modified for congestion or weather.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "SIG-DRAWBRIDGE-SIGNAL",
+    "category": "TRAFFIC_SIGNALS",
+    "subCategory": "SIGNAL_ASPECT",
+    "canonicalName": "Movable Bridge Warning Signals",
+    "shortName": "Movable Bridge Warning Signals",
+    "meaning": "Movable Bridge Warning Signals",
+    "driverAction": "Stop completely when red signals flash and barrier gates lower.",
+    "shape": "SIGNAL_HEAD",
+    "primarySymbol": "DRAWBRIDGE-SIGNAL",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-SIG-DRAWBRIDGE-SIGNAL",
+        "officialName": "Movable Bridge Warning Signals",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-SIG-DRAWBRIDGE-SIGNAL",
+        "officialName": "Movable Bridge Warning Signals",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-SIG-DRAWBRIDGE-SIGNAL",
+        "officialName": "Movable Bridge Warning Signals",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-SIG-DRAWBRIDGE-SIGNAL",
+        "officialName": "Movable Bridge Warning Signals",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-SIG-DRAWBRIDGE-SIGNAL",
+        "officialName": "Movable Bridge Warning Signals",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-SIG-DRAWBRIDGE-SIGNAL",
+        "officialName": "Movable Bridge Warning Signals",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-SIG-DRAWBRIDGE-SIGNAL-01",
+        "questionType": "SIGNAL_SCENARIO",
+        "difficulty": "MEDIUM",
+        "text": "When approaching an intersection displaying a Movable Bridge Warning Signals, what is the mandatory requirement?",
+        "options": [
+          "Stop completely when red signals flash and barrier gates lower.",
+          "Accelerate rapidly to clear the junction before other vehicles start moving.",
+          "Ignore the light if turning right in any jurisdiction.",
+          "Sound your horn three times and proceed without stopping."
+        ],
+        "correctIndex": 0,
+        "explanation": "For Movable Bridge Warning Signals: Stop completely when red signals flash and barrier gates lower.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "SIG-HAZMAT-ESCORT-SIGNAL",
+    "category": "TRAFFIC_SIGNALS",
+    "subCategory": "SIGNAL_ASPECT",
+    "canonicalName": "Hazardous Escort / Convoy Red Signal",
+    "shortName": "Hazardous Escort / Convoy Red Signal",
+    "meaning": "Hazardous Escort / Convoy Red Signal",
+    "driverAction": "Yield and pull over for escort convoy.",
+    "shape": "SIGNAL_HEAD",
+    "primarySymbol": "HAZMAT-ESCORT-SIGNAL",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-SIG-HAZMAT-ESCORT-SIGNAL",
+        "officialName": "Hazardous Escort / Convoy Red Signal",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-SIG-HAZMAT-ESCORT-SIGNAL",
+        "officialName": "Hazardous Escort / Convoy Red Signal",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-SIG-HAZMAT-ESCORT-SIGNAL",
+        "officialName": "Hazardous Escort / Convoy Red Signal",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-SIG-HAZMAT-ESCORT-SIGNAL",
+        "officialName": "Hazardous Escort / Convoy Red Signal",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-SIG-HAZMAT-ESCORT-SIGNAL",
+        "officialName": "Hazardous Escort / Convoy Red Signal",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-SIG-HAZMAT-ESCORT-SIGNAL",
+        "officialName": "Hazardous Escort / Convoy Red Signal",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-SIG-HAZMAT-ESCORT-SIGNAL-01",
+        "questionType": "SIGNAL_SCENARIO",
+        "difficulty": "MEDIUM",
+        "text": "When approaching an intersection displaying a Hazardous Escort / Convoy Red Signal, what is the mandatory requirement?",
+        "options": [
+          "Yield and pull over for escort convoy.",
+          "Accelerate rapidly to clear the junction before other vehicles start moving.",
+          "Ignore the light if turning right in any jurisdiction.",
+          "Sound your horn three times and proceed without stopping."
+        ],
+        "correctIndex": 0,
+        "explanation": "For Hazardous Escort / Convoy Red Signal: Yield and pull over for escort convoy.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  }
+]

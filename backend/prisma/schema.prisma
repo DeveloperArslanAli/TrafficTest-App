@@ -1,0 +1,419 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  USER
+  ADMIN
+}
+
+enum ContentStatus {
+  DRAFT
+  AI_GENERATED
+  UNDER_REVIEW
+  VERIFIED
+  APPROVED
+  PUBLISHED
+  UNPUBLISHED
+  ARCHIVED
+  REJECTED
+}
+
+enum DifficultyLevel {
+  EASY
+  MEDIUM
+  HARD
+}
+
+enum JurisdictionType {
+  NATIONAL
+  STATE
+  PROVINCE
+  EMIRATE
+  TERRITORY
+}
+
+enum DuplicateType {
+  SIGN
+  QUESTION
+}
+
+enum DuplicateRecommendation {
+  LIKELY_DUPLICATE
+  POSSIBLE_VARIANT
+  DISTINCT
+}
+
+enum DuplicateStatus {
+  PENDING
+  MERGED
+  KEPT_SEPARATE
+  MARKED_AS_VARIANT
+  REJECTED
+}
+
+enum MigrationStatus {
+  MIGRATED
+  DUPLICATE
+  OBSOLETE
+  ARCHIVED
+}
+
+enum VersionScope {
+  GLOBAL
+  COUNTRY
+  JURISDICTION
+}
+
+model User {
+  id        String     @id @default(cuid())
+  email     String     @unique
+  password  String
+  role      Role       @default(USER)
+  attempts  Attempt[]
+  bookmarks Bookmark[]
+  auditLogs AuditLog[]
+  createdAt DateTime   @default(now())
+}
+
+model Country {
+  id            String               @id @default(cuid())
+  code          String               @unique // "GLOBAL", "PK", "SA", "AE", "US", "GB", "CA", "AU"
+  name          String
+  isoCode       String?
+  flagEmoji     String?
+  status        String               @default("ACTIVE") // ACTIVE, INACTIVE
+  jurisdictions Jurisdiction[]
+  authorities   TrafficAuthority[]
+  sources       Source[]
+  signVariants  TrafficSignVariant[]
+  questions     Question[]
+  examProfiles  ExamProfile[]
+  createdAt     DateTime             @default(now())
+  updatedAt     DateTime             @updatedAt
+}
+
+model Jurisdiction {
+  id           String               @id @default(cuid())
+  countryId    String
+  country      Country              @relation(fields: [countryId], references: [id], onDelete: Cascade)
+  code         String // "CA", "TX", "FL", "PUNJAB", "DUBAI"
+  name         String
+  type         JurisdictionType     @default(STATE)
+  status       String               @default("ACTIVE")
+  authorities  TrafficAuthority[]
+  sources      Source[]
+  signVariants TrafficSignVariant[]
+  questions    Question[]
+  examProfiles ExamProfile[]
+  createdAt    DateTime             @default(now())
+  updatedAt    DateTime             @updatedAt
+
+  @@unique([countryId, code])
+}
+
+model TrafficAuthority {
+  id             String               @id @default(cuid())
+  countryId      String
+  country        Country              @relation(fields: [countryId], references: [id], onDelete: Cascade)
+  jurisdictionId String?
+  jurisdiction   Jurisdiction?        @relation(fields: [jurisdictionId], references: [id], onDelete: SetNull)
+  code           String // "FHWA", "CALIFORNIA_DMV", "NHMP", "RTA", "MOROOR"
+  name           String
+  website        String?
+  status         String               @default("ACTIVE")
+  sources        Source[]
+  signVariants   TrafficSignVariant[]
+  createdAt      DateTime             @default(now())
+  updatedAt      DateTime             @updatedAt
+}
+
+model Source {
+  id              String               @id @default(cuid())
+  name            String
+  url             String?
+  authorityId     String?
+  authority       TrafficAuthority?    @relation(fields: [authorityId], references: [id], onDelete: SetNull)
+  countryId       String?
+  country         Country?             @relation(fields: [countryId], references: [id], onDelete: SetNull)
+  jurisdictionId  String?
+  jurisdiction    Jurisdiction?        @relation(fields: [jurisdictionId], references: [id], onDelete: SetNull)
+  document        String?
+  section         String?
+  page            String?
+  tier            Int                  @default(1) // 1: Govt/Official, 2: Authorized manual, 3: Educational reference
+  verifiedAt      DateTime?
+  contentVersion  Int                  @default(1)
+  status          String               @default("VERIFIED") // VERIFIED, CHANGED, REQUIRES_REVIEW
+  questions       Question[]
+  signVariants    TrafficSignVariant[]
+  questionSources QuestionSource[]
+  createdAt       DateTime             @default(now())
+  updatedAt       DateTime             @updatedAt
+}
+
+model TrafficSign {
+  id              String               @id @default(cuid())
+  canonicalCode   String               @unique // "REG-STOP", "REG-NO-U-TURN", "WARN-LEFT-BEND", "SIG-RED"
+  category        String // "TRAFFIC_REGULATORY", "WARNING_SIGNS", "TRAFFIC_SIGNALS", "GENERAL_KNOWLEDGE"
+  subCategory     String?
+  canonicalName   String
+  shortName       String?
+  meaning         String
+  driverAction    String?
+  shape           String? // "OCTAGON", "TRIANGLE", "CIRCLE", "DIAMOND", "RECTANGLE"
+  primarySymbol   String?
+  prohibitionType String?
+  isGlobal        Boolean              @default(true)
+  status          ContentStatus        @default(PUBLISHED)
+  variants        TrafficSignVariant[]
+  questions       Question[]
+  legacySigns     LegacySign[]
+  createdAt       DateTime             @default(now())
+  updatedAt       DateTime             @updatedAt
+
+  @@index([category, status])
+}
+
+model TrafficSignVariant {
+  id             String            @id @default(cuid())
+  trafficSignId  String
+  trafficSign    TrafficSign       @relation(fields: [trafficSignId], references: [id], onDelete: Cascade)
+  countryId      String
+  country        Country           @relation(fields: [countryId], references: [id], onDelete: Cascade)
+  jurisdictionId String?
+  jurisdiction   Jurisdiction?     @relation(fields: [jurisdictionId], references: [id], onDelete: SetNull)
+  authorityId    String?
+  authority      TrafficAuthority? @relation(fields: [authorityId], references: [id], onDelete: SetNull)
+  officialCode   String // Official code in country manual, e.g. "R1-1", "NHMP-04"
+  officialName   String
+  localizedName  String?
+  description    String?
+  imageUrl       String?
+  imageHash      String?
+  symbolHash     String?
+  perceptualHash String?
+  shape          String?
+  colorProfile   String?
+  meaning        String?
+  driverAction   String?
+  sourceId       String?
+  source         Source?           @relation(fields: [sourceId], references: [id], onDelete: SetNull)
+  status         ContentStatus     @default(PUBLISHED)
+  questions      Question[]
+  createdAt      DateTime          @default(now())
+  updatedAt      DateTime          @updatedAt
+
+  @@unique([trafficSignId, countryId, officialCode])
+  @@index([imageHash])
+}
+
+model Question {
+  id             String              @id @default(cuid())
+  questionCode   String?             @unique // e.g. "Q-GLOBAL-REG-001"
+  category       String // "TRAFFIC_REGULATORY", "WARNING_SIGNS", "TRAFFIC_SIGNALS", "GENERAL_KNOWLEDGE"
+  subCategory    String?
+  questionType   String              @default("SIGN_IDENTIFICATION")
+  difficulty     DifficultyLevel     @default(EASY)
+  countryId      String?
+  country        Country?            @relation(fields: [countryId], references: [id], onDelete: SetNull)
+  jurisdictionId String?
+  jurisdiction   Jurisdiction?       @relation(fields: [jurisdictionId], references: [id], onDelete: SetNull)
+  signId         String?
+  sign           TrafficSign?        @relation(fields: [signId], references: [id], onDelete: SetNull)
+  signVariantId  String?
+  signVariant    TrafficSignVariant? @relation(fields: [signVariantId], references: [id], onDelete: SetNull)
+  sourceId       String?
+  source         Source?             @relation(fields: [sourceId], references: [id], onDelete: SetNull)
+
+  text                String // Question text
+  imageUrl            String?
+  signCode            String?
+  options             Json // JSON-stringified array or string[]
+  correctIndex        Int
+  explanation         String?
+  correctAnswer       String?
+  isPublished         Boolean       @default(true)
+  status              ContentStatus @default(PUBLISHED)
+  language            String        @default("en")
+  version             Int           @default(1)
+  questionFingerprint String?
+  semanticFingerprint String?
+  isLegacy            Boolean       @default(false)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  attempts        Attempt[]
+  bookmarks       Bookmark[]
+  questionOptions QuestionOption[]
+  questionSources QuestionSource[]
+  translations    QuestionTranslation[]
+  legacyRef       LegacyQuestion?
+
+  @@index([countryId, jurisdictionId, category, status])
+  @@index([questionFingerprint])
+  @@index([isPublished, isLegacy])
+}
+
+model QuestionOption {
+  id         String   @id @default(cuid())
+  questionId String
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  optionText String
+  imageUrl   String?
+  isCorrect  Boolean
+  sortOrder  Int      @default(0)
+
+  @@index([questionId])
+}
+
+model QuestionSource {
+  id            String    @id @default(cuid())
+  questionId    String
+  question      Question  @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  sourceId      String
+  source        Source    @relation(fields: [sourceId], references: [id], onDelete: Cascade)
+  citationText  String?
+  sourceUrl     String?
+  sourceSection String?
+  sourcePage    String?
+  verifiedAt    DateTime? @default(now())
+
+  @@unique([questionId, sourceId])
+}
+
+model QuestionTranslation {
+  id           String    @id @default(cuid())
+  questionId   String
+  question     Question  @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  language     String // "ur", "ar", "es", "fr"
+  questionText String
+  explanation  String?
+  options      Json // string[]
+  status       String    @default("VERIFIED")
+  verifiedAt   DateTime? @default(now())
+
+  @@unique([questionId, language])
+}
+
+model ExamProfile {
+  id                   String        @id @default(cuid())
+  countryId            String?
+  country              Country?      @relation(fields: [countryId], references: [id], onDelete: SetNull)
+  jurisdictionId       String?
+  jurisdiction         Jurisdiction? @relation(fields: [jurisdictionId], references: [id], onDelete: SetNull)
+  code                 String        @unique // e.g. "PK-GENERAL-20", "SA-DALLAH-30", "US-CA-DMV-46"
+  name                 String
+  licenseCategory      String        @default("CAR")
+  questionCount        Int           @default(20)
+  passingScore         Int           @default(80) // percentage
+  timeLimitMinutes     Int           @default(30)
+  categoryDistribution Json?
+  status               String        @default("ACTIVE")
+  createdAt            DateTime      @default(now())
+  updatedAt            DateTime      @updatedAt
+}
+
+model ContentVersion {
+  id               String       @id @default(cuid())
+  scope            VersionScope @default(GLOBAL)
+  countryCode      String? // "GLOBAL", "PK", "SA", "AE", "US", etc.
+  jurisdictionCode String? // "CA", "TX", etc.
+  version          Int          @default(1)
+  metadata         Json?
+  updatedAt        DateTime     @updatedAt
+
+  @@unique([scope, countryCode, jurisdictionCode])
+}
+
+model DuplicateCandidate {
+  id               String                  @id @default(cuid())
+  candidateType    DuplicateType           @default(SIGN)
+  entityAId        String
+  entityBId        String
+  similarityScore  Float
+  nameScore        Float?
+  meaningScore     Float?
+  symbolScore      Float?
+  imageScore       Float?
+  recommendation   DuplicateRecommendation @default(LIKELY_DUPLICATE)
+  status           DuplicateStatus         @default(PENDING)
+  resolvedBy       String?
+  resolutionReason String?
+  resolvedAt       DateTime?
+  createdAt        DateTime                @default(now())
+
+  @@index([status, candidateType])
+}
+
+model Attempt {
+  id          String   @id @default(cuid())
+  userId      String
+  questionId  String
+  isCorrect   Boolean
+  attemptedAt DateTime @default(now())
+  user        User     @relation(fields: [userId], references: [id])
+  question    Question @relation(fields: [questionId], references: [id])
+}
+
+model Bookmark {
+  id         String   @id @default(cuid())
+  userId     String
+  questionId String
+  createdAt  DateTime @default(now())
+  user       User     @relation(fields: [userId], references: [id])
+  question   Question @relation(fields: [questionId], references: [id])
+
+  @@unique([userId, questionId])
+}
+
+model AppSetting {
+  id                  String   @id @default("single_row")
+  questionBankVersion Int      @default(1)
+  updatedAt           DateTime @updatedAt
+}
+
+model AuditLog {
+  id         String   @id @default(cuid())
+  adminId    String
+  action     String   // CREATE, UPDATE, DELETE, PUBLISH, UNPUBLISH, MERGE, ARCHIVE
+  entityType String   @default("QUESTION") // QUESTION, SIGN, VARIANT, SOURCE, COUNTRY
+  entityId   String?
+  questionId String?  // Retained for backward compatibility
+  oldValue   Json?
+  newValue   Json?
+  reason     String?
+  source     String?
+  createdAt  DateTime @default(now())
+  admin      User     @relation(fields: [adminId], references: [id])
+}
+
+model LegacyQuestion {
+  id               String          @id @default(cuid())
+  legacyId         String          @unique
+  originalText     String
+  originalCategory String
+  originalSignCode String?
+  originalData     Json
+  newQuestionId    String?         @unique
+  newQuestion      Question?       @relation(fields: [newQuestionId], references: [id], onDelete: SetNull)
+  migrationStatus  MigrationStatus @default(ARCHIVED)
+  migrationReason  String?
+  migratedAt       DateTime        @default(now())
+}
+
+model LegacySign {
+  id              String       @id @default(cuid())
+  legacyCode      String       @unique
+  originalName    String
+  canonicalSignId String?
+  canonicalSign   TrafficSign? @relation(fields: [canonicalSignId], references: [id], onDelete: SetNull)
+  status          String       @default("MIGRATED")
+  migratedAt      DateTime     @default(now())
+}

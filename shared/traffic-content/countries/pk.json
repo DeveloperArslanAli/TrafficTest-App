@@ -1,0 +1,63 @@
+{
+  "code": "PK",
+  "name": "Pakistan",
+  "flagEmoji": "🇵🇰",
+  "authorities": [
+    "AUTH-PK-NHMP"
+  ],
+  "jurisdictions": [
+    {
+      "code": "NATIONAL",
+      "name": "National Highways & Motorways (NHMP)",
+      "type": "NATIONAL"
+    },
+    {
+      "code": "PUNJAB",
+      "name": "Punjab Province",
+      "type": "PROVINCE"
+    },
+    {
+      "code": "SINDH",
+      "name": "Sindh Province",
+      "type": "PROVINCE"
+    },
+    {
+      "code": "KP",
+      "name": "Khyber Pakhtunkhwa",
+      "type": "PROVINCE"
+    },
+    {
+      "code": "ISLAMABAD",
+      "name": "Islamabad Capital Territory",
+      "type": "TERRITORY"
+    }
+  ],
+  "rules": [
+    {
+      "questionCode": "Q-PK-RULE-01",
+      "text": "Under Pakistan NHMP Motorway rules, what is the maximum speed limit for motor cars on M-2 Motorway under clear weather?",
+      "options": [
+        "120 km/h",
+        "100 km/h",
+        "130 km/h",
+        "80 km/h"
+      ],
+      "correctIndex": 0,
+      "explanation": "The National Highways and Motorway Police (NHMP) regulates the maximum speed limit for private passenger cars on M-2 at 120 km/h.",
+      "sourceCode": "SRC-NHMP-MANUAL"
+    },
+    {
+      "questionCode": "Q-PK-RULE-02",
+      "text": "What traffic rule applies to driving on Pakistan public roads regarding lane position?",
+      "options": [
+        "Drive on the left side of the road and overtake on the right.",
+        "Drive on the right side of the road and overtake on the left.",
+        "Drive in whatever lane has the fewest potholes.",
+        "Overtaking on the left shoulder is legally permitted."
+      ],
+      "correctIndex": 0,
+      "explanation": "Pakistan follows left-hand traffic (LHT). Vehicles must keep to the left side of the road and overtake on the right.",
+      "sourceCode": "SRC-NHMP-MANUAL"
+    }
+  ]
+}

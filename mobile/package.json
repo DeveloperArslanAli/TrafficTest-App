@@ -1,0 +1,37 @@
+{
+  "name": "traffictest-mobile",
+  "version": "4.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "build:android": "node ../scripts/build-android.js --type all",
+    "build:apk": "node ../scripts/build-android.js --type apk",
+    "build:aab": "node ../scripts/build-android.js --type aab"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "1.21.0",
+    "@react-navigation/bottom-tabs": "^6.5.11",
+    "@react-navigation/native": "^6.1.9",
+    "@react-navigation/native-stack": "^6.9.17",
+    "@react-navigation/stack": "^6.3.20",
+    "axios": "^1.6.0",
+    "expo": "~50.0.14",
+    "expo-constants": "15.4.6",
+    "expo-image": "~1.10.6",
+    "expo-linking": "6.2.2",
+    "expo-router": "~3.4.8",
+    "expo-status-bar": "~1.11.1",
+    "react": "18.2.0",
+    "react-native": "0.73.6",
+    "react-native-safe-area-context": "4.8.2",
+    "react-native-screens": "~3.29.0",
+    "react-native-svg": "^14.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@types/react": "~18.2.45",
+    "typescript": "^5.1.3"
+  }
+}

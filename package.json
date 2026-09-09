@@ -1,0 +1,46 @@
+{
+  "name": "traffictest",
+  "version": "4.0.0",
+  "private": true,
+  "description": "RoadWise Driver — full-stack monorepo (NestJS + React Admin + Expo Mobile)",
+  "workspaces": [
+    "backend",
+    "admin",
+    "mobile",
+    "web"
+  ],
+  "scripts": {
+    "dev:backend": "cd backend && npm run start:dev",
+    "dev:admin": "cd admin && npm run dev",
+    "dev:mobile": "cd mobile && npx expo start",
+    "dev:web": "cd web && npm run dev",
+    "docker:up": "docker-compose up -d postgres redis",
+    "docker:all": "docker-compose up --build",
+    "docker:down": "docker-compose down",
+    "db:migrate": "cd backend && npx prisma migrate dev",
+    "db:seed": "cd backend && npx ts-node prisma/seed.ts",
+    "verify": "npx ts-node scripts/verify.ts",
+    "verify:content": "cd backend && npx ts-node -r dotenv/config ../scripts/verify-content.ts",
+    "verify:duplicates": "cd backend && npx ts-node -r dotenv/config ../scripts/verify-duplicates.ts",
+    "verify:sync": "cd backend && npx ts-node -r dotenv/config ../scripts/verify-sync.ts",
+    "verify:admin": "cd backend && npx ts-node -r dotenv/config ../scripts/verify-admin-database.ts",
+    "verify:media": "cd backend && npx ts-node -r dotenv/config ../scripts/verify-media-connector.ts",
+    "verify:integration": "npx ts-node scripts/verify.ts",
+    "qa:validate": "cd backend && npx ts-node -r dotenv/config ../scripts/advanced-qa-validation.ts",
+    "build:android": "node scripts/build-android.js --type all",
+    "build:apk": "node scripts/build-android.js --type apk",
+    "build:aab": "node scripts/build-android.js --type aab",
+    "build:android:clean": "node scripts/build-android.js --type all --clean"
+  },
+  "overrides": {
+    "react": "18.2.0",
+    "react-native": "0.73.6",
+    "expo-constants": "~15.4.5",
+    "expo-linking": "~6.2.2"
+  },
+  "devDependencies": {
+    "axios": "^1.6.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.3"
+  }
+}

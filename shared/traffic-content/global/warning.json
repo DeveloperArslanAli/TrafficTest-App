@@ -1,0 +1,4022 @@
+[
+  {
+    "canonicalCode": "WARN-LEFT-BEND",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Sharp Left Bend Ahead",
+    "shortName": "Sharp Left Bend",
+    "meaning": "Sharp Left Bend Ahead",
+    "driverAction": "Reduce speed before entering curve and steer smoothly left.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "LEFT-BEND",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-LEFT-BEND",
+        "officialName": "Sharp Left Bend Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-LEFT-BEND",
+        "officialName": "Sharp Left Bend Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-LEFT-BEND",
+        "officialName": "Sharp Left Bend Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-LEFT-BEND",
+        "officialName": "Sharp Left Bend Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-LEFT-BEND",
+        "officialName": "Sharp Left Bend Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-LEFT-BEND",
+        "officialName": "Sharp Left Bend Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-LEFT-BEND-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Sharp Left Bend Ahead sign alert drivers to?",
+        "options": [
+          "Reduce speed before entering curve and steer smoothly left.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Sharp Left Bend Ahead. Correct driver action: Reduce speed before entering curve and steer smoothly left.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-RIGHT-BEND",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Sharp Right Bend Ahead",
+    "shortName": "Sharp Right Bend",
+    "meaning": "Sharp Right Bend Ahead",
+    "driverAction": "Slow down before the bend; maintain lane position without hugging center line.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "RIGHT-BEND",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-RIGHT-BEND",
+        "officialName": "Sharp Right Bend Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-RIGHT-BEND",
+        "officialName": "Sharp Right Bend Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-RIGHT-BEND",
+        "officialName": "Sharp Right Bend Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-RIGHT-BEND",
+        "officialName": "Sharp Right Bend Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-RIGHT-BEND",
+        "officialName": "Sharp Right Bend Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-RIGHT-BEND",
+        "officialName": "Sharp Right Bend Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-RIGHT-BEND-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Sharp Right Bend Ahead sign alert drivers to?",
+        "options": [
+          "Slow down before the bend; maintain lane position without hugging center line.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Sharp Right Bend Ahead. Correct driver action: Slow down before the bend; maintain lane position without hugging center line.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-DOUBLE-BEND",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Double Bend Ahead (First to Left/Right)",
+    "shortName": "Double Bend",
+    "meaning": "Double Bend Ahead (First to Left/Right)",
+    "driverAction": "Reduce speed for consecutive turns; anticipate lateral forces.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "DOUBLE-BEND",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-DOUBLE-BEND",
+        "officialName": "Double Bend Ahead (First to Left/Right)",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-DOUBLE-BEND",
+        "officialName": "Double Bend Ahead (First to Left/Right)",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-DOUBLE-BEND",
+        "officialName": "Double Bend Ahead (First to Left/Right)",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-DOUBLE-BEND",
+        "officialName": "Double Bend Ahead (First to Left/Right)",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-DOUBLE-BEND",
+        "officialName": "Double Bend Ahead (First to Left/Right)",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-DOUBLE-BEND",
+        "officialName": "Double Bend Ahead (First to Left/Right)",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-DOUBLE-BEND-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Double Bend Ahead (First to Left/Right) sign alert drivers to?",
+        "options": [
+          "Reduce speed for consecutive turns; anticipate lateral forces.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Double Bend Ahead (First to Left/Right). Correct driver action: Reduce speed for consecutive turns; anticipate lateral forces.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-HAIRPIN-BEND",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Hairpin Curve Ahead",
+    "shortName": "Hairpin Curve",
+    "meaning": "Hairpin Curve Ahead",
+    "driverAction": "Substantially reduce speed; prepare for sharp 180-degree turn.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "HAIRPIN-BEND",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-HAIRPIN-BEND",
+        "officialName": "Hairpin Curve Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-HAIRPIN-BEND",
+        "officialName": "Hairpin Curve Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-HAIRPIN-BEND",
+        "officialName": "Hairpin Curve Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-HAIRPIN-BEND",
+        "officialName": "Hairpin Curve Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-HAIRPIN-BEND",
+        "officialName": "Hairpin Curve Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-HAIRPIN-BEND",
+        "officialName": "Hairpin Curve Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-HAIRPIN-BEND-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Hairpin Curve Ahead sign alert drivers to?",
+        "options": [
+          "Substantially reduce speed; prepare for sharp 180-degree turn.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Hairpin Curve Ahead. Correct driver action: Substantially reduce speed; prepare for sharp 180-degree turn.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-DANGEROUS-CURVE",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Series of Winding Curves Ahead",
+    "shortName": "Series of Winding Curves",
+    "meaning": "Series of Winding Curves Ahead",
+    "driverAction": "Slow down for ongoing winding road surface.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "DANGEROUS-CURVE",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-DANGEROUS-CURVE",
+        "officialName": "Series of Winding Curves Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-DANGEROUS-CURVE",
+        "officialName": "Series of Winding Curves Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-DANGEROUS-CURVE",
+        "officialName": "Series of Winding Curves Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-DANGEROUS-CURVE",
+        "officialName": "Series of Winding Curves Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-DANGEROUS-CURVE",
+        "officialName": "Series of Winding Curves Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-DANGEROUS-CURVE",
+        "officialName": "Series of Winding Curves Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-DANGEROUS-CURVE-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Series of Winding Curves Ahead sign alert drivers to?",
+        "options": [
+          "Slow down for ongoing winding road surface.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Series of Winding Curves Ahead. Correct driver action: Slow down for ongoing winding road surface.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-ROAD-NARROWS",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Road Narrows on Both Sides Ahead",
+    "shortName": "Road Narrows on Both Sides",
+    "meaning": "Road Narrows on Both Sides Ahead",
+    "driverAction": "Check mirrors, reduce speed, and adjust lateral spacing with oncoming cars.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "ROAD-NARROWS",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-ROAD-NARROWS",
+        "officialName": "Road Narrows on Both Sides Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-ROAD-NARROWS",
+        "officialName": "Road Narrows on Both Sides Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-ROAD-NARROWS",
+        "officialName": "Road Narrows on Both Sides Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-ROAD-NARROWS",
+        "officialName": "Road Narrows on Both Sides Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-ROAD-NARROWS",
+        "officialName": "Road Narrows on Both Sides Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-ROAD-NARROWS",
+        "officialName": "Road Narrows on Both Sides Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-ROAD-NARROWS-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Road Narrows on Both Sides Ahead sign alert drivers to?",
+        "options": [
+          "Check mirrors, reduce speed, and adjust lateral spacing with oncoming cars.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Road Narrows on Both Sides Ahead. Correct driver action: Check mirrors, reduce speed, and adjust lateral spacing with oncoming cars.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-NARROW-BRIDGE",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Narrow Bridge Ahead",
+    "shortName": "Narrow Bridge",
+    "meaning": "Narrow Bridge Ahead",
+    "driverAction": "Yield if necessary; bridge roadway is narrower than approach road.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "NARROW-BRIDGE",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-NARROW-BRIDGE",
+        "officialName": "Narrow Bridge Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-NARROW-BRIDGE",
+        "officialName": "Narrow Bridge Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-NARROW-BRIDGE",
+        "officialName": "Narrow Bridge Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-NARROW-BRIDGE",
+        "officialName": "Narrow Bridge Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-NARROW-BRIDGE",
+        "officialName": "Narrow Bridge Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-NARROW-BRIDGE",
+        "officialName": "Narrow Bridge Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-NARROW-BRIDGE-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Narrow Bridge Ahead sign alert drivers to?",
+        "options": [
+          "Yield if necessary; bridge roadway is narrower than approach road.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Narrow Bridge Ahead. Correct driver action: Yield if necessary; bridge roadway is narrower than approach road.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-UNEVEN-ROAD",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Uneven Road Surface Ahead",
+    "shortName": "Uneven Road Surface",
+    "meaning": "Uneven Road Surface Ahead",
+    "driverAction": "Slow down to avoid suspension damage or loss of steering control.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "UNEVEN-ROAD",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-UNEVEN-ROAD",
+        "officialName": "Uneven Road Surface Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-UNEVEN-ROAD",
+        "officialName": "Uneven Road Surface Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-UNEVEN-ROAD",
+        "officialName": "Uneven Road Surface Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-UNEVEN-ROAD",
+        "officialName": "Uneven Road Surface Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-UNEVEN-ROAD",
+        "officialName": "Uneven Road Surface Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-UNEVEN-ROAD",
+        "officialName": "Uneven Road Surface Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-UNEVEN-ROAD-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Uneven Road Surface Ahead sign alert drivers to?",
+        "options": [
+          "Slow down to avoid suspension damage or loss of steering control.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Uneven Road Surface Ahead. Correct driver action: Slow down to avoid suspension damage or loss of steering control.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-ROAD-HUMP",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Speed Hump Ahead",
+    "shortName": "Speed Hump",
+    "meaning": "Speed Hump Ahead",
+    "driverAction": "Reduce speed smoothly before reaching the hump to avoid jolting.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "ROAD-HUMP",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-ROAD-HUMP",
+        "officialName": "Speed Hump Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-ROAD-HUMP",
+        "officialName": "Speed Hump Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-ROAD-HUMP",
+        "officialName": "Speed Hump Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-ROAD-HUMP",
+        "officialName": "Speed Hump Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-ROAD-HUMP",
+        "officialName": "Speed Hump Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-ROAD-HUMP",
+        "officialName": "Speed Hump Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-ROAD-HUMP-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Speed Hump Ahead sign alert drivers to?",
+        "options": [
+          "Reduce speed smoothly before reaching the hump to avoid jolting.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Speed Hump Ahead. Correct driver action: Reduce speed smoothly before reaching the hump to avoid jolting.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-ROAD-DIP",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Dip / Water Gully in Road Ahead",
+    "shortName": "Dip / Water Gully in Road",
+    "meaning": "Dip / Water Gully in Road Ahead",
+    "driverAction": "Decelerate to prevent bottoming out or aquaplaning in accumulated water.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "ROAD-DIP",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-ROAD-DIP",
+        "officialName": "Dip / Water Gully in Road Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-ROAD-DIP",
+        "officialName": "Dip / Water Gully in Road Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-ROAD-DIP",
+        "officialName": "Dip / Water Gully in Road Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-ROAD-DIP",
+        "officialName": "Dip / Water Gully in Road Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-ROAD-DIP",
+        "officialName": "Dip / Water Gully in Road Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-ROAD-DIP",
+        "officialName": "Dip / Water Gully in Road Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-ROAD-DIP-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Dip / Water Gully in Road Ahead sign alert drivers to?",
+        "options": [
+          "Decelerate to prevent bottoming out or aquaplaning in accumulated water.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Dip / Water Gully in Road Ahead. Correct driver action: Decelerate to prevent bottoming out or aquaplaning in accumulated water.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-SLIPPERY-ROAD",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Slippery Road Surface Ahead",
+    "shortName": "Slippery Road Surface",
+    "meaning": "Slippery Road Surface Ahead",
+    "driverAction": "Avoid sudden braking or steering; increase following distance significantly.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "SLIPPERY-ROAD",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-SLIPPERY-ROAD",
+        "officialName": "Slippery Road Surface Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-SLIPPERY-ROAD",
+        "officialName": "Slippery Road Surface Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-SLIPPERY-ROAD",
+        "officialName": "Slippery Road Surface Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-SLIPPERY-ROAD",
+        "officialName": "Slippery Road Surface Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-SLIPPERY-ROAD",
+        "officialName": "Slippery Road Surface Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-SLIPPERY-ROAD",
+        "officialName": "Slippery Road Surface Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-SLIPPERY-ROAD-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Slippery Road Surface Ahead sign alert drivers to?",
+        "options": [
+          "Avoid sudden braking or steering; increase following distance significantly.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Slippery Road Surface Ahead. Correct driver action: Avoid sudden braking or steering; increase following distance significantly.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-LOOSE-GRAVEL",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Loose Chippings / Gravel Ahead",
+    "shortName": "Loose Chippings / Gravel",
+    "meaning": "Loose Chippings / Gravel Ahead",
+    "driverAction": "Slow down to avoid skidding and prevent throwing stones at windshields.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "LOOSE-GRAVEL",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-LOOSE-GRAVEL",
+        "officialName": "Loose Chippings / Gravel Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-LOOSE-GRAVEL",
+        "officialName": "Loose Chippings / Gravel Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-LOOSE-GRAVEL",
+        "officialName": "Loose Chippings / Gravel Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-LOOSE-GRAVEL",
+        "officialName": "Loose Chippings / Gravel Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-LOOSE-GRAVEL",
+        "officialName": "Loose Chippings / Gravel Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-LOOSE-GRAVEL",
+        "officialName": "Loose Chippings / Gravel Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-LOOSE-GRAVEL-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Loose Chippings / Gravel Ahead sign alert drivers to?",
+        "options": [
+          "Slow down to avoid skidding and prevent throwing stones at windshields.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Loose Chippings / Gravel Ahead. Correct driver action: Slow down to avoid skidding and prevent throwing stones at windshields.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-FALLING-ROCKS",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Falling Rocks / Landslide Risk Ahead",
+    "shortName": "Falling Rocks / Landslide Risk",
+    "meaning": "Falling Rocks / Landslide Risk Ahead",
+    "driverAction": "Be alert for debris on carriageway; do not stop under steep cliff faces.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "FALLING-ROCKS",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-FALLING-ROCKS",
+        "officialName": "Falling Rocks / Landslide Risk Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-FALLING-ROCKS",
+        "officialName": "Falling Rocks / Landslide Risk Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-FALLING-ROCKS",
+        "officialName": "Falling Rocks / Landslide Risk Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-FALLING-ROCKS",
+        "officialName": "Falling Rocks / Landslide Risk Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-FALLING-ROCKS",
+        "officialName": "Falling Rocks / Landslide Risk Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-FALLING-ROCKS",
+        "officialName": "Falling Rocks / Landslide Risk Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-FALLING-ROCKS-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Falling Rocks / Landslide Risk Ahead sign alert drivers to?",
+        "options": [
+          "Be alert for debris on carriageway; do not stop under steep cliff faces.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Falling Rocks / Landslide Risk Ahead. Correct driver action: Be alert for debris on carriageway; do not stop under steep cliff faces.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-STEEP-ASCENT",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Steep Hill Upward Ahead",
+    "shortName": "Steep Hill Upward",
+    "meaning": "Steep Hill Upward Ahead",
+    "driverAction": "Select a suitable lower gear to maintain engine pulling power.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "STEEP-ASCENT",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-STEEP-ASCENT",
+        "officialName": "Steep Hill Upward Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-STEEP-ASCENT",
+        "officialName": "Steep Hill Upward Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-STEEP-ASCENT",
+        "officialName": "Steep Hill Upward Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-STEEP-ASCENT",
+        "officialName": "Steep Hill Upward Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-STEEP-ASCENT",
+        "officialName": "Steep Hill Upward Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-STEEP-ASCENT",
+        "officialName": "Steep Hill Upward Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-STEEP-ASCENT-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Steep Hill Upward Ahead sign alert drivers to?",
+        "options": [
+          "Select a suitable lower gear to maintain engine pulling power.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Steep Hill Upward Ahead. Correct driver action: Select a suitable lower gear to maintain engine pulling power.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-STEEP-DESCENT",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Steep Hill Downward Ahead",
+    "shortName": "Steep Hill Downward",
+    "meaning": "Steep Hill Downward Ahead",
+    "driverAction": "Downshift to a lower gear to use engine braking; do not ride brakes.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "STEEP-DESCENT",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-STEEP-DESCENT",
+        "officialName": "Steep Hill Downward Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-STEEP-DESCENT",
+        "officialName": "Steep Hill Downward Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-STEEP-DESCENT",
+        "officialName": "Steep Hill Downward Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-STEEP-DESCENT",
+        "officialName": "Steep Hill Downward Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-STEEP-DESCENT",
+        "officialName": "Steep Hill Downward Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-STEEP-DESCENT",
+        "officialName": "Steep Hill Downward Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-STEEP-DESCENT-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Steep Hill Downward Ahead sign alert drivers to?",
+        "options": [
+          "Downshift to a lower gear to use engine braking; do not ride brakes.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Steep Hill Downward Ahead. Correct driver action: Downshift to a lower gear to use engine braking; do not ride brakes.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-CROSSROAD",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Crossroad Intersection Ahead",
+    "shortName": "Crossroad Intersection",
+    "meaning": "Crossroad Intersection Ahead",
+    "driverAction": "Scan both sides, check right-of-way, and be prepared to brake.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "CROSSROAD",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-CROSSROAD",
+        "officialName": "Crossroad Intersection Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-CROSSROAD",
+        "officialName": "Crossroad Intersection Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-CROSSROAD",
+        "officialName": "Crossroad Intersection Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-CROSSROAD",
+        "officialName": "Crossroad Intersection Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-CROSSROAD",
+        "officialName": "Crossroad Intersection Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-CROSSROAD",
+        "officialName": "Crossroad Intersection Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-CROSSROAD-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Crossroad Intersection Ahead sign alert drivers to?",
+        "options": [
+          "Scan both sides, check right-of-way, and be prepared to brake.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Crossroad Intersection Ahead. Correct driver action: Scan both sides, check right-of-way, and be prepared to brake.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-T-JUNCTION",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "T-Junction Ahead",
+    "shortName": "T-Junction",
+    "meaning": "T-Junction Ahead",
+    "driverAction": "Prepare to yield or stop as your road terminates at cross road.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "T-JUNCTION",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-T-JUNCTION",
+        "officialName": "T-Junction Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-T-JUNCTION",
+        "officialName": "T-Junction Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-T-JUNCTION",
+        "officialName": "T-Junction Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-T-JUNCTION",
+        "officialName": "T-Junction Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-T-JUNCTION",
+        "officialName": "T-Junction Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-T-JUNCTION",
+        "officialName": "T-Junction Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-T-JUNCTION-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the T-Junction Ahead sign alert drivers to?",
+        "options": [
+          "Prepare to yield or stop as your road terminates at cross road.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to T-Junction Ahead. Correct driver action: Prepare to yield or stop as your road terminates at cross road.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-Y-JUNCTION",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Y-Junction / Fork Ahead",
+    "shortName": "Y-Junction / Fork",
+    "meaning": "Y-Junction / Fork Ahead",
+    "driverAction": "Decide route early, signal intentions, and yield if merging.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "Y-JUNCTION",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-Y-JUNCTION",
+        "officialName": "Y-Junction / Fork Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-Y-JUNCTION",
+        "officialName": "Y-Junction / Fork Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-Y-JUNCTION",
+        "officialName": "Y-Junction / Fork Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-Y-JUNCTION",
+        "officialName": "Y-Junction / Fork Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-Y-JUNCTION",
+        "officialName": "Y-Junction / Fork Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-Y-JUNCTION",
+        "officialName": "Y-Junction / Fork Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-Y-JUNCTION-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Y-Junction / Fork Ahead sign alert drivers to?",
+        "options": [
+          "Decide route early, signal intentions, and yield if merging.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Y-Junction / Fork Ahead. Correct driver action: Decide route early, signal intentions, and yield if merging.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-SIDE-ROAD",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Side Road Junction Ahead",
+    "shortName": "Side Road Junction",
+    "meaning": "Side Road Junction Ahead",
+    "driverAction": "Watch for vehicles emerging unexpectedly from the side junction.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "SIDE-ROAD",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-SIDE-ROAD",
+        "officialName": "Side Road Junction Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-SIDE-ROAD",
+        "officialName": "Side Road Junction Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-SIDE-ROAD",
+        "officialName": "Side Road Junction Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-SIDE-ROAD",
+        "officialName": "Side Road Junction Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-SIDE-ROAD",
+        "officialName": "Side Road Junction Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-SIDE-ROAD",
+        "officialName": "Side Road Junction Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-SIDE-ROAD-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Side Road Junction Ahead sign alert drivers to?",
+        "options": [
+          "Watch for vehicles emerging unexpectedly from the side junction.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Side Road Junction Ahead. Correct driver action: Watch for vehicles emerging unexpectedly from the side junction.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-STAGGERED-JUNCTION",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Staggered Crossroads Ahead",
+    "shortName": "Staggered Crossroads",
+    "meaning": "Staggered Crossroads Ahead",
+    "driverAction": "Anticipate turning vehicles crossing in two closely spaced steps.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "STAGGERED-JUNCTION",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-STAGGERED-JUNCTION",
+        "officialName": "Staggered Crossroads Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-STAGGERED-JUNCTION",
+        "officialName": "Staggered Crossroads Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-STAGGERED-JUNCTION",
+        "officialName": "Staggered Crossroads Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-STAGGERED-JUNCTION",
+        "officialName": "Staggered Crossroads Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-STAGGERED-JUNCTION",
+        "officialName": "Staggered Crossroads Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-STAGGERED-JUNCTION",
+        "officialName": "Staggered Crossroads Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-STAGGERED-JUNCTION-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Staggered Crossroads Ahead sign alert drivers to?",
+        "options": [
+          "Anticipate turning vehicles crossing in two closely spaced steps.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Staggered Crossroads Ahead. Correct driver action: Anticipate turning vehicles crossing in two closely spaced steps.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-MERGING-TRAFFIC",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Merging Traffic from Acceleration Lane Ahead",
+    "shortName": "Merging Traffic from Acceleration Lane",
+    "meaning": "Merging Traffic from Acceleration Lane Ahead",
+    "driverAction": "Adjust speed or change lane safely to allow merging vehicles to enter.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "MERGING-TRAFFIC",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-MERGING-TRAFFIC",
+        "officialName": "Merging Traffic from Acceleration Lane Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-MERGING-TRAFFIC",
+        "officialName": "Merging Traffic from Acceleration Lane Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-MERGING-TRAFFIC",
+        "officialName": "Merging Traffic from Acceleration Lane Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-MERGING-TRAFFIC",
+        "officialName": "Merging Traffic from Acceleration Lane Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-MERGING-TRAFFIC",
+        "officialName": "Merging Traffic from Acceleration Lane Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-MERGING-TRAFFIC",
+        "officialName": "Merging Traffic from Acceleration Lane Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-MERGING-TRAFFIC-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Merging Traffic from Acceleration Lane Ahead sign alert drivers to?",
+        "options": [
+          "Adjust speed or change lane safely to allow merging vehicles to enter.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Merging Traffic from Acceleration Lane Ahead. Correct driver action: Adjust speed or change lane safely to allow merging vehicles to enter.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-ROUNDABOUT-AHEAD",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Roundabout Ahead",
+    "shortName": "Roundabout",
+    "meaning": "Roundabout Ahead",
+    "driverAction": "Slow down, choose correct approach lane, and yield to circulating traffic.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "ROUNDABOUT-AHEAD",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-ROUNDABOUT-AHEAD",
+        "officialName": "Roundabout Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-ROUNDABOUT-AHEAD",
+        "officialName": "Roundabout Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-ROUNDABOUT-AHEAD",
+        "officialName": "Roundabout Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-ROUNDABOUT-AHEAD",
+        "officialName": "Roundabout Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-ROUNDABOUT-AHEAD",
+        "officialName": "Roundabout Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-ROUNDABOUT-AHEAD",
+        "officialName": "Roundabout Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-ROUNDABOUT-AHEAD-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Roundabout Ahead sign alert drivers to?",
+        "options": [
+          "Slow down, choose correct approach lane, and yield to circulating traffic.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Roundabout Ahead. Correct driver action: Slow down, choose correct approach lane, and yield to circulating traffic.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-TRAFFIC-SIGNALS-AHEAD",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Traffic Lights Ahead",
+    "shortName": "Traffic Lights",
+    "meaning": "Traffic Lights Ahead",
+    "driverAction": "Be prepared to stop if the signal changes to yellow or red.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "TRAFFIC-SIGNALS-AHEAD",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-TRAFFIC-SIGNALS-AHEAD",
+        "officialName": "Traffic Lights Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-TRAFFIC-SIGNALS-AHEAD",
+        "officialName": "Traffic Lights Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-TRAFFIC-SIGNALS-AHEAD",
+        "officialName": "Traffic Lights Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-TRAFFIC-SIGNALS-AHEAD",
+        "officialName": "Traffic Lights Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-TRAFFIC-SIGNALS-AHEAD",
+        "officialName": "Traffic Lights Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-TRAFFIC-SIGNALS-AHEAD",
+        "officialName": "Traffic Lights Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-TRAFFIC-SIGNALS-AHEAD-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Traffic Lights Ahead sign alert drivers to?",
+        "options": [
+          "Be prepared to stop if the signal changes to yellow or red.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Traffic Lights Ahead. Correct driver action: Be prepared to stop if the signal changes to yellow or red.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-TWO-WAY-TRAFFIC",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Two-Way Traffic Ahead",
+    "shortName": "Two-Way Traffic",
+    "meaning": "Two-Way Traffic Ahead",
+    "driverAction": "You are leaving a one-way street; keep strictly to your side of road.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "TWO-WAY-TRAFFIC",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-TWO-WAY-TRAFFIC",
+        "officialName": "Two-Way Traffic Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-TWO-WAY-TRAFFIC",
+        "officialName": "Two-Way Traffic Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-TWO-WAY-TRAFFIC",
+        "officialName": "Two-Way Traffic Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-TWO-WAY-TRAFFIC",
+        "officialName": "Two-Way Traffic Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-TWO-WAY-TRAFFIC",
+        "officialName": "Two-Way Traffic Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-TWO-WAY-TRAFFIC",
+        "officialName": "Two-Way Traffic Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-TWO-WAY-TRAFFIC-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Two-Way Traffic Ahead sign alert drivers to?",
+        "options": [
+          "You are leaving a one-way street; keep strictly to your side of road.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Two-Way Traffic Ahead. Correct driver action: You are leaving a one-way street; keep strictly to your side of road.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-PEDESTRIAN-CROSSING",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Pedestrian Zebra Crossing Ahead",
+    "shortName": "Pedestrian Zebra Crossing",
+    "meaning": "Pedestrian Zebra Crossing Ahead",
+    "driverAction": "Slow down and give precedence to any pedestrian stepping onto crossing.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "PEDESTRIAN-CROSSING",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-PEDESTRIAN-CROSSING",
+        "officialName": "Pedestrian Zebra Crossing Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-PEDESTRIAN-CROSSING",
+        "officialName": "Pedestrian Zebra Crossing Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-PEDESTRIAN-CROSSING",
+        "officialName": "Pedestrian Zebra Crossing Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-PEDESTRIAN-CROSSING",
+        "officialName": "Pedestrian Zebra Crossing Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-PEDESTRIAN-CROSSING",
+        "officialName": "Pedestrian Zebra Crossing Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-PEDESTRIAN-CROSSING",
+        "officialName": "Pedestrian Zebra Crossing Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-PEDESTRIAN-CROSSING-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Pedestrian Zebra Crossing Ahead sign alert drivers to?",
+        "options": [
+          "Slow down and give precedence to any pedestrian stepping onto crossing.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Pedestrian Zebra Crossing Ahead. Correct driver action: Slow down and give precedence to any pedestrian stepping onto crossing.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-CHILDREN-SCHOOL",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "School Zone / Children Crossing Ahead",
+    "shortName": "School Zone / Children Crossing",
+    "meaning": "School Zone / Children Crossing Ahead",
+    "driverAction": "Observe reduced school speed limit; watch for children between parked cars.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "CHILDREN-SCHOOL",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-CHILDREN-SCHOOL",
+        "officialName": "School Zone / Children Crossing Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-CHILDREN-SCHOOL",
+        "officialName": "School Zone / Children Crossing Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-CHILDREN-SCHOOL",
+        "officialName": "School Zone / Children Crossing Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-CHILDREN-SCHOOL",
+        "officialName": "School Zone / Children Crossing Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-CHILDREN-SCHOOL",
+        "officialName": "School Zone / Children Crossing Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-CHILDREN-SCHOOL",
+        "officialName": "School Zone / Children Crossing Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-CHILDREN-SCHOOL-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the School Zone / Children Crossing Ahead sign alert drivers to?",
+        "options": [
+          "Observe reduced school speed limit; watch for children between parked cars.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to School Zone / Children Crossing Ahead. Correct driver action: Observe reduced school speed limit; watch for children between parked cars.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-CYCLISTS",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Cyclists Route / Crossing Ahead",
+    "shortName": "Cyclists Route / Crossing",
+    "meaning": "Cyclists Route / Crossing Ahead",
+    "driverAction": "Give cyclists at least 1.5 meters clearance when overtaking.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "CYCLISTS",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-CYCLISTS",
+        "officialName": "Cyclists Route / Crossing Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-CYCLISTS",
+        "officialName": "Cyclists Route / Crossing Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-CYCLISTS",
+        "officialName": "Cyclists Route / Crossing Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-CYCLISTS",
+        "officialName": "Cyclists Route / Crossing Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-CYCLISTS",
+        "officialName": "Cyclists Route / Crossing Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-CYCLISTS",
+        "officialName": "Cyclists Route / Crossing Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-CYCLISTS-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Cyclists Route / Crossing Ahead sign alert drivers to?",
+        "options": [
+          "Give cyclists at least 1.5 meters clearance when overtaking.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Cyclists Route / Crossing Ahead. Correct driver action: Give cyclists at least 1.5 meters clearance when overtaking.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-CATTLE",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Cattle / Farm Animals Crossing Ahead",
+    "shortName": "Cattle / Farm Animals Crossing",
+    "meaning": "Cattle / Farm Animals Crossing Ahead",
+    "driverAction": "Drive slowly, do not sound horn which may panic animals, and give way.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "CATTLE",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-CATTLE",
+        "officialName": "Cattle / Farm Animals Crossing Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-CATTLE",
+        "officialName": "Cattle / Farm Animals Crossing Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-CATTLE",
+        "officialName": "Cattle / Farm Animals Crossing Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-CATTLE",
+        "officialName": "Cattle / Farm Animals Crossing Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-CATTLE",
+        "officialName": "Cattle / Farm Animals Crossing Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-CATTLE",
+        "officialName": "Cattle / Farm Animals Crossing Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-CATTLE-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Cattle / Farm Animals Crossing Ahead sign alert drivers to?",
+        "options": [
+          "Drive slowly, do not sound horn which may panic animals, and give way.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Cattle / Farm Animals Crossing Ahead. Correct driver action: Drive slowly, do not sound horn which may panic animals, and give way.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-WILD-ANIMALS",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Wild Animals (Deer) Crossing Ahead",
+    "shortName": "Wild Animals (Deer) Crossing",
+    "meaning": "Wild Animals (Deer) Crossing Ahead",
+    "driverAction": "Scan verges especially at dusk and dawn; brake firmly if deer leaps.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "WILD-ANIMALS",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-WILD-ANIMALS",
+        "officialName": "Wild Animals (Deer) Crossing Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-WILD-ANIMALS",
+        "officialName": "Wild Animals (Deer) Crossing Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-WILD-ANIMALS",
+        "officialName": "Wild Animals (Deer) Crossing Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-WILD-ANIMALS",
+        "officialName": "Wild Animals (Deer) Crossing Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-WILD-ANIMALS",
+        "officialName": "Wild Animals (Deer) Crossing Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-WILD-ANIMALS",
+        "officialName": "Wild Animals (Deer) Crossing Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-WILD-ANIMALS-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Wild Animals (Deer) Crossing Ahead sign alert drivers to?",
+        "options": [
+          "Scan verges especially at dusk and dawn; brake firmly if deer leaps.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Wild Animals (Deer) Crossing Ahead. Correct driver action: Scan verges especially at dusk and dawn; brake firmly if deer leaps.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-RAILWAY-GATE",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Level Crossing with Barrier Ahead",
+    "shortName": "Level Crossing with Barrier",
+    "meaning": "Level Crossing with Barrier Ahead",
+    "driverAction": "Prepare to stop if red flashing lights or bells operate.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "RAILWAY-GATE",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-RAILWAY-GATE",
+        "officialName": "Level Crossing with Barrier Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-RAILWAY-GATE",
+        "officialName": "Level Crossing with Barrier Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-RAILWAY-GATE",
+        "officialName": "Level Crossing with Barrier Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-RAILWAY-GATE",
+        "officialName": "Level Crossing with Barrier Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-RAILWAY-GATE",
+        "officialName": "Level Crossing with Barrier Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-RAILWAY-GATE",
+        "officialName": "Level Crossing with Barrier Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-RAILWAY-GATE-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Level Crossing with Barrier Ahead sign alert drivers to?",
+        "options": [
+          "Prepare to stop if red flashing lights or bells operate.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Level Crossing with Barrier Ahead. Correct driver action: Prepare to stop if red flashing lights or bells operate.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-RAILWAY-NO-GATE",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Unattended Level Crossing (No Barrier) Ahead",
+    "shortName": "Unattended Level Crossing (No Barrier)",
+    "meaning": "Unattended Level Crossing (No Barrier) Ahead",
+    "driverAction": "Stop, look both directions, listen for train whistle before crossing.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "RAILWAY-NO-GATE",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-RAILWAY-NO-GATE",
+        "officialName": "Unattended Level Crossing (No Barrier) Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-RAILWAY-NO-GATE",
+        "officialName": "Unattended Level Crossing (No Barrier) Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-RAILWAY-NO-GATE",
+        "officialName": "Unattended Level Crossing (No Barrier) Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-RAILWAY-NO-GATE",
+        "officialName": "Unattended Level Crossing (No Barrier) Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-RAILWAY-NO-GATE",
+        "officialName": "Unattended Level Crossing (No Barrier) Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-RAILWAY-NO-GATE",
+        "officialName": "Unattended Level Crossing (No Barrier) Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-RAILWAY-NO-GATE-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Unattended Level Crossing (No Barrier) Ahead sign alert drivers to?",
+        "options": [
+          "Stop, look both directions, listen for train whistle before crossing.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Unattended Level Crossing (No Barrier) Ahead. Correct driver action: Stop, look both directions, listen for train whistle before crossing.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-ROAD-WORKS",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Road Construction Works Ahead",
+    "shortName": "Road Construction Works",
+    "meaning": "Road Construction Works Ahead",
+    "driverAction": "Slow down, watch for construction workers, machinery, and lane shifts.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "ROAD-WORKS",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-ROAD-WORKS",
+        "officialName": "Road Construction Works Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-ROAD-WORKS",
+        "officialName": "Road Construction Works Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-ROAD-WORKS",
+        "officialName": "Road Construction Works Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-ROAD-WORKS",
+        "officialName": "Road Construction Works Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-ROAD-WORKS",
+        "officialName": "Road Construction Works Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-ROAD-WORKS",
+        "officialName": "Road Construction Works Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-ROAD-WORKS-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Road Construction Works Ahead sign alert drivers to?",
+        "options": [
+          "Slow down, watch for construction workers, machinery, and lane shifts.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Road Construction Works Ahead. Correct driver action: Slow down, watch for construction workers, machinery, and lane shifts.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-LANE-CLOSURE",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Lane Closure Ahead",
+    "shortName": "Lane Closure",
+    "meaning": "Lane Closure Ahead",
+    "driverAction": "Merge early and smoothly into the continuing lane.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "LANE-CLOSURE",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-LANE-CLOSURE",
+        "officialName": "Lane Closure Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-LANE-CLOSURE",
+        "officialName": "Lane Closure Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-LANE-CLOSURE",
+        "officialName": "Lane Closure Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-LANE-CLOSURE",
+        "officialName": "Lane Closure Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-LANE-CLOSURE",
+        "officialName": "Lane Closure Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-LANE-CLOSURE",
+        "officialName": "Lane Closure Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-LANE-CLOSURE-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Lane Closure Ahead sign alert drivers to?",
+        "options": [
+          "Merge early and smoothly into the continuing lane.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Lane Closure Ahead. Correct driver action: Merge early and smoothly into the continuing lane.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-STRONG-CROSSWINDS",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Strong Crosswinds Area Ahead",
+    "shortName": "Strong Crosswinds Area",
+    "meaning": "Strong Crosswinds Area Ahead",
+    "driverAction": "Grip steering wheel firmly, especially when exiting cutting or overtaking trucks.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "STRONG-CROSSWINDS",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-STRONG-CROSSWINDS",
+        "officialName": "Strong Crosswinds Area Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-STRONG-CROSSWINDS",
+        "officialName": "Strong Crosswinds Area Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-STRONG-CROSSWINDS",
+        "officialName": "Strong Crosswinds Area Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-STRONG-CROSSWINDS",
+        "officialName": "Strong Crosswinds Area Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-STRONG-CROSSWINDS",
+        "officialName": "Strong Crosswinds Area Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-STRONG-CROSSWINDS",
+        "officialName": "Strong Crosswinds Area Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-STRONG-CROSSWINDS-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Strong Crosswinds Area Ahead sign alert drivers to?",
+        "options": [
+          "Grip steering wheel firmly, especially when exiting cutting or overtaking trucks.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Strong Crosswinds Area Ahead. Correct driver action: Grip steering wheel firmly, especially when exiting cutting or overtaking trucks.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-OPENING-BRIDGE",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Opening / Swing Bridge Ahead",
+    "shortName": "Opening / Swing Bridge",
+    "meaning": "Opening / Swing Bridge Ahead",
+    "driverAction": "Obey red stop signals when bridge opens for waterway traffic.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "OPENING-BRIDGE",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-OPENING-BRIDGE",
+        "officialName": "Opening / Swing Bridge Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-OPENING-BRIDGE",
+        "officialName": "Opening / Swing Bridge Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-OPENING-BRIDGE",
+        "officialName": "Opening / Swing Bridge Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-OPENING-BRIDGE",
+        "officialName": "Opening / Swing Bridge Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-OPENING-BRIDGE",
+        "officialName": "Opening / Swing Bridge Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-OPENING-BRIDGE",
+        "officialName": "Opening / Swing Bridge Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-OPENING-BRIDGE-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Opening / Swing Bridge Ahead sign alert drivers to?",
+        "options": [
+          "Obey red stop signals when bridge opens for waterway traffic.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Opening / Swing Bridge Ahead. Correct driver action: Obey red stop signals when bridge opens for waterway traffic.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-LOW-AIRCRAFT",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Low-Flying Aircraft Ahead",
+    "shortName": "Low-Flying Aircraft",
+    "meaning": "Low-Flying Aircraft Ahead",
+    "driverAction": "Do not be startled by sudden loud aircraft noise near runway approach.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "LOW-AIRCRAFT",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-LOW-AIRCRAFT",
+        "officialName": "Low-Flying Aircraft Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-LOW-AIRCRAFT",
+        "officialName": "Low-Flying Aircraft Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-LOW-AIRCRAFT",
+        "officialName": "Low-Flying Aircraft Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-LOW-AIRCRAFT",
+        "officialName": "Low-Flying Aircraft Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-LOW-AIRCRAFT",
+        "officialName": "Low-Flying Aircraft Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-LOW-AIRCRAFT",
+        "officialName": "Low-Flying Aircraft Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-LOW-AIRCRAFT-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Low-Flying Aircraft Ahead sign alert drivers to?",
+        "options": [
+          "Do not be startled by sudden loud aircraft noise near runway approach.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Low-Flying Aircraft Ahead. Correct driver action: Do not be startled by sudden loud aircraft noise near runway approach.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-TUNNEL-AHEAD",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Tunnel Ahead",
+    "shortName": "Tunnel",
+    "meaning": "Tunnel Ahead",
+    "driverAction": "Turn on headlights, remove sunglasses, maintain safe spacing, and obey signals.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "TUNNEL-AHEAD",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-TUNNEL-AHEAD",
+        "officialName": "Tunnel Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-TUNNEL-AHEAD",
+        "officialName": "Tunnel Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-TUNNEL-AHEAD",
+        "officialName": "Tunnel Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-TUNNEL-AHEAD",
+        "officialName": "Tunnel Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-TUNNEL-AHEAD",
+        "officialName": "Tunnel Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-TUNNEL-AHEAD",
+        "officialName": "Tunnel Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-TUNNEL-AHEAD-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Tunnel Ahead sign alert drivers to?",
+        "options": [
+          "Turn on headlights, remove sunglasses, maintain safe spacing, and obey signals.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Tunnel Ahead. Correct driver action: Turn on headlights, remove sunglasses, maintain safe spacing, and obey signals.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-LOW-CLEARANCE",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Low Overhead Clearance Ahead",
+    "shortName": "Low Overhead Clearance",
+    "meaning": "Low Overhead Clearance Ahead",
+    "driverAction": "High vehicles must detour if exceeding height displayed.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "LOW-CLEARANCE",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-LOW-CLEARANCE",
+        "officialName": "Low Overhead Clearance Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-LOW-CLEARANCE",
+        "officialName": "Low Overhead Clearance Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-LOW-CLEARANCE",
+        "officialName": "Low Overhead Clearance Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-LOW-CLEARANCE",
+        "officialName": "Low Overhead Clearance Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-LOW-CLEARANCE",
+        "officialName": "Low Overhead Clearance Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-LOW-CLEARANCE",
+        "officialName": "Low Overhead Clearance Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-LOW-CLEARANCE-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Low Overhead Clearance Ahead sign alert drivers to?",
+        "options": [
+          "High vehicles must detour if exceeding height displayed.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Low Overhead Clearance Ahead. Correct driver action: High vehicles must detour if exceeding height displayed.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-QUEUE-AHEAD",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Traffic Queues Likely Ahead",
+    "shortName": "Traffic Queues Likely",
+    "meaning": "Traffic Queues Likely Ahead",
+    "driverAction": "Check rear view mirror, brake early, and activate hazard lights if sudden stop.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "QUEUE-AHEAD",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-QUEUE-AHEAD",
+        "officialName": "Traffic Queues Likely Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-QUEUE-AHEAD",
+        "officialName": "Traffic Queues Likely Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-QUEUE-AHEAD",
+        "officialName": "Traffic Queues Likely Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-QUEUE-AHEAD",
+        "officialName": "Traffic Queues Likely Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-QUEUE-AHEAD",
+        "officialName": "Traffic Queues Likely Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-QUEUE-AHEAD",
+        "officialName": "Traffic Queues Likely Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-QUEUE-AHEAD-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Traffic Queues Likely Ahead sign alert drivers to?",
+        "options": [
+          "Check rear view mirror, brake early, and activate hazard lights if sudden stop.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Traffic Queues Likely Ahead. Correct driver action: Check rear view mirror, brake early, and activate hazard lights if sudden stop.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-OTHER-DANGER",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "General Danger / Hazard Ahead",
+    "shortName": "General Danger / Hazard",
+    "meaning": "General Danger / Hazard Ahead",
+    "driverAction": "Proceed with caution; supplementary plate explains exact hazard.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "OTHER-DANGER",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-OTHER-DANGER",
+        "officialName": "General Danger / Hazard Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-OTHER-DANGER",
+        "officialName": "General Danger / Hazard Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-OTHER-DANGER",
+        "officialName": "General Danger / Hazard Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-OTHER-DANGER",
+        "officialName": "General Danger / Hazard Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-OTHER-DANGER",
+        "officialName": "General Danger / Hazard Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-OTHER-DANGER",
+        "officialName": "General Danger / Hazard Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-OTHER-DANGER-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the General Danger / Hazard Ahead sign alert drivers to?",
+        "options": [
+          "Proceed with caution; supplementary plate explains exact hazard.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to General Danger / Hazard Ahead. Correct driver action: Proceed with caution; supplementary plate explains exact hazard.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-TRAMS-AHEAD",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Trams Crossing / Operating Ahead",
+    "shortName": "Trams Crossing / Operating",
+    "meaning": "Trams Crossing / Operating Ahead",
+    "driverAction": "Give priority to trams; never stop on tram rails.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "TRAMS-AHEAD",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-TRAMS-AHEAD",
+        "officialName": "Trams Crossing / Operating Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-TRAMS-AHEAD",
+        "officialName": "Trams Crossing / Operating Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-TRAMS-AHEAD",
+        "officialName": "Trams Crossing / Operating Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-TRAMS-AHEAD",
+        "officialName": "Trams Crossing / Operating Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-TRAMS-AHEAD",
+        "officialName": "Trams Crossing / Operating Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-TRAMS-AHEAD",
+        "officialName": "Trams Crossing / Operating Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-TRAMS-AHEAD-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Trams Crossing / Operating Ahead sign alert drivers to?",
+        "options": [
+          "Give priority to trams; never stop on tram rails.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Trams Crossing / Operating Ahead. Correct driver action: Give priority to trams; never stop on tram rails.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-SOFT-VERGE",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Soft Shoulder / Road Verge Ahead",
+    "shortName": "Soft Shoulder / Road Verge",
+    "meaning": "Soft Shoulder / Road Verge Ahead",
+    "driverAction": "Do not drive onto edge as unpaved shoulder may cause vehicle rollover.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "SOFT-VERGE",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-SOFT-VERGE",
+        "officialName": "Soft Shoulder / Road Verge Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-SOFT-VERGE",
+        "officialName": "Soft Shoulder / Road Verge Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-SOFT-VERGE",
+        "officialName": "Soft Shoulder / Road Verge Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-SOFT-VERGE",
+        "officialName": "Soft Shoulder / Road Verge Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-SOFT-VERGE",
+        "officialName": "Soft Shoulder / Road Verge Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-SOFT-VERGE",
+        "officialName": "Soft Shoulder / Road Verge Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-SOFT-VERGE-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Soft Shoulder / Road Verge Ahead sign alert drivers to?",
+        "options": [
+          "Do not drive onto edge as unpaved shoulder may cause vehicle rollover.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Soft Shoulder / Road Verge Ahead. Correct driver action: Do not drive onto edge as unpaved shoulder may cause vehicle rollover.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-WATER-EDGE",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Unprotected Quay / Waterway Edge Ahead",
+    "shortName": "Unprotected Quay / Waterway Edge",
+    "meaning": "Unprotected Quay / Waterway Edge Ahead",
+    "driverAction": "Proceed with extreme care near docks, canal banks, and river edges.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "WATER-EDGE",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-WATER-EDGE",
+        "officialName": "Unprotected Quay / Waterway Edge Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-WATER-EDGE",
+        "officialName": "Unprotected Quay / Waterway Edge Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-WATER-EDGE",
+        "officialName": "Unprotected Quay / Waterway Edge Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-WATER-EDGE",
+        "officialName": "Unprotected Quay / Waterway Edge Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-WATER-EDGE",
+        "officialName": "Unprotected Quay / Waterway Edge Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-WATER-EDGE",
+        "officialName": "Unprotected Quay / Waterway Edge Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-WATER-EDGE-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Unprotected Quay / Waterway Edge Ahead sign alert drivers to?",
+        "options": [
+          "Proceed with extreme care near docks, canal banks, and river edges.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Unprotected Quay / Waterway Edge Ahead. Correct driver action: Proceed with extreme care near docks, canal banks, and river edges.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-AIRFIELD",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Airfield Crossing Ahead",
+    "shortName": "Airfield Crossing",
+    "meaning": "Airfield Crossing Ahead",
+    "driverAction": "Obey barrier gates and flashing red lights when aircraft taxi.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "AIRFIELD",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-AIRFIELD",
+        "officialName": "Airfield Crossing Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-AIRFIELD",
+        "officialName": "Airfield Crossing Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-AIRFIELD",
+        "officialName": "Airfield Crossing Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-AIRFIELD",
+        "officialName": "Airfield Crossing Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-AIRFIELD",
+        "officialName": "Airfield Crossing Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-AIRFIELD",
+        "officialName": "Airfield Crossing Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-AIRFIELD-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Airfield Crossing Ahead sign alert drivers to?",
+        "options": [
+          "Obey barrier gates and flashing red lights when aircraft taxi.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Airfield Crossing Ahead. Correct driver action: Obey barrier gates and flashing red lights when aircraft taxi.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-FOG-HAZARD",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Area Subject to Dense Fog Ahead",
+    "shortName": "Area Subject to Dense Fog",
+    "meaning": "Area Subject to Dense Fog Ahead",
+    "driverAction": "Reduce speed, use low-beam headlights and fog lights, never tailgate.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "FOG-HAZARD",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-FOG-HAZARD",
+        "officialName": "Area Subject to Dense Fog Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-FOG-HAZARD",
+        "officialName": "Area Subject to Dense Fog Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-FOG-HAZARD",
+        "officialName": "Area Subject to Dense Fog Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-FOG-HAZARD",
+        "officialName": "Area Subject to Dense Fog Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-FOG-HAZARD",
+        "officialName": "Area Subject to Dense Fog Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-FOG-HAZARD",
+        "officialName": "Area Subject to Dense Fog Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-FOG-HAZARD-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Area Subject to Dense Fog Ahead sign alert drivers to?",
+        "options": [
+          "Reduce speed, use low-beam headlights and fog lights, never tailgate.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Area Subject to Dense Fog Ahead. Correct driver action: Reduce speed, use low-beam headlights and fog lights, never tailgate.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-ICE-SNOW",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Black Ice / Slippery Snow Hazard Ahead",
+    "shortName": "Black Ice / Slippery Snow Hazard",
+    "meaning": "Black Ice / Slippery Snow Hazard Ahead",
+    "driverAction": "Drive with delicate steering and braking inputs; increase gap by 10x.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "ICE-SNOW",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-ICE-SNOW",
+        "officialName": "Black Ice / Slippery Snow Hazard Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-ICE-SNOW",
+        "officialName": "Black Ice / Slippery Snow Hazard Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-ICE-SNOW",
+        "officialName": "Black Ice / Slippery Snow Hazard Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-ICE-SNOW",
+        "officialName": "Black Ice / Slippery Snow Hazard Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-ICE-SNOW",
+        "officialName": "Black Ice / Slippery Snow Hazard Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-ICE-SNOW",
+        "officialName": "Black Ice / Slippery Snow Hazard Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-ICE-SNOW-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Black Ice / Slippery Snow Hazard Ahead sign alert drivers to?",
+        "options": [
+          "Drive with delicate steering and braking inputs; increase gap by 10x.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Black Ice / Slippery Snow Hazard Ahead. Correct driver action: Drive with delicate steering and braking inputs; increase gap by 10x.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-FALLING-DEBRIS",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Industrial Overhead Conveyor / Debris Risk",
+    "shortName": "Industrial Overhead Conveyor / Debris Risk",
+    "meaning": "Industrial Overhead Conveyor / Debris Risk",
+    "driverAction": "Watch for overhead loads or mining conveyor debris.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "FALLING-DEBRIS",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-FALLING-DEBRIS",
+        "officialName": "Industrial Overhead Conveyor / Debris Risk",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-FALLING-DEBRIS",
+        "officialName": "Industrial Overhead Conveyor / Debris Risk",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-FALLING-DEBRIS",
+        "officialName": "Industrial Overhead Conveyor / Debris Risk",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-FALLING-DEBRIS",
+        "officialName": "Industrial Overhead Conveyor / Debris Risk",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-FALLING-DEBRIS",
+        "officialName": "Industrial Overhead Conveyor / Debris Risk",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-FALLING-DEBRIS",
+        "officialName": "Industrial Overhead Conveyor / Debris Risk",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-FALLING-DEBRIS-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Industrial Overhead Conveyor / Debris Risk sign alert drivers to?",
+        "options": [
+          "Watch for overhead loads or mining conveyor debris.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Industrial Overhead Conveyor / Debris Risk. Correct driver action: Watch for overhead loads or mining conveyor debris.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-BLIND-INTERSECTION",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Blind Junction Ahead",
+    "shortName": "Blind Junction",
+    "meaning": "Blind Junction Ahead",
+    "driverAction": "Creep forward slowly until sightlines open before committing to enter.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "BLIND-INTERSECTION",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-BLIND-INTERSECTION",
+        "officialName": "Blind Junction Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-BLIND-INTERSECTION",
+        "officialName": "Blind Junction Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-BLIND-INTERSECTION",
+        "officialName": "Blind Junction Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-BLIND-INTERSECTION",
+        "officialName": "Blind Junction Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-BLIND-INTERSECTION",
+        "officialName": "Blind Junction Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-BLIND-INTERSECTION",
+        "officialName": "Blind Junction Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-BLIND-INTERSECTION-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Blind Junction Ahead sign alert drivers to?",
+        "options": [
+          "Creep forward slowly until sightlines open before committing to enter.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Blind Junction Ahead. Correct driver action: Creep forward slowly until sightlines open before committing to enter.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-HORSE-RIDERS",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Horse Riders on Roadway Ahead",
+    "shortName": "Horse Riders on Roadway",
+    "meaning": "Horse Riders on Roadway Ahead",
+    "driverAction": "Pass wide and slow; do not rev engine or sound horn.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "HORSE-RIDERS",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-HORSE-RIDERS",
+        "officialName": "Horse Riders on Roadway Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-HORSE-RIDERS",
+        "officialName": "Horse Riders on Roadway Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-HORSE-RIDERS",
+        "officialName": "Horse Riders on Roadway Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-HORSE-RIDERS",
+        "officialName": "Horse Riders on Roadway Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-HORSE-RIDERS",
+        "officialName": "Horse Riders on Roadway Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-HORSE-RIDERS",
+        "officialName": "Horse Riders on Roadway Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-HORSE-RIDERS-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Horse Riders on Roadway Ahead sign alert drivers to?",
+        "options": [
+          "Pass wide and slow; do not rev engine or sound horn.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Horse Riders on Roadway Ahead. Correct driver action: Pass wide and slow; do not rev engine or sound horn.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-RUMBLE-STRIPS",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Transverse Rumble Strips Ahead",
+    "shortName": "Transverse Rumble Strips",
+    "meaning": "Transverse Rumble Strips Ahead",
+    "driverAction": "Tactile and audible vibration alerts you to approaching stop or hazard.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "RUMBLE-STRIPS",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-RUMBLE-STRIPS",
+        "officialName": "Transverse Rumble Strips Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-RUMBLE-STRIPS",
+        "officialName": "Transverse Rumble Strips Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-RUMBLE-STRIPS",
+        "officialName": "Transverse Rumble Strips Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-RUMBLE-STRIPS",
+        "officialName": "Transverse Rumble Strips Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-RUMBLE-STRIPS",
+        "officialName": "Transverse Rumble Strips Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-RUMBLE-STRIPS",
+        "officialName": "Transverse Rumble Strips Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-RUMBLE-STRIPS-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Transverse Rumble Strips Ahead sign alert drivers to?",
+        "options": [
+          "Tactile and audible vibration alerts you to approaching stop or hazard.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Transverse Rumble Strips Ahead. Correct driver action: Tactile and audible vibration alerts you to approaching stop or hazard.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-CHECKPOINT-AHEAD",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Security / Police Checkpoint Ahead",
+    "shortName": "Security / Police Checkpoint",
+    "meaning": "Security / Police Checkpoint Ahead",
+    "driverAction": "Reduce speed, turn on interior cabin light at night, and prepare to stop.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "CHECKPOINT-AHEAD",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-CHECKPOINT-AHEAD",
+        "officialName": "Security / Police Checkpoint Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-CHECKPOINT-AHEAD",
+        "officialName": "Security / Police Checkpoint Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-CHECKPOINT-AHEAD",
+        "officialName": "Security / Police Checkpoint Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-CHECKPOINT-AHEAD",
+        "officialName": "Security / Police Checkpoint Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-CHECKPOINT-AHEAD",
+        "officialName": "Security / Police Checkpoint Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-CHECKPOINT-AHEAD",
+        "officialName": "Security / Police Checkpoint Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-CHECKPOINT-AHEAD-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Security / Police Checkpoint Ahead sign alert drivers to?",
+        "options": [
+          "Reduce speed, turn on interior cabin light at night, and prepare to stop.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Security / Police Checkpoint Ahead. Correct driver action: Reduce speed, turn on interior cabin light at night, and prepare to stop.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-SPEED-RADAR-AHEAD",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Automated Speed Enforcement Camera Ahead",
+    "shortName": "Automated Speed Enforcement Camera",
+    "meaning": "Automated Speed Enforcement Camera Ahead",
+    "driverAction": "Ensure driving strictly within speed limit.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "SPEED-RADAR-AHEAD",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-SPEED-RADAR-AHEAD",
+        "officialName": "Automated Speed Enforcement Camera Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-SPEED-RADAR-AHEAD",
+        "officialName": "Automated Speed Enforcement Camera Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-SPEED-RADAR-AHEAD",
+        "officialName": "Automated Speed Enforcement Camera Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-SPEED-RADAR-AHEAD",
+        "officialName": "Automated Speed Enforcement Camera Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-SPEED-RADAR-AHEAD",
+        "officialName": "Automated Speed Enforcement Camera Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-SPEED-RADAR-AHEAD",
+        "officialName": "Automated Speed Enforcement Camera Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-SPEED-RADAR-AHEAD-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Automated Speed Enforcement Camera Ahead sign alert drivers to?",
+        "options": [
+          "Ensure driving strictly within speed limit.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Automated Speed Enforcement Camera Ahead. Correct driver action: Ensure driving strictly within speed limit.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-DUAL-CARRIAGEWAY-ENDS",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Dual Carriageway (Divided Road) Ends Ahead",
+    "shortName": "Dual Carriageway (Divided Road) Ends",
+    "meaning": "Dual Carriageway (Divided Road) Ends Ahead",
+    "driverAction": "Traffic oncoming in opposite direction ahead; keep left/right accordingly.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "DUAL-CARRIAGEWAY-ENDS",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-DUAL-CARRIAGEWAY-ENDS",
+        "officialName": "Dual Carriageway (Divided Road) Ends Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-DUAL-CARRIAGEWAY-ENDS",
+        "officialName": "Dual Carriageway (Divided Road) Ends Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-DUAL-CARRIAGEWAY-ENDS",
+        "officialName": "Dual Carriageway (Divided Road) Ends Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-DUAL-CARRIAGEWAY-ENDS",
+        "officialName": "Dual Carriageway (Divided Road) Ends Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-DUAL-CARRIAGEWAY-ENDS",
+        "officialName": "Dual Carriageway (Divided Road) Ends Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-DUAL-CARRIAGEWAY-ENDS",
+        "officialName": "Dual Carriageway (Divided Road) Ends Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-DUAL-CARRIAGEWAY-ENDS-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Dual Carriageway (Divided Road) Ends Ahead sign alert drivers to?",
+        "options": [
+          "Traffic oncoming in opposite direction ahead; keep left/right accordingly.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Dual Carriageway (Divided Road) Ends Ahead. Correct driver action: Traffic oncoming in opposite direction ahead; keep left/right accordingly.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-DIVIDED-ROAD-BEGINS",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Divided Highway Begins Ahead",
+    "shortName": "Divided Highway Begins",
+    "meaning": "Divided Highway Begins Ahead",
+    "driverAction": "Keep right/left of central physical median divider.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "DIVIDED-ROAD-BEGINS",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-DIVIDED-ROAD-BEGINS",
+        "officialName": "Divided Highway Begins Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-DIVIDED-ROAD-BEGINS",
+        "officialName": "Divided Highway Begins Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-DIVIDED-ROAD-BEGINS",
+        "officialName": "Divided Highway Begins Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-DIVIDED-ROAD-BEGINS",
+        "officialName": "Divided Highway Begins Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-DIVIDED-ROAD-BEGINS",
+        "officialName": "Divided Highway Begins Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-DIVIDED-ROAD-BEGINS",
+        "officialName": "Divided Highway Begins Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-DIVIDED-ROAD-BEGINS-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Divided Highway Begins Ahead sign alert drivers to?",
+        "options": [
+          "Keep right/left of central physical median divider.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Divided Highway Begins Ahead. Correct driver action: Keep right/left of central physical median divider.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-SLOW-VEHICLES-AHEAD",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Slow Moving Farm / Industrial Vehicles Ahead",
+    "shortName": "Slow Moving Farm / Industrial Vehicles",
+    "meaning": "Slow Moving Farm / Industrial Vehicles Ahead",
+    "driverAction": "Exercise patience and overtake only on clear straight road.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "SLOW-VEHICLES-AHEAD",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-SLOW-VEHICLES-AHEAD",
+        "officialName": "Slow Moving Farm / Industrial Vehicles Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-SLOW-VEHICLES-AHEAD",
+        "officialName": "Slow Moving Farm / Industrial Vehicles Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-SLOW-VEHICLES-AHEAD",
+        "officialName": "Slow Moving Farm / Industrial Vehicles Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-SLOW-VEHICLES-AHEAD",
+        "officialName": "Slow Moving Farm / Industrial Vehicles Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-SLOW-VEHICLES-AHEAD",
+        "officialName": "Slow Moving Farm / Industrial Vehicles Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-SLOW-VEHICLES-AHEAD",
+        "officialName": "Slow Moving Farm / Industrial Vehicles Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-SLOW-VEHICLES-AHEAD-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Slow Moving Farm / Industrial Vehicles Ahead sign alert drivers to?",
+        "options": [
+          "Exercise patience and overtake only on clear straight road.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Slow Moving Farm / Industrial Vehicles Ahead. Correct driver action: Exercise patience and overtake only on clear straight road.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-FLOODED-ROADWAY",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Road Subject to Flash Flooding / Causeway Ahead",
+    "shortName": "Road Subject to Flash Flooding / Causeway",
+    "meaning": "Road Subject to Flash Flooding / Causeway Ahead",
+    "driverAction": "Never attempt to cross flooded road; turn around, don't drown.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "FLOODED-ROADWAY",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-FLOODED-ROADWAY",
+        "officialName": "Road Subject to Flash Flooding / Causeway Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-FLOODED-ROADWAY",
+        "officialName": "Road Subject to Flash Flooding / Causeway Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-FLOODED-ROADWAY",
+        "officialName": "Road Subject to Flash Flooding / Causeway Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-FLOODED-ROADWAY",
+        "officialName": "Road Subject to Flash Flooding / Causeway Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-FLOODED-ROADWAY",
+        "officialName": "Road Subject to Flash Flooding / Causeway Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-FLOODED-ROADWAY",
+        "officialName": "Road Subject to Flash Flooding / Causeway Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-FLOODED-ROADWAY-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Road Subject to Flash Flooding / Causeway Ahead sign alert drivers to?",
+        "options": [
+          "Never attempt to cross flooded road; turn around, don't drown.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Road Subject to Flash Flooding / Causeway Ahead. Correct driver action: Never attempt to cross flooded road; turn around, don't drown.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-SIDE-WINDS-BRIDGE",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "High Wind Exposed Viaduct / Bridge Ahead",
+    "shortName": "High Wind Exposed Viaduct / Bridge",
+    "meaning": "High Wind Exposed Viaduct / Bridge Ahead",
+    "driverAction": "Reduce speed, keep distance from high-sided vans and caravans.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "SIDE-WINDS-BRIDGE",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-SIDE-WINDS-BRIDGE",
+        "officialName": "High Wind Exposed Viaduct / Bridge Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-SIDE-WINDS-BRIDGE",
+        "officialName": "High Wind Exposed Viaduct / Bridge Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-SIDE-WINDS-BRIDGE",
+        "officialName": "High Wind Exposed Viaduct / Bridge Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-SIDE-WINDS-BRIDGE",
+        "officialName": "High Wind Exposed Viaduct / Bridge Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-SIDE-WINDS-BRIDGE",
+        "officialName": "High Wind Exposed Viaduct / Bridge Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-SIDE-WINDS-BRIDGE",
+        "officialName": "High Wind Exposed Viaduct / Bridge Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-SIDE-WINDS-BRIDGE-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the High Wind Exposed Viaduct / Bridge Ahead sign alert drivers to?",
+        "options": [
+          "Reduce speed, keep distance from high-sided vans and caravans.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to High Wind Exposed Viaduct / Bridge Ahead. Correct driver action: Reduce speed, keep distance from high-sided vans and caravans.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-MIGRATORY-CROSSING",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Migratory Wildlife Crossing Ahead",
+    "shortName": "Migratory Wildlife Crossing",
+    "meaning": "Migratory Wildlife Crossing Ahead",
+    "driverAction": "Scan road shoulders; wildlife frequently follows in herds.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "MIGRATORY-CROSSING",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-MIGRATORY-CROSSING",
+        "officialName": "Migratory Wildlife Crossing Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-MIGRATORY-CROSSING",
+        "officialName": "Migratory Wildlife Crossing Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-MIGRATORY-CROSSING",
+        "officialName": "Migratory Wildlife Crossing Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-MIGRATORY-CROSSING",
+        "officialName": "Migratory Wildlife Crossing Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-MIGRATORY-CROSSING",
+        "officialName": "Migratory Wildlife Crossing Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-MIGRATORY-CROSSING",
+        "officialName": "Migratory Wildlife Crossing Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-MIGRATORY-CROSSING-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Migratory Wildlife Crossing Ahead sign alert drivers to?",
+        "options": [
+          "Scan road shoulders; wildlife frequently follows in herds.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Migratory Wildlife Crossing Ahead. Correct driver action: Scan road shoulders; wildlife frequently follows in herds.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-BLIND-CREST",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Blind Hill Crest Ahead",
+    "shortName": "Blind Hill Crest",
+    "meaning": "Blind Hill Crest Ahead",
+    "driverAction": "Do not overtake; stay centered in lane as oncoming traffic is obscured.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "BLIND-CREST",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-BLIND-CREST",
+        "officialName": "Blind Hill Crest Ahead",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-BLIND-CREST",
+        "officialName": "Blind Hill Crest Ahead",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-BLIND-CREST",
+        "officialName": "Blind Hill Crest Ahead",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-BLIND-CREST",
+        "officialName": "Blind Hill Crest Ahead",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-BLIND-CREST",
+        "officialName": "Blind Hill Crest Ahead",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-BLIND-CREST",
+        "officialName": "Blind Hill Crest Ahead",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-BLIND-CREST-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Blind Hill Crest Ahead sign alert drivers to?",
+        "options": [
+          "Do not overtake; stay centered in lane as oncoming traffic is obscured.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Blind Hill Crest Ahead. Correct driver action: Do not overtake; stay centered in lane as oncoming traffic is obscured.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  },
+  {
+    "canonicalCode": "WARN-TRUCK-ROLLOVER-RISK",
+    "category": "WARNING_SIGNS",
+    "subCategory": "ROAD_HAZARD",
+    "canonicalName": "Sharp Curve with High Rollover Risk",
+    "shortName": "Sharp Curve with High Rollover Risk",
+    "meaning": "Sharp Curve with High Rollover Risk",
+    "driverAction": "Heavy and high-center-of-gravity vehicles must substantially reduce speed.",
+    "shape": "TRIANGLE",
+    "primarySymbol": "TRUCK-ROLLOVER-RISK",
+    "isGlobal": true,
+    "variants": [
+      {
+        "countryCode": "GLOBAL",
+        "officialCode": "GLOBAL-WARN-TRUCK-ROLLOVER-RISK",
+        "officialName": "Sharp Curve with High Rollover Risk",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      },
+      {
+        "countryCode": "US",
+        "officialCode": "US-WARN-TRUCK-ROLLOVER-RISK",
+        "officialName": "Sharp Curve with High Rollover Risk",
+        "sourceCode": "SRC-MUTCD-11TH"
+      },
+      {
+        "countryCode": "PK",
+        "officialCode": "PK-WARN-TRUCK-ROLLOVER-RISK",
+        "officialName": "Sharp Curve with High Rollover Risk",
+        "sourceCode": "SRC-NHMP-MANUAL"
+      },
+      {
+        "countryCode": "SA",
+        "officialCode": "SA-WARN-TRUCK-ROLLOVER-RISK",
+        "officialName": "Sharp Curve with High Rollover Risk",
+        "sourceCode": "SRC-SAUDI-MOROOR-SIGNS"
+      },
+      {
+        "countryCode": "AE",
+        "officialCode": "AE-WARN-TRUCK-ROLLOVER-RISK",
+        "officialName": "Sharp Curve with High Rollover Risk",
+        "sourceCode": "SRC-RTA-HANDBOOK"
+      },
+      {
+        "countryCode": "GB",
+        "officialCode": "GB-WARN-TRUCK-ROLLOVER-RISK",
+        "officialName": "Sharp Curve with High Rollover Risk",
+        "sourceCode": "SRC-UK-HIGHWAY-CODE"
+      }
+    ],
+    "questions": [
+      {
+        "questionCode": "Q-WARN-TRUCK-ROLLOVER-RISK-01",
+        "questionType": "SIGN_IDENTIFICATION",
+        "difficulty": "EASY",
+        "text": "What danger does the Sharp Curve with High Rollover Risk sign alert drivers to?",
+        "options": [
+          "Heavy and high-center-of-gravity vehicles must substantially reduce speed.",
+          "A mandatory commercial vehicle inspection weigh station.",
+          "An authorized expressway rest stop with fuel.",
+          "A pedestrian footbridge crossing directly overhead."
+        ],
+        "correctIndex": 0,
+        "explanation": "This warning sign alerts drivers to Sharp Curve with High Rollover Risk. Correct driver action: Heavy and high-center-of-gravity vehicles must substantially reduce speed.",
+        "sourceCode": "SRC-VIENNA-CONVENTION"
+      }
+    ]
+  }
+]

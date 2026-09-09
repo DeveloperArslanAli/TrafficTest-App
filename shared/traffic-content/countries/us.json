@@ -1,0 +1,59 @@
+{
+  "code": "US",
+  "name": "United States",
+  "flagEmoji": "🇺🇸",
+  "authorities": [
+    "AUTH-USA-FHWA",
+    "AUTH-USA-CADMV"
+  ],
+  "jurisdictions": [
+    {
+      "code": "FEDERAL",
+      "name": "Federal (FHWA MUTCD Baseline)",
+      "type": "NATIONAL"
+    },
+    {
+      "code": "CA",
+      "name": "California (CA DMV)",
+      "type": "STATE"
+    },
+    {
+      "code": "TX",
+      "name": "Texas (TxDOT)",
+      "type": "STATE"
+    },
+    {
+      "code": "FL",
+      "name": "Florida (FLHSMV)",
+      "type": "STATE"
+    }
+  ],
+  "rules": [
+    {
+      "questionCode": "Q-US-CA-RULE-01",
+      "text": "Under the California Driver Handbook, what is the Basic Speed Law?",
+      "options": [
+        "You may never drive faster than is safe for current road, weather, and visibility conditions, regardless of the posted speed limit.",
+        "You must always drive at exactly the posted speed limit.",
+        "You are required to drive at least 55 mph on all rural roads.",
+        "The speed limit increases by 10 mph during rush hour."
+      ],
+      "correctIndex": 0,
+      "explanation": "California Vehicle Code § 22350 (Basic Speed Law) states you must never drive faster than safe for prevailing conditions, even if below the posted limit.",
+      "sourceCode": "SRC-CADMV-HANDBOOK"
+    },
+    {
+      "questionCode": "Q-US-CA-RULE-02",
+      "text": "In California, under what circumstances may a driver turn right at a solid red traffic signal?",
+      "options": [
+        "After coming to a complete stop, yielding to oncoming traffic and pedestrians, unless a \"No Turn on Red\" sign is posted.",
+        "Without stopping if the intersection is clear.",
+        "Right turn on red is completely prohibited in California.",
+        "Only between the hours of 8 PM and 6 AM."
+      ],
+      "correctIndex": 0,
+      "explanation": "California permits right turns at red lights after a full stop and yielding, unless prohibited by a \"No Turn on Red\" sign.",
+      "sourceCode": "SRC-CADMV-HANDBOOK"
+    }
+  ]
+}
