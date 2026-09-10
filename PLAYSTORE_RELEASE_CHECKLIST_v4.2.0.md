@@ -10,8 +10,8 @@
 | **Android Package Name** | `com.traffictest` | ✅ Verified in [`mobile/app.json`](mobile/app.json) & Android Source |
 | **iOS Bundle Identifier** | `com.traffictest` | ✅ Verified in [`mobile/app.json`](mobile/app.json) |
 | **Version Name** | `4.2.0` | ✅ Updated across `app.json`, `package.json` monorepo workspaces |
-| **Version Code** | `420` | ✅ Incremented to `420` for Google Play Store release |
-| **Target SDK / API Level** | Android 14 (API 34) | ✅ Modern Android Standard Compliant |
+| **Version Code** | `420` | ✅ Incremented to `420` for Google Play Store release (Dynamic Gradle config) |
+| **Target SDK / API Level** | Android 15 (API 35) | ✅ Google Play 2025/2026 Target API Level Requirement Compliant |
 | **Min SDK** | Android 6.0 (API 23) | ✅ Supports >99% of Active Global Android Devices |
 
 ---
@@ -48,20 +48,28 @@ The production release KeyStore has been verified and validated:
 
 ---
 
-## 📦 4. Production Publication Binaries (v4.2.0)
+## 📦 4. Production Publication Binaries & Deobfuscation Mapping (v4.2.0)
 
-| Binary Type | File Name | Target | Build Status |
+| Binary / Asset Type | File Name | Target | Build Status |
 | :--- | :--- | :--- | :--- |
-| **Google Play App Bundle (.aab)** | [`TrafficTest-v4.2.0-playstore-release.aab`](TrafficTest-v4.2.0-playstore-release.aab) | Upload to Play Console Production Track | ✅ **BUILD SUCCESSFUL** |
-| **Universal Release APK (.apk)** | [`TrafficTest-v4.2.0-universal-release.apk`](TrafficTest-v4.2.0-universal-release.apk) | Sideloading & QA Testing | ✅ **BUILD SUCCESSFUL** |
-| **ARM64 Architecture APK** | [`TrafficTest-v4.2.0-arm64-release.apk`](TrafficTest-v4.2.0-arm64-release.apk) | 64-bit Hardware Testing | ✅ **BUILD SUCCESSFUL** |
+| **Google Play App Bundle (.aab)** | [`TrafficTest-v4.2.0-playstore-release.aab`](TrafficTest-v4.2.0-playstore-release.aab) | Upload to Play Console Production Track | ✅ **BUILD SUCCESSFUL** (35.94 MB) |
+| **Deobfuscation Mapping File** | [`TrafficTest-v4.2.0-deobfuscation-mapping.txt`](TrafficTest-v4.2.0-deobfuscation-mapping.txt) | Upload to Play Console (App Bundle -> Reobfuscation/Deobfuscation files) | ✅ **BUILD SUCCESSFUL** (8.79 MB) |
+| **Universal Release APK (.apk)** | [`TrafficTest-v4.2.0-universal-release.apk`](TrafficTest-v4.2.0-universal-release.apk) | Sideloading & QA Testing | ✅ **BUILD SUCCESSFUL** (71.17 MB) |
+| **ARM64 Architecture APK** | [`TrafficTest-v4.2.0-arm64-release.apk`](TrafficTest-v4.2.0-arm64-release.apk) | 64-bit Hardware Testing | ✅ **BUILD SUCCESSFUL** (29.52 MB) |
 
 ---
 
-## ✨ 5. Release Highlights in v4.2.0
+## ✨ 5. Google Play Console Warnings & Compliance Fixes in v4.2.0
 
-1. **Version Bump to 4.2.0**:
-   - Version code bumped to `420` (v4.2.0) to maintain progressive Google Play Store versioning.
-   - Monorepo package version synchronized across `root`, `mobile/app.json`, `web/package.json`, `admin/package.json`, and `backend/package.json`.
-2. **Full Stack & DevOps Sync**:
-   - All 5 branches (`main`, `web`, `admin`, `backend`, `mobile`) updated for production push to `HMATTECHNOLOGY/Traffic-Test.git`.
+1. **Target API Level 35 Upgrade**:
+   - Upgraded `targetSdkVersion` and `compileSdkVersion` to **35 (Android 15)** in `mobile/android/build.gradle`.
+   - Patched Kotlin null-safety check in `expo-modules-core` (`PermissionsService.kt`) for seamless API 35 SDK compilation.
+2. **Dynamic Version Code Fix**:
+   - Fixed hardcoded `versionCode 10` in `mobile/android/app/build.gradle`.
+   - Set version code dynamically to `420` (v4.2.0).
+3. **R8 / ProGuard Code Minification & Deobfuscation**:
+   - Enabled ProGuard/R8 in release builds (`enableProguardInReleaseBuilds = true`).
+   - Automatically exported `mapping.txt` as `TrafficTest-v4.2.0-deobfuscation-mapping.txt`.
+   - Upload this `mapping.txt` file in Google Play Console under **App bundle explorer > Downloads > Assets > Deobfuscation file** to resolve stack trace deobfuscation warnings.
+4. **Internal Testing Track Configuration**:
+   - Ensure testers are added under **Testing > Internal testing > Testers** tab in Google Play Console to enable download links for testers.

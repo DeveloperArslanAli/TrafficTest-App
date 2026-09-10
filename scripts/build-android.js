@@ -173,6 +173,13 @@ if (fs.existsSync(bundleDir)) {
   }
 }
 
+// Find ProGuard / R8 Deobfuscation Mapping File
+const mappingDir = path.join(ANDROID_DIR, 'app', 'build', 'outputs', 'mapping', 'release');
+const mappingFile = path.join(mappingDir, 'mapping.txt');
+if (fs.existsSync(mappingFile)) {
+  processOutput(mappingFile, `TrafficTest-v${appVersion}-deobfuscation-mapping.txt`);
+}
+
 // 4. Print Summary
 console.log('\n======================================================');
 console.log(' 📦 Generated Build Artifacts:');
