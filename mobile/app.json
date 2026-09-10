@@ -2,7 +2,7 @@
   "expo": {
     "name": "TrafficTest",
     "slug": "traffictest",
-    "version": "4.2.0",
+    "version": "4.3.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -24,7 +24,7 @@
         "backgroundColor": "#1A3C5E"
       },
       "package": "com.traffictest",
-      "versionCode": 420,
+      "versionCode": 430,
       "permissions": [
         "INTERNET",
         "ACCESS_NETWORK_STATE"
