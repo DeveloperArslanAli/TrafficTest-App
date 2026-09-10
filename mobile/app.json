@@ -24,7 +24,7 @@
         "backgroundColor": "#1A3C5E"
       },
       "package": "com.traffictest",
-      "versionCode": 11,
+      "versionCode": 410,
       "permissions": [
         "INTERNET",
         "ACCESS_NETWORK_STATE"

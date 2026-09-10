@@ -10,7 +10,7 @@
 | **Android Package Name** | `com.traffictest` | ✅ Verified in [`mobile/app.json`](mobile/app.json) & Android Source |
 | **iOS Bundle Identifier** | `com.traffictest` | ✅ Verified in [`mobile/app.json`](mobile/app.json) |
 | **Version Name** | `4.1.0` | ✅ Updated across `app.json`, `package.json` monorepo workspaces |
-| **Version Code** | `11` | ✅ Incremented to `11` for Google Play Store release |
+| **Version Code** | `410` | ✅ Incremented to `410` (v4.1.0) for Google Play Store release |
 | **Target SDK / API Level** | Android 14 (API 34) | ✅ Modern Android Standard Compliant |
 | **Min SDK** | Android 6.0 (API 23) | ✅ Supports >99% of Active Global Android Devices |
 
